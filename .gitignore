@@ -1,0 +1,12 @@
+
+*.txt
+*.pyc
+/main/__pycache__/*
+main/data/fc.json
+communicate.bin
+.vscode/settings.json
+main/data/fc_test.json
+main/data/pet_count.json
+main/data/user_greet.json
+out.pk8
+ignore-me-bot.py
