@@ -25,13 +25,43 @@ class BotSettings(commands.Cog):
             return
         if task=="names":
             await ctx.send(', '.join(i for i in modules))
-        elif task=="add":
-            modules.append(module)
-        elif task=="remove":
-            modules.pop(module)
+            return
 
-        writeExternalModules(modules)
+        if task=="add" or task=='remove':
+            if task=='add':
+                modules.append(module)
+            elif task=="remove":
+                modules.pop(module)
+            writeExternalModules(modules)
+            return
 
+        if task=='load':
+            try:
+                self.client.load_extension('modules.'+module)
+                print(f"{module} has been loaded")
+                await ctx.send(f"{module} has been loaded")
+            except Exception as error:
+                print(f"Unable to load {module}\nError: {error}")
+                await ctx.send(f"Unable to load {module}\nError: {error}")
+        elif task=='unload':
+            if module=='BotSettings':
+                await ctx.send(f"Cannot unload {module}. This module only supports \"reload\"")
+                return
+            try:
+                self.client.unload_extension('modules.'+module)
+                print(f"{module} has been unloaded")
+                await ctx.send(f"{module} has been unloaded")
+            except Exception as error:
+                print(f"Unable to unload {module}\nError: {error}")
+                await ctx.send(f"Unable to unload {module}\nError: {error}")
+        elif task == "reload":
+            try:
+                self.client.reload_extension('modules.'+module)
+                print(f"Reloaded {module}")
+                await ctx.send(f"Reloaded {module}")
+            except Exception as error:
+                print(f"Unable to reload {module}\nError: {error}")
+                await ctx.send(f"Unable to reload {module}\nError: {error}")
 
     
 def setup(client):
