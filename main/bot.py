@@ -13,7 +13,7 @@ async def on_ready():
     failedModuleList = []
     print(f"logged in as {client.user.name}\nID: {client.user.id}")
     print("\n--------\nLoading modules")
-    modules = readExternalModules()
+    modules = getExternalModules()
     for i in modules:
         try:
             client.load_extension('modules.'+i)

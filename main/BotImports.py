@@ -7,6 +7,8 @@ guildSettingsPath = 'main/data/settings.json'
 externalModulesPath = 'main/data/ext_modules.json'
 TOKEN = open('main/token.txt', 'r').readline()
 
+standardPrefix = "fb!"
+
 
 ## General methods
 def getPrefix(client, message):
@@ -17,7 +19,14 @@ def getPrefix(client, message):
         guildSettings = data[str(message.guild.id)]
         return guildSettings["prefix"]
 
-def readExternalModules():
+def setPrefix(message, prefix=standardPrefix):
+    data = getJson(guildSettingsPath)
+    guildSettings = data[str(message.guild.id)]
+    guildSettings["prefix"] = prefix
+    data[str(message.guild.id)] = guildSettings
+    writeJson(guildSettingsPath, data)
+
+def getExternalModules():
     """Open json containing list of module names. Return list"""
     with open(externalModulesPath) as f:
         moduleList = json.load(f)
@@ -28,3 +37,12 @@ def writeExternalModules(data):
     with open(externalModulesPath) as f:
         json.dump(data, f)
 
+def getJson(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        return data
+
+
+def writeJson(path, data):
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)

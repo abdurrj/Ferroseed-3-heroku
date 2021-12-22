@@ -19,7 +19,7 @@ class BotSettings(commands.Cog):
     @commands.command(hidden=True)
     @commands.is_owner()
     async def externalModule(self, ctx, task=None, module=None):
-        modules = readExternalModules()
+        modules = getExternalModules()
         if not task or not module:
             await ctx.send("Please select a task: names, add, remove, load, unload, reload\nfollowed by name of a module")
             return
