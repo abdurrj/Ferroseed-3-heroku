@@ -1,34 +1,36 @@
 {
     "775692986449264740": {
         "prefix": "++",
-        "welcomeChannel":null,
+        "welcomeChannel": null,
         "sendWelcomeMessage": "False",
-        "welcomeMessage":null,
+        "welcomeMessage": null,
         "sendWelcomeDm": "False",
-        "welcomeDmMessage":null
+        "welcomeDmMessage": null
     },
     "742144472296718396": {
         "prefix": "++",
-        "welcomeChannel":null,
+        "welcomeChannel": null,
         "sendWelcomeMessage": "False",
-        "welcomeMessageChannel":null,
+        "welcomeMessageChannel": null,
         "sendWelcomeDm": "False",
-        "welcomeDmMessage":null
+        "welcomeDmMessage": null,
+        "welcomeMessage": null,
+        "welcomeMessageFromChannel": null
     },
     "682656489105915931": {
         "prefix": "++",
-        "welcomeChannel":null,
+        "welcomeChannel": null,
         "sendWelcomeMessage": "False",
-        "welcomeMessageChannel":null,
+        "welcomeMessageChannel": null,
         "sendWelcomeDm": "False",
-        "welcomeDmMessage":null
+        "welcomeDmMessage": null
     },
     "813741617230905366": {
         "prefix": "++",
-        "welcomeChannel":null,
+        "welcomeChannel": null,
         "sendWelcomeMessage": "False",
-        "welcomeMessageChannel":null,
+        "welcomeMessageChannel": null,
         "sendWelcomeDm": "False",
-        "welcomeDmMessage":null
+        "welcomeDmMessage": null
     }
 }

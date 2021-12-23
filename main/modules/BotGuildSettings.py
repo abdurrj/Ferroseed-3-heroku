@@ -11,9 +11,11 @@ class BotGuildSettings(commands.Cog):
             "prefix": standardPrefix,
             "welcomeChannel":None,
             "sendWelcomeMessage": "False",
-            "welcomeMessageChannel":None,
+            "welcomeMessage":None,
+            "welcomeMessageFromChannel":None,
             "sendWelcomeDm": "False",
-            "welcomeDmMessage":None
+            "welcomeDmMessage":None,
+            "welcomeDmFromChannel":None
         }
 
     @commands.Cog.listener("on_message")
