@@ -4,33 +4,39 @@
         "welcomeChannel": null,
         "sendWelcomeMessage": "False",
         "welcomeMessage": null,
+        "welcomeMessageFromChannel":null,
         "sendWelcomeDm": "False",
-        "welcomeDmMessage": null
+        "welcomeDmMessage": null,
+        "welcomeDmMessageFromChannel":null
     },
     "742144472296718396": {
         "prefix": "++",
         "welcomeChannel": null,
         "sendWelcomeMessage": "False",
-        "welcomeMessageChannel": null,
+        "welcomeMessage": null,
+        "welcomeMessageFromChannel":null,
         "sendWelcomeDm": "False",
         "welcomeDmMessage": null,
-        "welcomeMessage": null,
-        "welcomeMessageFromChannel": null
+        "welcomeDmMessageFromChannel":null
     },
     "682656489105915931": {
         "prefix": "++",
         "welcomeChannel": null,
         "sendWelcomeMessage": "False",
-        "welcomeMessageChannel": null,
+        "welcomeMessage": null,
+        "welcomeMessageFromChannel":null,
         "sendWelcomeDm": "False",
-        "welcomeDmMessage": null
+        "welcomeDmMessage": null,
+        "welcomeDmMessageFromChannel":null
     },
     "813741617230905366": {
         "prefix": "++",
         "welcomeChannel": null,
         "sendWelcomeMessage": "False",
-        "welcomeMessageChannel": null,
+        "welcomeMessage": null,
+        "welcomeMessageFromChannel":null,
         "sendWelcomeDm": "False",
-        "welcomeDmMessage": null
+        "welcomeDmMessage": null,
+        "welcomeDmMessageFromChannel":null
     }
 }
