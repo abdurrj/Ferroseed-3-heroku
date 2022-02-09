@@ -47,7 +47,5 @@ class BotGuildSettings(commands.Cog):
         if isinstance(error, commands.MissingRequiredArgument):
             await ctx.send("I need to know what you want to change the prefix to.")
             
-
-
 def setup(client):
     client.add_cog(BotGuildSettings(client))

@@ -37,7 +37,10 @@ class BotSettings(commands.Cog):
 
         if task=='load':
             try:
-                self.client.load_extension('modules.'+module)
+                if module=='RaidCommands':
+                    self.client.load_extension(module)
+                else:
+                    self.client.load_extension('modules.'+module)
                 print(f"{module} has been loaded")
                 await ctx.send(f"{module} has been loaded")
             except Exception as error:
@@ -48,7 +51,10 @@ class BotSettings(commands.Cog):
                 await ctx.send(f"Cannot unload {module}. This module only supports \"reload\"")
                 return
             try:
-                self.client.unload_extension('modules.'+module)
+                if module=='RaidCommands':
+                    self.client.unload_extension(module)
+                else:
+                    self.client.unload_extension('modules.'+module)
                 print(f"{module} has been unloaded")
                 await ctx.send(f"{module} has been unloaded")
             except Exception as error:
@@ -56,7 +62,10 @@ class BotSettings(commands.Cog):
                 await ctx.send(f"Unable to unload {module}\nError: {error}")
         elif task == "reload":
             try:
-                self.client.reload_extension('modules.'+module)
+                if module=='RaidCommands':
+                    self.client.reload_extension(module)
+                else:
+                    self.client.reload_extension('modules.'+module)
                 print(f"Reloaded {module}")
                 await ctx.send(f"Reloaded {module}")
             except Exception as error:
