@@ -7,6 +7,7 @@ from datetime import datetime
 guildSettingsPath = 'main/data/settings.json'
 ballListJson = 'main/data/ball_list.json'
 externalModulesPath = 'main/data/ext_modules.json'
+reactrolePath = 'main/data/reactrole.json'
 userGreetingJson = 'main/data/user_greet.json'
 TOKEN = open('main/token.txt', 'r').readline()
 
