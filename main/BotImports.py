@@ -1,15 +1,18 @@
-import nextcord
-import json, random, pytz, asyncio
-from nextcord.ext import commands, tasks
+import discord
+import json, random, pytz, asyncio, os, dotenv, ast
+from discord.ext import commands, tasks
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Paths
 guildSettingsPath = 'main/data/settings.json'
 ballListJson = 'main/data/ball_list.json'
 externalModulesPath = 'main/data/ext_modules.json'
-reactrolePath = 'main/data/reactrole.json'
 userGreetingJson = 'main/data/user_greet.json'
 TOKEN = open('main/token.txt', 'r').readline()
+TOKEN2 = os.getenv("TOKEN")
 
 standardPrefix = "fb!"
 

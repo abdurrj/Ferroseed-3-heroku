@@ -7,7 +7,7 @@ class UserGuildJoin(commands.Cog):
 
     @commands.command(hidden=True)
     @commands.has_permissions(administrator=True)
-    async def setWelcomeChannel(self, ctx, welcomeChannel:nextcord.TextChannel=None):
+    async def setWelcomeChannel(self, ctx, welcomeChannel:discord.TextChannel=None):
         data = getJson(guildSettingsPath)
         guildSettings = data[str(ctx.guild.id)]
         guildSettings["welcomeChannel"] = str(welcomeChannel.id) if welcomeChannel else None
@@ -22,7 +22,7 @@ class UserGuildJoin(commands.Cog):
 
     @commands.command(hidden=True)
     @commands.has_permissions(administrator=True)
-    async def setWelcomeMessage(self, ctx, welcomeMessage:nextcord.Message=None):
+    async def setWelcomeMessage(self, ctx, welcomeMessage:discord.Message=None):
         data = getJson(guildSettingsPath)
         guildSettings = data[str(ctx.guild.id)]
         guildSettings["welcomeMessage"] = welcomeMessage.id if welcomeMessage else None
@@ -63,7 +63,7 @@ class UserGuildJoin(commands.Cog):
 
     @commands.command(hidden=True)
     @commands.has_permissions(administrator=True)
-    async def setWelcomeDmMessage(self, ctx, welcomeDmMessage:nextcord.Message=None):
+    async def setWelcomeDmMessage(self, ctx, welcomeDmMessage:discord.Message=None):
         data = getJson(guildSettingsPath)
         guildSettings = data[str(ctx.guild.id)]
         guildSettings["welcomeDmMessage"] = welcomeDmMessage.id if welcomeDmMessage else None

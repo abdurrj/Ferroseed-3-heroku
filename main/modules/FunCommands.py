@@ -7,7 +7,7 @@ class FunCommands(commands.Cog):
         self.ferroHappyEmoji = "<:ferroHappy:734285644817367050>"
         self.rPartyEmoji = "<:RParty:706007725070483507>"
         self.rBopsLeftEmoji = "<a:RBops:718139734693773330>"
-        self.noMentionsAllowed = nextcord.AllowedMentions(user=False, roles=False,everyone=False)
+        self.noMentionsAllowed = discord.AllowedMentions(user=False, roles=False,everyone=False)
 
     @commands.command(
         name='caught',
@@ -25,7 +25,7 @@ class FunCommands(commands.Cog):
             elif ball.lower in ballList.keys():
                 ballEmoji = ballList[ball.lower]
 
-        embed = nextcord.Embed(
+        embed = discord.Embed(
             colour = colour)
         embed.add_field(
             name=ballEmoji + " Caught!",
@@ -55,8 +55,8 @@ class FunCommands(commands.Cog):
         
     @commands.command(pass_context=True, name = 'naught', aliases=['not'])
     async def pokemonNotCaught(self, ctx):
-        embed = nextcord.Embed(
-            colour = nextcord.Color.red())
+        embed = discord.Embed(
+            colour = discord.Color.red())
         embed.add_field(name='<:sherbSad:732994987683217518> escaped', value="<@"+str(ctx.author.id)+"> did not catch the pokemon.", inline=True)
         sentEmbedMessage = await ctx.send(embed=embed)
         await sentEmbedMessage.add_reaction("<:ferroSad:735707312420945940>")
@@ -93,7 +93,7 @@ class FunCommands(commands.Cog):
 
     @commands.command()
     async def absleep(self, ctx):
-        embed = nextcord.Embed(colour=nextcord.Colour.green())
+        embed = discord.Embed(colour=discord.Colour.green())
         if ctx.author.id in [138411165075243008]:
             embed.add_field(name="*Abdur is going to sleep*", value=":zzz: :zzz: :zzz:")
         else:

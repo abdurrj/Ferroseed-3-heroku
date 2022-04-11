@@ -1,4 +1,4 @@
-from nextcord.ext import tasks, commands
+from discord.ext import tasks, commands
 from seed.XoroShiro import *
 from seed.framecalc import framecalc
 from seed.seedgen import *

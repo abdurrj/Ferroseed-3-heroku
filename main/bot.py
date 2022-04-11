@@ -1,6 +1,6 @@
 from BotImports import *
 
-intents = nextcord.Intents.all()
+intents = discord.Intents.all()
 
 client = commands.Bot(
     command_prefix=(getPrefix),

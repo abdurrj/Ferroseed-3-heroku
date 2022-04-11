@@ -1,5 +1,5 @@
 from os import write
-from nextcord import activity
+from discord import activity
 from BotImports import *
 
 class BotSettings(commands.Cog):
@@ -9,12 +9,12 @@ class BotSettings(commands.Cog):
     @commands.command(hidden=True)
     @commands.is_owner()
     async def setBotGame(self, ctx, *, game=None):
-        await self.client.change_presence(activity=nextcord.Game(game))
+        await self.client.change_presence(activity=discord.Game(game))
 
     @commands.command(hidden=True)
     @commands.is_owner()
     async def setBotWatching(self, ctx, *, watching=None):
-        await self.client.change_presence(activity=nextcord.Activity(type=nextcord.ActivityType.watching, name=watching))
+        await self.client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=watching))
 
     @commands.command(hidden=True)
     @commands.is_owner()
