@@ -1,5 +1,3 @@
-
-*.txt
 *.pyc
 /main/__pycache__/*
 main/data/fc.json
