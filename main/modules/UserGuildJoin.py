@@ -1,11 +1,11 @@
 from BotImports import *
-
+"""  
 class UserGuildJoin(commands.Cog):
     def __init__(self, client):
         self.client = client
 
 
-    @commands.command(hidden=True)
+  @commands.command(hidden=True)
     @commands.has_permissions(administrator=True)
     async def setWelcomeChannel(self, ctx, welcomeChannel:discord.TextChannel=None):
         data = getJson(guildSettingsPath)
@@ -96,3 +96,4 @@ class UserGuildJoin(commands.Cog):
 
 def setup(client):
     client.add_cog(UserGuildJoin(client))
+"""

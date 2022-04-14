@@ -7,6 +7,11 @@ client = commands.Bot(
     intents = intents
 )
 
+async def create_db_pool():
+    credentials = {"user": DATABASE_USER, "password": DATABASE_PASSWORD, "database": DATABASE_NAME, "host": DATABASE_HOST}
+    client.db = await asyncpg.create_pool(**credentials)
+    print("connection is successfull")
+
 @client.event
 async def on_ready():
     loadedModuleList = []
@@ -39,4 +44,5 @@ async def on_message(message):
 async def ping(ctx):
     await ctx.send(f"Command registered, latency: {str(round(client.latency, 4))}")
 
+client.loop.run_until_complete(create_db_pool())
 client.run(TOKEN)

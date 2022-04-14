@@ -1,5 +1,4 @@
 [
     "BotSettings",
-    "BotGuildSettings",
-    "UserGuildJoin"
+    "BotGuildSettings"
 ]
