@@ -1,29 +1,22 @@
 from email.policy import default
-import discord
-import json, random, pytz, asyncio, os, dotenv, ast, asyncpg
+import discord, json, random, pytz, asyncio, os, dotenv, ast, asyncpg, re, emoji, sys
+import numpy as np
 from discord.ext import commands, tasks
+from discord.ext.commands import CommandOnCooldown, BadArgument
+from discord import AllowedMentions
 from datetime import datetime
+from io import BytesIO
 from dotenv import load_dotenv
 
 load_dotenv()
 
-
-
 # Paths
-guildSettingsPath = 'main/data/settings.json'
 ballListJson = 'main/data/ball_list.json'
-externalModulesPath = 'main/data/ext_modules.json'
-userGreetingJson = 'main/data/user_greet.json'
-# TOKEN = open('main/token.txt', 'r').readline()
-TOKEN2 = os.getenv("TOKEN")
+
+TOKEN = os.getenv("TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
-DATABASE_USER = os.getenv("DATABASE_USER")
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
-DATABASE_HOST = os.getenv("DATABASE_HOST")
 
-standardPrefix = "+-+"
-
+standardPrefix = "fb!"
 
 ## General methods
 async def getPrefix(client, message):
@@ -39,19 +32,15 @@ async def getPrefix(client, message):
 
     return prefix
 
-async def setPrefix(client, message, prefix=standardPrefix):
+async def setPrefix(client, message, prefix):
     await client.db.execute('UPDATE ferroseed.guilds SET prefix=$1 WHERE guild_id=$2', prefix, message.guild.id)
 
-def getExternalModules():
-    """Open json containing list of module names. Return list"""
-    with open(externalModulesPath) as f:
-        moduleList = json.load(f)
-        return moduleList
+async def getExternalModules(client):
+    moduleResponse = await client.db.fetch('SELECT modules from ferroseed.external_modules WHERE bot_id = $1', 728539394386034749)
+    return ast.literal_eval(moduleResponse[0].get("modules"))
 
-def writeExternalModules(data):
-    """Open json containing list of module names. Write data to json file"""
-    with open(externalModulesPath) as f:
-        json.dump(data, f)
+async def writeExternalModules(client, data):
+    await client.db.execute('UPDATE ferroseed.external_modules SET modules=$1 WHERE guild_id=$2',str(data), 728539394386034749)
 
 def getJson(path):
     with open(path, 'r', encoding='utf-8') as f:

@@ -1,4 +1,3 @@
-import imp
 from BotImports import *
 
 
@@ -6,69 +5,77 @@ from BotImports import *
 
 reactrole_path = 'main/data/reactrole.json'
 
+async def readReactionRolesFromDb(client, guild_id):
+    reactionRoleResponse = await client.db.fetch('SELECT reaction_role_map from ferroseed.reaction_roles WHERE guild_id = $1', guild_id)
+    if len(reactionRoleResponse) == 0:
+        guild_dict = {}
+        await writeReactionRolesToDb(client, guild_id, guild_dict)
+    else:
+        guild_dict = ast.literal_eval(reactionRoleResponse[0].get("reaction_role_map"))
+        if type(guild_dict)=='tuple':
+            guild_dict = guild_dict[0]
+    return guild_dict
+
+async def writeReactionRolesToDb(client, guild_id, guild_dict):
+    await client.db.execute('UPDATE ferroseed.reaction_roles SET reaction_role_map=$1 WHERE guild_id=$2', str(guild_dict), guild_id)
+
 class reactrole(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-
-    @Cog.listener("on_raw_reaction_add")
+    @commands.Cog.listener("on_raw_reaction_add")
     async def give_role(self, payload):
         guild_id = payload.guild_id
         guild = self.client.get_guild(guild_id)
         channel_id = payload.channel_id
-        data = json_open(reactrole_path)
-        if str(guild_id) in list(data.keys()):
-            guild_dict = data[str(guild.id)]
-            if str(channel_id) in guild_dict.keys():
-                message_dict = guild_dict[str(channel_id)]
-                if str(payload.message_id) in message_dict.keys():
-                    react_dict = message_dict[str(payload.message_id)]
-                    if payload.emoji.name in react_dict.keys():
-                        role_id = react_dict[payload.emoji.name]
-                        role = discord.utils.get(guild.roles, id=int(role_id))
-                        if role:
-                            member = discord.utils.find(lambda m : m.id == payload.user_id, guild.members)
-                            if member and member!=self.client.user:
-                                await member.add_roles(role)
-                                print(f"Added {role} to {member}")
-                            else:
-                                print("member not found or member = bot")
+        guild_dict = await readReactionRolesFromDb(self.client, guild_id)
+        if str(channel_id) in guild_dict.keys():
+            message_dict = guild_dict[str(channel_id)]
+            if str(payload.message_id) in message_dict.keys():
+                react_dict = message_dict[str(payload.message_id)]
+                if payload.emoji.name in react_dict.keys():
+                    role_id = react_dict[payload.emoji.name]
+                    role = discord.utils.get(guild.roles, id=int(role_id))
+                    if role:
+                        member = discord.utils.find(lambda m : m.id == payload.user_id, guild.members)
+                        if member and member!=self.client.user:
+                            await member.add_roles(role)
+                            print(f"Added {role} to {member}")
                         else:
-                            print("role not found")
+                            print("member not found or member = bot")
+                    else:
+                        print("role not found")
 
     
-    @Cog.listener("on_raw_reaction_remove")
+    @commands.Cog.listener("on_raw_reaction_remove")
     async def role_remove(self, payload):
         guild_id = payload.guild_id
         guild = self.client.get_guild(guild_id)
         channel_id = payload.channel_id
-        data = json_open(reactrole_path)
-        if str(guild_id) in list(data.keys()):
-            guild_dict = data[str(guild.id)]
-            if str(channel_id) in guild_dict.keys():
-                message_dict = guild_dict[str(channel_id)]
-                if str(payload.message_id) in message_dict.keys():
-                    react_dict = message_dict[str(payload.message_id)]
-                    if payload.emoji.name in react_dict.keys():
-                        role_id = react_dict[payload.emoji.name]
-                        role = discord.utils.get(guild.roles, id=int(role_id))
-                        if role:
-                            member = discord.utils.find(lambda m : m.id == payload.user_id, guild.members)
-                            if member and member!=self.client.user:
-                                await member.remove_roles(role)
-                                print(f"removed {role} from {member}")
-                            else:
-                                print("member not found")
+        guild_dict = await readReactionRolesFromDb(self.client, guild_id)
+        if str(channel_id) in guild_dict.keys():
+            message_dict = guild_dict[str(channel_id)]
+            if str(payload.message_id) in message_dict.keys():
+                react_dict = message_dict[str(payload.message_id)]
+                if payload.emoji.name in react_dict.keys():
+                    role_id = react_dict[payload.emoji.name]
+                    role = discord.utils.get(guild.roles, id=int(role_id))
+                    if role:
+                        member = discord.utils.find(lambda m : m.id == payload.user_id, guild.members)
+                        if member and member!=self.client.user:
+                            await member.remove_roles(role)
+                            print(f"removed {role} from {member}")
                         else:
-                            print("role not found")
+                            print("member not found")
+                    else:
+                        print("role not found")
        
     
     @commands.command(hidden=True)
     @commands.has_permissions(manage_roles=True)
     async def register_role(self, ctx, reaction, role:discord.Role, message:discord.Message):
-        data = json_open(reactrole_path)
         guild_id = ctx.guild.id
-        guild_dict = data
+        guild_dict = await readReactionRolesFromDb(self.client, guild_id)
         
         if not message:
             message = self.temp_message
@@ -77,7 +84,7 @@ class reactrole(commands.Cog):
                 return
 
         if reaction.startswith('<'):
-            reaction_name = re.findall(r":([^:]*):", reaction)
+            reaction_name =  re.findall(r":([^:]*):", reaction)
             reaction_name = reaction_name[0]
         else:
             reaction_name = reaction
@@ -107,8 +114,10 @@ class reactrole(commands.Cog):
             message_dict[str(message.id)] = react_role_dict
             channel_dict[str(message.channel.id)] = message_dict
             guild_dict[str(guild_id)] = channel_dict
-            data = guild_dict
-            json_write(reactrole_path, data)
+            response = await writeReactionRolesToDb(self.client, guild_id, guild_dict)
+            if response != "UPDATE 1":
+                await ctx.send("Something went wrong")
+                return
         await ctx.send(f"{role.mention} has been registered to {reaction} on message:\n{message.jump_url}", allowed_mentions=allowed_mentions)
         question = await ctx.send("Would you like me to react to that message with the specified emoji?")
         emoji_list = ['✅','❌']
@@ -140,9 +149,8 @@ class reactrole(commands.Cog):
     @commands.command(hidden=True)
     @commands.has_permissions(manage_roles=True)
     async def unregister_role(self, ctx, reaction, role:discord.Role, message:discord.Message=None):
-        data = json_open(reactrole_path)
         guild_id = ctx.guild.id
-        guild_dict = data
+        guild_dict = await readReactionRolesFromDb(self.client, guild_id)
         if not message:
             message=self.temp_message
             if not message:
@@ -162,8 +170,10 @@ class reactrole(commands.Cog):
         message_dict[str(message.id)] = react_role_dict
         channel_dict[str(message.channel.id)] = message_dict
         guild_dict[str(guild_id)] = channel_dict
-        data = guild_dict
-        json_write(reactrole_path, data)
+        response = await writeReactionRolesToDb(self.client, guild_id, guild_dict)
+        if response != "UPDATE 1":
+            await ctx.send("Something went wrong")
+            return
         await ctx.send(f"Removed {reaction} and {role} connection in the database", allowed_mentions=allowed_mentions)
 
 

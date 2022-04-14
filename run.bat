@@ -1,1 +1,0 @@
-start cmd /k python %~dp0\main\bot.py

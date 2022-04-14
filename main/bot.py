@@ -8,8 +8,7 @@ client = commands.Bot(
 )
 
 async def create_db_pool():
-    credentials = {"user": DATABASE_USER, "password": DATABASE_PASSWORD, "database": DATABASE_NAME, "host": DATABASE_HOST}
-    client.db = await asyncpg.create_pool(**credentials)
+    client.db = await asyncpg.create_pool(dsn=DATABASE_URL)
     print("connection is successfull")
 
 @client.event
@@ -18,7 +17,7 @@ async def on_ready():
     failedModuleList = []
     print(f"logged in as {client.user.name}\nID: {client.user.id}")
     print("\n--------\nLoading modules")
-    modules = getExternalModules()
+    modules = await getExternalModules(client)
     for i in modules:
         try:
             client.load_extension('modules.'+i)

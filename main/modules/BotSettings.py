@@ -19,10 +19,11 @@ class BotSettings(commands.Cog):
     @commands.command(hidden=True)
     @commands.is_owner()
     async def externalModule(self, ctx, task=None, module=None):
-        modules = getExternalModules()
-        if not task or not module:
+        modules = await getExternalModules(self.client)
+        if not task or not module and task!="names":
             await ctx.send("Please select a task: names, add, remove, load, unload, reload\nfollowed by name of a module")
             return
+        print(task)
         if task=="names":
             await ctx.send(', '.join(i for i in modules))
             return
@@ -32,7 +33,7 @@ class BotSettings(commands.Cog):
                 modules.append(module)
             elif task=="remove":
                 modules.pop(module)
-            writeExternalModules(modules)
+            await writeExternalModules(self.client, modules)
             return
 
         if task=='load':

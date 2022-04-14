@@ -1,4 +1,3 @@
-from ast import alias
 from BotImports import *
 
 class FunCommands(commands.Cog):
@@ -7,7 +6,7 @@ class FunCommands(commands.Cog):
         self.ferroHappyEmoji = "<:ferroHappy:734285644817367050>"
         self.rPartyEmoji = "<:RParty:706007725070483507>"
         self.rBopsLeftEmoji = "<a:RBops:718139734693773330>"
-        self.noMentionsAllowed = discord.AllowedMentions(user=False, roles=False,everyone=False)
+        self.noMentionsAllowed = discord.AllowedMentions(everyone=False, users=False, roles=False, replied_user=False)
 
     @commands.command(
         name='caught',
