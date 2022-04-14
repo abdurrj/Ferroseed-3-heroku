@@ -188,5 +188,16 @@ class functions(commands.Cog):
             pin_msg = await pin_channel.fetch_message(payload.message_id)
             await pin_msg.unpin()
 
+    @commands.command(hidden=True)
+    @commands.has_permissions(administrator=True)
+    async def reactToMessage(self, ctx, message:discord.Message=None, *, reactions=None):
+        if message and reactions:
+            reactions_list = reactions.split(" ")
+            for i in reactions_list:
+                try:
+                    await message.add_reaction(i)
+                except:
+                    print(f"couldn't react with {i}")
+
 def setup(client):
     client.add_cog(functions(client))

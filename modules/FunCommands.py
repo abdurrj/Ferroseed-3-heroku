@@ -108,6 +108,19 @@ class FunCommands(commands.Cog):
             timezone = pytz.timezone(timezoneList[i])
             timezoneName = timezoneNames[i]
             timezoneHour = datetime.now(timezone).strftime("%H")
+            if int(timezoneHour) < 5 or int(timezoneHour)>22:
+                time = datetime.now(timezone).strftime("%I:%M %p") + ". <a:RSleep:718830355381223444>"
+            else:
+                time = datetime.now(timezone).strftime("%I:%M %p") + ""
+
+            timezone_time = timezoneName + "\n" + time
+            timezoneNameAndTime.append(timezone_time)
+
+        times = '\n\n'.join(i for i in timezoneNameAndTime)
+
+        embed = discord.Embed(title='Afss time!  🌎🌍🌏', color=discord.Colour.green())
+        embed.add_field(name='Time:', value=times, inline=True)
+        await ctx.send(embed=embed)
             
 
     def addEmojiToTimeIfTimeIsBetweenTenPmAndFiveAm(hour:int, timezone):

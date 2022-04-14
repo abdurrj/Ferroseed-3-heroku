@@ -91,9 +91,9 @@ class Dexter(commands.Cog):
     async def dex(self, ctx, pkmn, *form_input):
         ability_check = ['ability1', 'ability2', 'abilityH']
         egg_group_check = ['eggGroup1', 'eggGroup2']
-        forms_check = ['Galar', 'Galarian', 'galar', 'galarian', 'Male', 'male', 'Female', 'female', 'M', 'm', 'F', 'f', 'Alolan', 'alolan', 'Gigantamax', 'Gmax', 'Mega', 'mega', 'MegaX', 'megax', 'MegaY', 'megay', 'Ice Rider', 'Ice', 'ice','Shadow Rider','Shadow','shadow']
+        forms_check = ['Galar', 'Galarian', 'galar', 'galarian', 'Male', 'male', 'Female', 'female', 'M', 'm', 'F', 'f', 'Alolan', 'alolan', 'Gigantamax', 'Gmax', 'Mega', 'mega', 'MegaX', 'megax', 'MegaY', 'megay', 'Ice Rider', 'Ice', 'ice','Shadow Rider','Shadow','shadow', 'Hisuian', 'hisuian']
         stat_changing_forms_name_first = ['Male', 'male', 'Female', 'female', 'M', 'm', 'F', 'f',]
-        stat_changing_forms_name_last = ['galar', 'Galar', 'Galarian', 'galarian', 'Alolan', 'Mega', 'MegaX', 'MegaY', 'Ice Rider', 'Shadow Rider','ice','Ice','shadow','Shadow']
+        stat_changing_forms_name_last = ['hisuian', 'Hisuian', 'galar', 'Galar', 'Galarian', 'galarian', 'Alolan', 'Mega', 'MegaX', 'MegaY', 'Ice Rider', 'Shadow Rider','ice','Ice','shadow','Shadow']
         typing_check = ['type1', 'type2']
         with open(r"data/pokemon.json", "r") as read_file:
             data = json.load(read_file)
@@ -171,7 +171,6 @@ class Dexter(commands.Cog):
             elif form in stat_changing_forms_name_last:
                 pokemon_lookup = form + " " + pokemon
         else:
-            print("no form")
             pokemon_lookup = pokemon
 
         for i in range(0, len(data)):
