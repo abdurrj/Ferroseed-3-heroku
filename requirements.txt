@@ -9,6 +9,7 @@ cchardet==2.1.7
 cffi==1.15.0
 chardet==4.0.0
 discord.py==1.7.3
+discord==<version>
 emoji==1.6.1
 idna==3.3
 multidict==5.2.0
