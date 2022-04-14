@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Paths
-ballListJson = 'main/data/ball_list.json'
+ballListJson = 'data/ball_list.json'
 
 TOKEN = os.getenv("TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")

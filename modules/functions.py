@@ -3,20 +3,17 @@ class functions(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-
     @commands.command()
     @commands.has_permissions(administrator=True)
     async def clearup(self, ctx, amount:int=0):
         await ctx.message.delete()
         await ctx.message.channel.purge(limit=amount)
 
-
     @commands.command()
     async def flip(self, ctx):
         options = ['Heads','Tails','Side']
         selection = np.random.choice(options,1,p=[0.49, 0.49, 0.02])
         await ctx.send(selection[0]) 
-
 
     @commands.command()
     async def poll(self, ctx, *, a:str):
@@ -37,7 +34,6 @@ class functions(commands.Cog):
             except:
                 print("Emoji " + i + " not found")
 
-
     @commands.command()
     async def spoiler(self, ctx, *, text:str=""):
         poster = ctx.message.author.id
@@ -48,7 +44,6 @@ class functions(commands.Cog):
             files.append(discord.File(fp, filename=file.filename, spoiler=True))
         await ctx.message.delete()
         await ctx.send("Sent by <@"+str(poster)+">\n"+str(text), files=files)
-
 
     @commands.command()
     async def teams(self, ctx):
@@ -75,7 +70,6 @@ class functions(commands.Cog):
         embed.add_field(name=team1_name + " (Members: " + team1_size + ")", value=team1_members_at, inline=True)
         embed.add_field(name=team2_name + " (Members: " + team2_size + ")", value=team2_members_at, inline=True)
         await ctx.send(embed=embed)
-
 
     @commands.command()
     async def gibroll(self, ctx, wnr_amount:int=1):
@@ -110,13 +104,11 @@ class functions(commands.Cog):
         else:
             await ctx.send("Sorry, I can't find your message in <#766277566934810634>. Does it have the keyword: " + keyword + ""
                     "\nI can only see your last message, you can edit the message to add the keyword though!")
-    
 
     @gibroll.error
     async def gibroll_error(self, ctx, error):
         if isinstance(error, BadArgument):
             await ctx.send("Something went wrong, please check your input, and make sure it's a number")
-
 
     @commands.command()
     async def dice(self, ctx, *,initial_input:str=""):
@@ -180,7 +172,6 @@ class functions(commands.Cog):
             await ctx.send("What, you want **" + wnr_amount + "** winner(s)? Maybe try a (positive) number?")
         await message.unpin()
 
-
     @commands.Cog.listener("on_raw_reaction_add")
     async def reaction_pinning_add(self, payload):
         if payload.emoji.name == "📌":
@@ -189,7 +180,6 @@ class functions(commands.Cog):
             pin_msg = await pin_channel.fetch_message(payload.message_id)
             await pin_msg.pin()
     
-    
     @commands.Cog.listener("on_raw_reaction_remove")
     async def reaction_pinning_remove(self, payload):
         if payload.emoji.name == "📌": 
@@ -197,8 +187,6 @@ class functions(commands.Cog):
             pin_msg = payload.message_id
             pin_msg = await pin_channel.fetch_message(payload.message_id)
             await pin_msg.unpin()
-
-
 
 def setup(client):
     client.add_cog(functions(client))

@@ -62,18 +62,17 @@ class FunCommands(commands.Cog):
 
     @commands.command(name='hi', aliases=['hello'])
     async def ferroSayHi(self, ctx):
-        data = getJson(userGreetingJson)
-        response=self.ferroHappyEmoji
-        if str(ctx.author.id) in data.keys() and data[str(ctx.auhtor.id)]:
-            response = data[str(ctx.author.id)]
+        userGreetResponse = await self.client.db.fetch('SELECT greeting from ferroseed.user_greet WHERE user_id = $1', ctx.author.id)
+        
+        if len(userGreetResponse) > 0:
+            response = ast.literal_eval(userGreetResponse[0].get("greeting"))
         await ctx.send(response, allowed_mentions = self.noMentionsAllowed)
 
     @commands.command(name = 'hi_response', aliases = ['set_hi', 'set_hi_response', 'hi_set'])
     async def setUserPreferredHiResponse(self, ctx, *, hiResponse:str=None):
-        data = getJson(userGreetingJson)
-        data[str(ctx.author.id)] = hiResponse
         if not hiResponse:
             hiResponse = self.ferroHappyEmoji
+        await self.client.db.execute('UPDATE ferroseed.user_greet SET greeting=$1 WHERE user_id=$2', hiResponse, ctx.author.id)
         await ctx.send(f"{ctx.author.mention}, I will now respond to `{getPrefix}hi` with {hiResponse}", allowed_mentions = self.noMentionsAllowed)
 
     @commands.command(name = 'sleep', aliases=['powernap', 'nap'])

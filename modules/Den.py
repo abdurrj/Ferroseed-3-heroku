@@ -31,7 +31,7 @@ class Den(commands.Cog):
     @commands.command()
     async def den(self, ctx, pkmn, *form_input):
         user = ctx.message.author.name
-        with open(r"main/data/pokemon.json", "r") as read_file:
+        with open(r"data/pokemon.json", "r") as read_file:
             data = json.load(read_file)
         pokemon = str((pkmn.lower()).title())
         wrong_den_message = "That's not a den, "+str(user)+"! <a:RBops2:718139698912034937>. Only from 1 to 197, or promo <a:RHype:708568633508364310>"

@@ -7,7 +7,7 @@ class Dexter(commands.Cog):
 
     @commands.command()
     async def sprite(self, ctx, pkmn, *shiny):
-        with open(r"main/data/pokemon.json", "r") as read_file:
+        with open(r"data/pokemon.json", "r") as read_file:
             data = json.load(read_file)
         pokemon = str((pkmn.lower()).title())
         possible_names = []
@@ -37,7 +37,7 @@ class Dexter(commands.Cog):
 
     @commands.command()
     async def dyna(self, ctx, *, pokemon):
-        with open(r"main/data/da_mons.json", encoding='utf-8') as da_mon_dict:
+        with open(r"data/da_mons.json", encoding='utf-8') as da_mon_dict:
             data = json.load(da_mon_dict)
         pokemon = (pokemon.lower()).title()
 
@@ -69,7 +69,7 @@ class Dexter(commands.Cog):
     @commands.command(hidden=True)
     async def dynadd(self, ctx, *, info):
         info_split = info.split("\n")
-        with open(r"main/data/da_mons.json", encoding='utf-8') as da_mon_dict:
+        with open(r"data/da_mons.json", encoding='utf-8') as da_mon_dict:
             da_mon_dict = json.load(da_mon_dict)
         name = info_split[0]
         ability = info_split[2]
@@ -80,7 +80,7 @@ class Dexter(commands.Cog):
         print(da_mon_dict)
         new_dict = da_mon_dict
         try:
-            with open(r"main/data/da_mons.json", "w", encoding='utf-8') as da_mon_dict:
+            with open(r"data/da_mons.json", "w", encoding='utf-8') as da_mon_dict:
                 json.dump(new_dict, da_mon_dict, indent=4, ensure_ascii=False)
             await ctx.send("added "+name) 
         except:
@@ -95,7 +95,7 @@ class Dexter(commands.Cog):
         stat_changing_forms_name_first = ['Male', 'male', 'Female', 'female', 'M', 'm', 'F', 'f',]
         stat_changing_forms_name_last = ['galar', 'Galar', 'Galarian', 'galarian', 'Alolan', 'Mega', 'MegaX', 'MegaY', 'Ice Rider', 'Shadow Rider','ice','Ice','shadow','Shadow']
         typing_check = ['type1', 'type2']
-        with open(r"main/data/pokemon.json", "r") as read_file:
+        with open(r"data/pokemon.json", "r") as read_file:
             data = json.load(read_file)
         pokemon = ""
         possible_names = []
@@ -157,6 +157,8 @@ class Dexter(commands.Cog):
                         form = 'Shadow Rider'
                     elif form in ['galar', 'galarian', 'Galar', 'Galarian']:
                         form = "Galarian"
+                    elif form == "hisuian":
+                        form = "Hisuian"
             else:
                 form = ""
 
@@ -265,76 +267,6 @@ class Dexter(commands.Cog):
                     embed.set_image(url="https://img.pokemondb.net/sprites/home/" + folder +"/"+ pokemon_url_name.lower() + form + ".png")
             
                 await ctx.send(embed=embed)
-
-
-""" 
-Old dex command    
-    @commands.command(name = 'dex', aliases = ['pokedex'])
-    async def dex(self, ctx, *, pkmn):
-        ability_check = ['ability1', 'ability2', 'abilityH']
-        egg_group_check = ['eggGroup1', 'eggGroup2']
-        typing_check = ['type1', 'type2']
-        with open(r"data/json/pokemon.json", "r") as read_file:
-            data = json.load(read_file)
-        pokemon = str((pkmn.lower()).title())
-        for i in range(0, len(data)):
-            pkmn_info = data[i]
-            if pokemon in (pkmn_info.values()):
-                # print(pkmn_info)
-                abilities_dict = pkmn_info["abilities"]
-                ability_list = [abilities_dict[ability] for ability in ability_check if abilities_dict[ability] is not None]
-                # Construction depending on 2 or 3 abilities
-                if len(ability_list) == 3:
-                    ability_1 = "Ability 1: `" + ability_list[0] + "`\n"
-                    ability_2 = "Ability 2: `" + ability_list[1] + "`\n"
-                    ability_h = "Ability H: `" + ability_list[2] + "`"
-                    ability = ability_1 + ability_2 + ability_h
-                elif len(ability_list) == 2:
-                    ability_1 = "Ability 1: `" + ability_list[0] + "`\n"
-                    ability_h = "Ability H: `" + ability_list[1] + "`\n"
-                    ability = ability_1 + ability_h
-                else:
-                    ability = "Ability 1: `" + ability_list[0] + "`\n"
-                
-                typing_list = [pkmn_info[typing] for typing in typing_check if pkmn_info[typing] is not None]
-                # Adjust for single or dual type
-                if len(typing_list) == 1:
-                    typing = "Type: `" + typing_list[0] + "`"
-                else:
-                    typing = "Type: `" + typing_list[0] + "/" + typing_list[1] + "`"
-                
-                egg_groups = ', '.join([pkmn_info[group] for group in egg_group_check if pkmn_info[group] is not None])
-                catch_rate = "Catch rate: `" + str(pkmn_info["catchRate"]) + "`"
-                base_stats = pkmn_info["baseStats"]
-                stats = ["hp", "atk", "def", "spA", "spD", "spe", "tot"]
-                stat_value = [base_stats[stat] for stat in stats]
-
-                dens = pkmn_info["dens"]
-                sword_dens_list = dens["sword"]
-                sword_dens = ', '.join(sword_dens_list[i] for i in range(0, len(sword_dens_list)) if len(sword_dens_list) is not None)
-                shield_dens_list = dens["shield"]
-                shield_dens = ', '.join(shield_dens_list[i] for i in range(0, len(shield_dens_list)) if len(shield_dens_list) is not None)
-                folder = "normal"
-
-                embed = discord.Embed(title="__#" + str(pkmn_info["dexId"]) +  " " + pokemon.title() + "__", colour=0xFF0000)
-                embed.add_field(name="Misc. Info", value=typing + "\n" + catch_rate + "\nEgg Groups: `" + egg_groups + "`\n")
-                embed.add_field(name="Abilities", value=ability, inline=True)
-                embed.add_field(
-                    name="Base stats: ",
-                    value="__`HP     Atk     Def`__\n"+""
-                    "__`"+ f"{str(stat_value[0]):<7}" + f"{str(stat_value[1]):<8}" + f"{str(stat_value[2]):<3}" + "`__\n"
-                    "__`SpA    SpD     Spe`__\n"
-                    "__`"+ f"{str(stat_value[3]):<7}" + f"{str(stat_value[4]):<8}" + f"{str(stat_value[5]):<3}" +"`__\n"
-                    "__`Total: " + str(stat_value[6]) + "`__")
-                if len(sword_dens_list) != 0 or len(shield_dens_list) != 0:
-                    embed.add_field(name="Dens", value="Sword: " + str(sword_dens) + "\nShield: " + str(shield_dens) + "", inline=False)
-                
-                pokemon_url_name = pokemon.replace(" ", "-")
-                embed.set_image(url="https://img.pokemondb.net/sprites/home/" + folder +"/"+ pokemon_url_name.lower() +".png")
-                
-                await ctx.send(embed=embed) 
-"""
-
 
 def setup(client):
     client.add_cog(Dexter(client))
