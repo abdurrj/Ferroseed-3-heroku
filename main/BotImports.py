@@ -14,7 +14,7 @@ guildSettingsPath = 'main/data/settings.json'
 ballListJson = 'main/data/ball_list.json'
 externalModulesPath = 'main/data/ext_modules.json'
 userGreetingJson = 'main/data/user_greet.json'
-TOKEN = open('main/token.txt', 'r').readline()
+# TOKEN = open('main/token.txt', 'r').readline()
 TOKEN2 = os.getenv("TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
 DATABASE_USER = os.getenv("DATABASE_USER")
@@ -36,22 +36,11 @@ async def getPrefix(client, message):
         prefix = standardPrefix
     else:
         prefix = prefixResponse[0].get("prefix")
-    
+
     return prefix
 
-    # """Open json containing key (guild id) and value (guild specific settings).
-    # Read and return the prefix"""
-    # with open(guildSettingsPath, 'r', encoding='utf-8') as f:
-    #     data = json.load(f)
-    #     guildSettings = data[str(message.guild.id)]
-    #     return guildSettings["prefix"]
-
-def setPrefix(message, prefix=standardPrefix):
-    data = getJson(guildSettingsPath)
-    guildSettings = data[str(message.guild.id)]
-    guildSettings["prefix"] = prefix
-    data[str(message.guild.id)] = guildSettings
-    writeJson(guildSettingsPath, data)
+async def setPrefix(client, message, prefix=standardPrefix):
+    await client.db.execute('UPDATE ferroseed.guilds SET prefix=$1 WHERE guild_id=$2', prefix, message.guild.id)
 
 def getExternalModules():
     """Open json containing list of module names. Return list"""
