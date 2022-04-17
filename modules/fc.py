@@ -9,9 +9,6 @@ class fc(commands.Cog):
 
     @commands.command()
     async def fc(self, ctx, *usid:discord.Member):
-        with open(fc_path, encoding='utf-8') as fc_dict:
-            fc_dict = json.load(fc_dict)
-
         if usid:
             usid = usid[0].id
         else:
