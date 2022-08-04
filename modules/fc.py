@@ -24,7 +24,10 @@ class fc(commands.Cog):
             info = ""
             for i in user_dict_keys:
                 info = info + "\n" + i + ": **" + user_dict[i] + "**" 
-            await ctx.send(info)
+            if info=="":
+                await ctx.send("No info for user")
+            else:
+                await ctx.send(info)
 
 
     @commands.command()
