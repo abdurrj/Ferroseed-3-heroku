@@ -21,8 +21,7 @@ async def writeReactionRolesToDb(client, guild_id, guild_dict):
     await client.db.execute('UPDATE ferroseed.reaction_roles SET reaction_role_map=$1 WHERE guild_id=$2', replaceQuotesOnString(str(guild_dict)), guild_id)
 
 def replaceQuotesOnString(inputString):
-    output = inputString.replace("'", "")
-    output = output.replace('"', '')
+    output = inputString.replace("'", '"')
     return output
 
 class reactrole(commands.Cog):
