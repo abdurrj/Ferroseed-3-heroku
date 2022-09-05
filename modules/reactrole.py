@@ -93,27 +93,27 @@ class reactrole(commands.Cog):
         else:
             channel_dict = {}
         if str(message.channel.id) in list(channel_dict.keys()):
-            message_dict = channel_dict[str(message.channel.id)]
+            message_dict = channel_dict["" + message.channel.id + ""]
         else:
             message_dict = {}
         if str(message.id) in list(message_dict.keys()):
-            react_role_dict = message_dict[str(message.id)]
+            react_role_dict = message_dict["" + message.id + ""]
         else:
             react_role_dict = {}
         
         allowed_mentions = AllowedMentions(roles=False)
         if str(reaction_name) in list(react_role_dict.keys()):
-            registered_role = ctx.guild.get_role(int(react_role_dict[str(reaction_name)]))
+            registered_role = ctx.guild.get_role(int(react_role_dict["" + reaction_name + ""]))
             await ctx.send(f"Emoji {reaction} already registered to {registered_role.mention}", allowed_mentions=allowed_mentions)
             return
         elif str(role.id) in list(react_role_dict.values()):
             await ctx.send(f"{role.mention} already registered to {reaction}", allowed_mentions=allowed_mentions)
             return
         else:
-            react_role_dict[str(reaction_name)] = str(role.id)
-            message_dict[str(message.id)] = react_role_dict
-            channel_dict[str(message.channel.id)] = message_dict
-            guild_dict[str(guild_id)] = channel_dict
+            react_role_dict[""+reaction_name+""] = "" + role.id + ""
+            message_dict[""+message.id+""] = react_role_dict
+            channel_dict[""+message.channel.id+""] = message_dict
+            guild_dict[""+guild_id+""] = channel_dict
             response = await writeReactionRolesToDb(self.client, guild_id, guild_dict)
             if response != "UPDATE 1":
                 await ctx.send("Something went wrong")
