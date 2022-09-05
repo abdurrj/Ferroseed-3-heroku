@@ -1,3 +1,4 @@
+from numpy import outer
 from BotImports import *
 
 
@@ -17,7 +18,12 @@ async def readReactionRolesFromDb(client, guild_id):
     return guild_dict
 
 async def writeReactionRolesToDb(client, guild_id, guild_dict):
-    await client.db.execute('UPDATE ferroseed.reaction_roles SET reaction_role_map=$1 WHERE guild_id=$2', str(guild_dict), guild_id)
+    await client.db.execute('UPDATE ferroseed.reaction_roles SET reaction_role_map=$1 WHERE guild_id=$2', replaceQuotesOnString(str(guild_dict)), guild_id)
+
+def replaceQuotesOnString(inputString):
+    output = inputString.replace("'", "")
+    output = output.replace('"', '')
+    return output
 
 class reactrole(commands.Cog):
     def __init__(self, client):
