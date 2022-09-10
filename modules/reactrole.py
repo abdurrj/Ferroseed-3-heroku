@@ -6,6 +6,7 @@ from BotImports import *
 reactrole_path = 'main/data/reactrole.json'
 
 async def readReactionRolesFromDb(client, guild_id):
+    print("reading from db")
     reactionRoleResponse = await client.db.fetch('SELECT reaction_role_map from ferroseed.reaction_roles WHERE guild_id = $1', guild_id)
     if len(reactionRoleResponse) == 0:
         guild_dict = {}
@@ -29,6 +30,7 @@ class reactrole(commands.Cog):
 
     @commands.Cog.listener("on_raw_reaction_add")
     async def give_role(self, payload):
+        print("someone reacted to a message")
         guild_id = payload.guild_id
         guild = self.client.get_guild(guild_id)
         react_dict = await readReactionRolesFromDb(self.client, guild_id)
