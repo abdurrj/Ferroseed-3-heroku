@@ -6,7 +6,6 @@ from BotImports import *
 reactrole_path = 'main/data/reactrole.json'
 
 async def readReactionRolesFromDb(client, guild_id):
-    print("reading from db")
     reactionRoleResponse = await client.db.fetch('SELECT reaction_role_map from ferroseed.reaction_roles WHERE guild_id = $1', guild_id)
     if len(reactionRoleResponse) == 0:
         guild_dict = {}
@@ -30,16 +29,15 @@ class reactrole(commands.Cog):
 
     @commands.Cog.listener("on_raw_reaction_add")
     async def give_role(self, payload):
-        print("someone reacted to a message")
         guild_id = payload.guild_id
         guild = self.client.get_guild(guild_id)
-        react_dict = await readReactionRolesFromDb(self.client, guild_id)
+        react_dict = await readReactionRolesFromDb(self.client, payload.message_id)
         if payload.emoji.name in react_dict.keys():
             role_id = react_dict[payload.emoji.name]
             role = discord.utils.get(guild.roles, id=int(role_id))
             if role:
                 member = discord.utils.find(lambda m : m.id == payload.user_id, guild.members)
-                if member and member!=self.client.user:
+                if member and member != self.client.user:
                     await member.add_roles(role)
                     print(f"Added {role} to {member}")
                 else:
@@ -47,34 +45,30 @@ class reactrole(commands.Cog):
             else:
                 print("role not found")
 
-    
+
     @commands.Cog.listener("on_raw_reaction_remove")
     async def role_remove(self, payload):
         guild_id = payload.guild_id
         guild = self.client.get_guild(guild_id)
-        channel_id = payload.channel_id
-        react_dict = await readReactionRolesFromDb(self.client, guild_id)
+        react_dict = await readReactionRolesFromDb(self.client, payload.message_id)
         if payload.emoji.name in react_dict.keys():
             role_id = react_dict[payload.emoji.name]
             role = discord.utils.get(guild.roles, id=int(role_id))
             if role:
                 member = discord.utils.find(lambda m : m.id == payload.user_id, guild.members)
-                if member and member!=self.client.user:
+                if member and member != self.client.user:
                     await member.remove_roles(role)
                     print(f"removed {role} from {member}")
                 else:
                     print("member not found")
             else:
                 print("role not found")
-       
-    
+
     @commands.command(hidden=True)
     @commands.has_permissions(manage_roles=True)
     async def register_role(self, ctx, reaction, role:discord.Role, message:discord.Message):
-        print("register role command")
-        guild_id = ctx.guild.id
-        react_role_dict = await readReactionRolesFromDb(self.client, guild_id)
-        
+        react_role_dict = await readReactionRolesFromDb(self.client, message.id)
+
         if not message:
             await ctx.send("Please specify a message by adding message URL, message ID, or by setting a temporary message with `set_message` command.")
             return
@@ -95,7 +89,7 @@ class reactrole(commands.Cog):
             return
         else:
             react_role_dict[f"{reaction_name}"] = f"{role.id}"
-            response = await writeReactionRolesToDb(self.client, guild_id, react_role_dict)
+            response = await writeReactionRolesToDb(self.client, message.id, react_role_dict)
             if response != "UPDATE 1":
                 await ctx.send("Something went wrong")
                 return
@@ -126,12 +120,12 @@ class reactrole(commands.Cog):
             except asyncio.TimeoutError:
                 break
 
-            
+
     @commands.command(hidden=True)
     @commands.has_permissions(manage_roles=True)
     async def unregister_role(self, ctx, reaction, role:discord.Role, message:discord.Message=None):
         guild_id = ctx.guild.id
-        react_role_dict = await readReactionRolesFromDb(self.client, guild_id)
+        react_role_dict = await readReactionRolesFromDb(self.client, message.id)
         if not message:
             await ctx.send("Please specify a message by adding message URL, message ID, or by setting a temporary message with `set_message` command.")
             return
@@ -143,7 +137,7 @@ class reactrole(commands.Cog):
             reaction_name = reaction
         allowed_mentions = AllowedMentions(roles=False)
         del react_role_dict[reaction_name]
-        response = await writeReactionRolesToDb(self.client, guild_id, react_role_dict)
+        response = await writeReactionRolesToDb(self.client, message.id, react_role_dict)
         if response != "UPDATE 1":
             await ctx.send("Something went wrong")
             return
