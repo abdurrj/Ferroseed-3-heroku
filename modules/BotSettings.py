@@ -1,5 +1,3 @@
-from os import write
-from discord import activity
 from BotImports import *
 
 class BotSettings(commands.Cog):
@@ -72,6 +70,20 @@ class BotSettings(commands.Cog):
             except Exception as error:
                 print(f"Unable to reload {module}\nError: {error}")
                 await ctx.send(f"Unable to reload {module}\nError: {error}")
+
+    @commands.command(hidden=True)
+    @commands.has_permissions(administrator=True)
+    async def ferro_say(self, ctx, channel:discord.TextChannel, *, msg:str):
+        try:
+            await channel.send(msg)
+        except:
+            await ctx.channel.send("Error sending the message. Could be permission issue...")
+
+
+    @commands.command(hidden=True)
+    @commands.has_permissions(administrator=True)
+    async def edit_message(self, ctx, msg_old:discord.Message, msg_new:discord.Message):
+        await msg_old.edit(content=msg_new.content)
 
     
 def setup(client):
