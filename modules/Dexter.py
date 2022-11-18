@@ -1,5 +1,4 @@
-from discord.ext import commands
-import json, discord
+from BotImports import *
 
 class Dexter(commands.Cog):
     def __init__(self, client):

@@ -11,13 +11,21 @@ async def create_db_pool():
     client.db = await asyncpg.create_pool(dsn=DATABASE_URL)
     print("connection is successfull")
 
+def ext_modules_open():
+    with open('data/ext_modules.json') as f:
+        modules = json.load(f)
+        return modules
+
 @client.event
 async def on_ready():
     loadedModuleList = []
     failedModuleList = []
     print(f"logged in as {client.user.name}\nID: {client.user.id}")
     print("\n--------\nLoading modules")
-    modules = await getExternalModules(client)
+    if PROFILE == "prod":
+        modules = await getExternalModules(client)
+    else:
+        modules = ext_modules_open()
     for i in modules:
         try:
             client.load_extension('modules.'+i)

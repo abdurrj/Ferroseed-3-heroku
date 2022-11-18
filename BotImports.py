@@ -1,5 +1,5 @@
 from email.policy import default
-import discord, json, random, pytz, asyncio, os, dotenv, ast, asyncpg, re, emoji, sys
+import discord, json, random, pytz, asyncio, os, dotenv, ast, asyncpg, re, emoji, sys, requests
 import numpy as np
 from discord.ext import commands, tasks
 from discord.ext.commands import CommandOnCooldown, BadArgument
@@ -15,6 +15,7 @@ ballListJson = 'data/ball_list.json'
 
 TOKEN = os.getenv("TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
+PROFILE = os.getenv("profile")
 
 standardPrefix = "fb!"
 
