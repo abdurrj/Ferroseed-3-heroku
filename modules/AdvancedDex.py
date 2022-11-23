@@ -14,8 +14,10 @@ class AdvancedDex(commands.Cog):
     async def lookUpPokemon(self, ctx, *, pokemon):
         httpResult, pokemonResult = await fetchPokemon(pokemon)
         if httpResult != 200:
-            await ctx.send(f"Sorry, i couldn't find {pokemon}")
-            return
+            httpResult, pokemonResult = await fetchPokemon(pokemon+"-m")
+            if httpResult != 200:
+                await ctx.send(f"Sorry, i couldn't find {pokemon}")
+                return
 
         # print(pokemonResult)
         processPokemonResult(pokemonResult)
@@ -33,9 +35,27 @@ def setup(client):
 
 def processPokemonResult(pokeInfo):
     pokemonName = pokeInfo[NAME]
-    pokemonAbilities = pokeInfo[ABILITIES]
+    pokemonAbilities = getPokemonAbilitiesAsString(pokeInfo[ABILITIES])
+    print(pokemonAbilities)
     pokemonDexNumber = pokeInfo[POKEDEX_NUMBER]
     pokemonStatsDict = processBaseStats(pokeInfo[STATS])
+
+
+def getPokemonAbilitiesAsString(abilityList):
+    abilities = ""
+    for i in abilityList:
+        abilityName = i["ability"]["name"]
+        if i["is_hidden"]:
+            abilitySlot = "H"
+        else:
+            abilitySlot = i["slot"]
+        abilities = abilities + f"Ability {abilitySlot}: `{abilityName}`"
+        if not abilityList.index(i) == len(abilityList)-1:
+            abilities = abilities + "\n"
+
+    return abilities
+
+
 
 
 def processBaseStats(pokemonBaseStats):
