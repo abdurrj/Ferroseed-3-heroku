@@ -1,6 +1,5 @@
 [
   {
-    "isGen9": false,
     "dexId": 1,
     "name": "Bulbasaur",
     "baseStats": {
@@ -36,7 +35,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 2,
     "name": "Ivysaur",
     "baseStats": {
@@ -72,7 +70,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 3,
     "name": "Venusaur",
     "baseStats": {
@@ -115,7 +112,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 3,
     "name": "Mega Venusaur",
     "baseStats": {
@@ -149,7 +145,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 4,
     "name": "Charmander",
     "baseStats": {
@@ -191,7 +186,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 5,
     "name": "Charmeleon",
     "baseStats": {
@@ -233,7 +227,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 6,
     "name": "Charizard",
     "baseStats": {
@@ -279,7 +272,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 6,
     "name": "MegaX Charizard",
     "baseStats": {
@@ -313,7 +305,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 6,
     "name": "MegaY Charizard",
     "baseStats": {
@@ -347,7 +338,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 7,
     "name": "Squirtle",
     "baseStats": {
@@ -383,7 +373,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 8,
     "name": "Wartortle",
     "baseStats": {
@@ -419,7 +408,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 9,
     "name": "Blastoise",
     "baseStats": {
@@ -456,7 +444,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 9,
     "name": "Mega Blastoise",
     "baseStats": {
@@ -490,7 +477,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 10,
     "name": "Caterpie",
     "baseStats": {
@@ -532,7 +518,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 11,
     "name": "Metapod",
     "baseStats": {
@@ -574,7 +559,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 12,
     "name": "Butterfree",
     "baseStats": {
@@ -624,7 +608,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 13,
     "name": "Weedle",
     "baseStats": {
@@ -660,7 +643,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 14,
     "name": "Kakuna",
     "baseStats": {
@@ -696,7 +678,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 15,
     "name": "Beedrill",
     "baseStats": {
@@ -732,7 +713,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 15,
     "name": "Mega Beedrill",
     "baseStats": {
@@ -766,7 +746,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 16,
     "name": "Pidgey",
     "baseStats": {
@@ -802,7 +781,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 17,
     "name": "Pidgeotto",
     "baseStats": {
@@ -838,7 +816,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 18,
     "name": "Pidgeot",
     "baseStats": {
@@ -874,7 +851,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 18,
     "name": "Mega Pidgeot",
     "baseStats": {
@@ -908,7 +884,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 19,
     "name": "Rattata",
     "baseStats": {
@@ -946,7 +921,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 19,
     "name": "Alolan Rattata",
     "baseStats": {
@@ -982,7 +956,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 20,
     "name": "Raticate",
     "baseStats": {
@@ -1018,7 +991,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 20,
     "name": "Alolan Raticate",
     "baseStats": {
@@ -1052,7 +1024,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 21,
     "name": "Spearow",
     "baseStats": {
@@ -1088,7 +1059,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 22,
     "name": "Fearow",
     "baseStats": {
@@ -1122,7 +1092,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 23,
     "name": "Ekans",
     "baseStats": {
@@ -1158,7 +1127,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 24,
     "name": "Arbok",
     "baseStats": {
@@ -1192,7 +1160,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 25,
     "name": "Pikachu",
     "baseStats": {
@@ -1247,7 +1214,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 26,
     "name": "Raichu",
     "baseStats": {
@@ -1289,7 +1255,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 26,
     "name": "Alolan Raichu",
     "baseStats": {
@@ -1323,7 +1288,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 27,
     "name": "Sandshrew",
     "baseStats": {
@@ -1367,7 +1331,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 27,
     "name": "Alolan Sandshrew",
     "baseStats": {
@@ -1403,7 +1366,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 28,
     "name": "Sandslash",
     "baseStats": {
@@ -1447,7 +1409,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 28,
     "name": "Alolan Sandslash",
     "baseStats": {
@@ -1481,7 +1442,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 32,
     "name": "Nidoran",
     "baseStats": {
@@ -1526,7 +1486,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 29,
     "name": "Nidoran Female",
     "baseStats": {
@@ -1571,7 +1530,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 30,
     "name": "Nidorina",
     "baseStats": {
@@ -1612,7 +1570,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 31,
     "name": "Nidoqueen",
     "baseStats": {
@@ -1651,7 +1608,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 33,
     "name": "Nidorino",
     "baseStats": {
@@ -1692,7 +1648,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 34,
     "name": "Nidoking",
     "baseStats": {
@@ -1731,7 +1686,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 35,
     "name": "Clefairy",
     "baseStats": {
@@ -1779,7 +1733,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 36,
     "name": "Clefable",
     "baseStats": {
@@ -1825,7 +1778,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 37,
     "name": "Vulpix",
     "baseStats": {
@@ -1872,7 +1824,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 37,
     "name": "Alolan Vulpix",
     "baseStats": {
@@ -1908,7 +1859,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 38,
     "name": "Ninetales",
     "baseStats": {
@@ -1957,7 +1907,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 38,
     "name": "Alolan Ninetales",
     "baseStats": {
@@ -1991,7 +1940,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 39,
     "name": "Jigglypuff",
     "baseStats": {
@@ -2035,7 +1983,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 40,
     "name": "Wigglytuff",
     "baseStats": {
@@ -2077,7 +2024,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 41,
     "name": "Zubat",
     "baseStats": {
@@ -2123,7 +2069,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 42,
     "name": "Golbat",
     "baseStats": {
@@ -2169,7 +2114,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 43,
     "name": "Oddish",
     "baseStats": {
@@ -2213,7 +2157,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 44,
     "name": "Gloom",
     "baseStats": {
@@ -2256,7 +2199,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 45,
     "name": "Vileplume",
     "baseStats": {
@@ -2298,7 +2240,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 46,
     "name": "Paras",
     "baseStats": {
@@ -2334,7 +2275,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 47,
     "name": "Parasect",
     "baseStats": {
@@ -2368,7 +2308,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 48,
     "name": "Venonat",
     "baseStats": {
@@ -2404,7 +2343,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 49,
     "name": "Venomoth",
     "baseStats": {
@@ -2438,7 +2376,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 50,
     "name": "Diglett",
     "baseStats": {
@@ -2480,7 +2417,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 50,
     "name": "Alolan Diglett",
     "baseStats": {
@@ -2516,7 +2452,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 51,
     "name": "Dugtrio",
     "baseStats": {
@@ -2556,7 +2491,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 51,
     "name": "Alolan Dugtrio",
     "baseStats": {
@@ -2590,7 +2524,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 52,
     "name": "Meowth",
     "baseStats": {
@@ -2630,7 +2563,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 52,
     "name": "Alolan Meowth",
     "baseStats": {
@@ -2666,7 +2598,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 52,
     "name": "Galarian Meowth",
     "baseStats": {
@@ -2714,7 +2645,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 53,
     "name": "Persian",
     "baseStats": {
@@ -2750,7 +2680,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 53,
     "name": "Alolan Persian",
     "baseStats": {
@@ -2784,7 +2713,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 54,
     "name": "Psyduck",
     "baseStats": {
@@ -2828,7 +2756,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 55,
     "name": "Golduck",
     "baseStats": {
@@ -2870,7 +2797,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 56,
     "name": "Mankey",
     "baseStats": {
@@ -2906,7 +2832,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 57,
     "name": "Primeape",
     "baseStats": {
@@ -2940,7 +2865,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 58,
     "name": "Growlithe",
     "baseStats": {
@@ -2985,7 +2909,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 59,
     "name": "Arcanine",
     "baseStats": {
@@ -3032,7 +2955,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 60,
     "name": "Poliwag",
     "baseStats": {
@@ -3072,7 +2994,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 61,
     "name": "Poliwhirl",
     "baseStats": {
@@ -3115,7 +3036,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 62,
     "name": "Poliwrath",
     "baseStats": {
@@ -3155,7 +3075,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 63,
     "name": "Abra",
     "baseStats": {
@@ -3197,7 +3116,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 64,
     "name": "Kadabra",
     "baseStats": {
@@ -3238,7 +3156,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 65,
     "name": "Alakazam",
     "baseStats": {
@@ -3280,7 +3197,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 65,
     "name": "Mega Alakazam",
     "baseStats": {
@@ -3314,7 +3230,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 66,
     "name": "Machop",
     "baseStats": {
@@ -3357,7 +3272,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 67,
     "name": "Machoke",
     "baseStats": {
@@ -3400,7 +3314,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 68,
     "name": "Machamp",
     "baseStats": {
@@ -3445,7 +3358,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 69,
     "name": "Bellsprout",
     "baseStats": {
@@ -3481,7 +3393,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 70,
     "name": "Weepinbell",
     "baseStats": {
@@ -3517,7 +3428,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 71,
     "name": "Victreebel",
     "baseStats": {
@@ -3551,7 +3461,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 72,
     "name": "Tentacool",
     "baseStats": {
@@ -3599,7 +3508,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 73,
     "name": "Tentacruel",
     "baseStats": {
@@ -3647,7 +3555,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 74,
     "name": "Geodude",
     "baseStats": {
@@ -3685,7 +3592,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 74,
     "name": "Alolan Geodude",
     "baseStats": {
@@ -3721,7 +3627,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 75,
     "name": "Graveler",
     "baseStats": {
@@ -3759,7 +3664,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 75,
     "name": "Alolan Graveler",
     "baseStats": {
@@ -3795,7 +3699,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 76,
     "name": "Golem",
     "baseStats": {
@@ -3831,7 +3734,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 76,
     "name": "Alolan Golem",
     "baseStats": {
@@ -3865,7 +3767,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 77,
     "name": "Ponyta",
     "baseStats": {
@@ -3903,7 +3804,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 77,
     "name": "Galarian Ponyta",
     "baseStats": {
@@ -3943,7 +3843,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 78,
     "name": "Rapidash",
     "baseStats": {
@@ -3979,7 +3878,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 78,
     "name": "Galarian Rapidash",
     "baseStats": {
@@ -4019,7 +3917,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 79,
     "name": "Slowpoke",
     "baseStats": {
@@ -4058,7 +3955,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 79,
     "name": "Galarian Slowpoke",
     "baseStats": {
@@ -4105,7 +4001,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 80,
     "name": "Slowbro",
     "baseStats": {
@@ -4142,7 +4037,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 80,
     "name": "Galarian Slowbro",
     "baseStats": {
@@ -4176,7 +4070,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 80,
     "name": "Mega Slowbro",
     "baseStats": {
@@ -4210,7 +4103,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 81,
     "name": "Magnemite",
     "baseStats": {
@@ -4254,7 +4146,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 82,
     "name": "Magneton",
     "baseStats": {
@@ -4298,7 +4189,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 83,
     "name": "Farfetch'd",
     "baseStats": {
@@ -4334,7 +4224,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 83,
     "name": "Galarian Farfetch'd",
     "baseStats": {
@@ -4374,7 +4263,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 84,
     "name": "Doduo",
     "baseStats": {
@@ -4410,7 +4298,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 85,
     "name": "Dodrio",
     "baseStats": {
@@ -4444,7 +4331,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 86,
     "name": "Seel",
     "baseStats": {
@@ -4480,7 +4366,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 87,
     "name": "Dewgong",
     "baseStats": {
@@ -4514,7 +4399,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 88,
     "name": "Grimer",
     "baseStats": {
@@ -4552,7 +4436,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 88,
     "name": "Alolan Grimer",
     "baseStats": {
@@ -4588,7 +4471,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 89,
     "name": "Muk",
     "baseStats": {
@@ -4624,7 +4506,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 89,
     "name": "Alolan Muk",
     "baseStats": {
@@ -4658,7 +4539,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 90,
     "name": "Shellder",
     "baseStats": {
@@ -4704,7 +4584,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 91,
     "name": "Cloyster",
     "baseStats": {
@@ -4756,7 +4635,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 92,
     "name": "Gastly",
     "baseStats": {
@@ -4801,7 +4679,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 93,
     "name": "Haunter",
     "baseStats": {
@@ -4847,7 +4724,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 94,
     "name": "Gengar",
     "baseStats": {
@@ -4891,7 +4767,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 94,
     "name": "Mega Gengar",
     "baseStats": {
@@ -4925,7 +4800,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 95,
     "name": "Onix",
     "baseStats": {
@@ -4974,7 +4848,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 96,
     "name": "Drowzee",
     "baseStats": {
@@ -5010,7 +4883,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 97,
     "name": "Hypno",
     "baseStats": {
@@ -5044,7 +4916,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 98,
     "name": "Krabby",
     "baseStats": {
@@ -5096,7 +4967,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 99,
     "name": "Kingler",
     "baseStats": {
@@ -5150,7 +5020,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 100,
     "name": "Voltorb",
     "baseStats": {
@@ -5186,7 +5055,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 101,
     "name": "Electrode",
     "baseStats": {
@@ -5220,7 +5088,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 102,
     "name": "Exeggcute",
     "baseStats": {
@@ -5265,7 +5132,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 103,
     "name": "Exeggutor",
     "baseStats": {
@@ -5309,7 +5175,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 103,
     "name": "Alolan Exeggutor",
     "baseStats": {
@@ -5343,7 +5208,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 104,
     "name": "Cubone",
     "baseStats": {
@@ -5389,7 +5253,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 105,
     "name": "Marowak",
     "baseStats": {
@@ -5433,7 +5296,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 105,
     "name": "Alolan Marowak",
     "baseStats": {
@@ -5467,7 +5329,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 106,
     "name": "Hitmonlee",
     "baseStats": {
@@ -5506,7 +5367,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 107,
     "name": "Hitmonchan",
     "baseStats": {
@@ -5545,7 +5405,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 108,
     "name": "Lickitung",
     "baseStats": {
@@ -5587,7 +5446,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 109,
     "name": "Koffing",
     "baseStats": {
@@ -5632,7 +5490,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 110,
     "name": "Weezing",
     "baseStats": {
@@ -5668,7 +5525,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 110,
     "name": "Galarian Weezing",
     "baseStats": {
@@ -5714,7 +5570,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 111,
     "name": "Rhyhorn",
     "baseStats": {
@@ -5758,7 +5613,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 112,
     "name": "Rhydon",
     "baseStats": {
@@ -5802,7 +5656,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 113,
     "name": "Chansey",
     "baseStats": {
@@ -5842,7 +5695,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 114,
     "name": "Tangela",
     "baseStats": {
@@ -5888,7 +5740,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 115,
     "name": "Kangaskhan",
     "baseStats": {
@@ -5930,7 +5781,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 115,
     "name": "Mega Kangaskhan",
     "baseStats": {
@@ -5964,7 +5814,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 116,
     "name": "Horsea",
     "baseStats": {
@@ -6006,7 +5855,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 117,
     "name": "Seadra",
     "baseStats": {
@@ -6050,7 +5898,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 118,
     "name": "Goldeen",
     "baseStats": {
@@ -6092,7 +5939,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 119,
     "name": "Seaking",
     "baseStats": {
@@ -6132,7 +5978,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 120,
     "name": "Staryu",
     "baseStats": {
@@ -6178,7 +6023,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 121,
     "name": "Starmie",
     "baseStats": {
@@ -6224,7 +6068,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 122,
     "name": "Mr Mime",
     "baseStats": {
@@ -6260,7 +6103,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 122,
     "name": "Galarian Mr Mime",
     "baseStats": {
@@ -6317,7 +6159,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 123,
     "name": "Scyther",
     "baseStats": {
@@ -6360,7 +6201,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 124,
     "name": "Jynx",
     "baseStats": {
@@ -6400,7 +6240,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 125,
     "name": "Electabuzz",
     "baseStats": {
@@ -6442,7 +6281,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 126,
     "name": "Magmar",
     "baseStats": {
@@ -6484,7 +6322,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 127,
     "name": "Pinsir",
     "baseStats": {
@@ -6524,7 +6361,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 127,
     "name": "Mega Pinsir",
     "baseStats": {
@@ -6558,7 +6394,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 128,
     "name": "Tauros",
     "baseStats": {
@@ -6602,7 +6437,6 @@
     ]
   },
   {
-    "isGen9": true,
     "dexId": 128,
     "name": "Paldean Tauros",
     "baseStats": {
@@ -6620,9 +6454,9 @@
     "weight": 115,
     "height": 1.4,
     "evolutions": [],
-    "generation": "SvarletViolet",
+    "generation": "ScarletViolet",
     "genderRatio": "100% ♂",
-    "eggGroup1": "Field ?",
+    "eggGroup1": "Field",
     "eggGroup2": null,
     "abilities": {
       "ability1": "Intimidate",
@@ -6640,7 +6474,6 @@
     ]
   },
   {
-    "isGen9": true,
     "dexId": 128,
     "name": "Paldean Fire Tauros",
     "baseStats": {
@@ -6655,12 +6488,12 @@
     "catchRate": 45,
     "type1": "Fighting",
     "type2": "Fire",
-    "weight": 115,
+    "weight": 85,
     "height": 1.4,
     "evolutions": [],
     "generation": "SvarletViolet",
     "genderRatio": "100% ♂",
-    "eggGroup1": "Field ?",
+    "eggGroup1": "Field",
     "eggGroup2": null,
     "abilities": {
       "ability1": "Intimidate",
@@ -6678,7 +6511,6 @@
     ]
   },
   {
-    "isGen9": true,
     "dexId": 128,
     "name": "Paldean Water Tauros",
     "baseStats": {
@@ -6693,12 +6525,12 @@
     "catchRate": 45,
     "type1": "Fighting",
     "type2": "Water",
-    "weight": 115,
+    "weight": 110,
     "height": 1.4,
     "evolutions": [],
-    "generation": "SvarletViolet",
+    "generation": "ScarletViolet",
     "genderRatio": "100% ♂",
-    "eggGroup1": "Field ?",
+    "eggGroup1": "Field",
     "eggGroup2": null,
     "abilities": {
       "ability1": "Intimidate",
@@ -6716,7 +6548,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 129,
     "name": "Magikarp",
     "baseStats": {
@@ -6764,7 +6595,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 130,
     "name": "Gyarados",
     "baseStats": {
@@ -6824,7 +6654,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 130,
     "name": "Mega Gyarados",
     "baseStats": {
@@ -6858,7 +6687,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 131,
     "name": "Lapras",
     "baseStats": {
@@ -6911,7 +6739,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 132,
     "name": "Ditto",
     "baseStats": {
@@ -6953,7 +6780,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 133,
     "name": "Eevee",
     "baseStats": {
@@ -7006,7 +6832,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 134,
     "name": "Vaporeon",
     "baseStats": {
@@ -7048,7 +6873,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 135,
     "name": "Jolteon",
     "baseStats": {
@@ -7090,7 +6914,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 136,
     "name": "Flareon",
     "baseStats": {
@@ -7132,7 +6955,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 137,
     "name": "Porygon",
     "baseStats": {
@@ -7168,7 +6990,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 138,
     "name": "Omanyte",
     "baseStats": {
@@ -7209,7 +7030,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 139,
     "name": "Omastar",
     "baseStats": {
@@ -7248,7 +7068,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 140,
     "name": "Kabuto",
     "baseStats": {
@@ -7289,7 +7108,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 141,
     "name": "Kabutops",
     "baseStats": {
@@ -7328,7 +7146,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 142,
     "name": "Aerodactyl",
     "baseStats": {
@@ -7372,7 +7189,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 142,
     "name": "Mega Aerodactyl",
     "baseStats": {
@@ -7406,7 +7222,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 143,
     "name": "Snorlax",
     "baseStats": {
@@ -7452,7 +7267,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 144,
     "name": "Articuno",
     "baseStats": {
@@ -7488,7 +7302,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 144,
     "name": "Galarian Articuno",
     "baseStats": {
@@ -7522,7 +7335,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 145,
     "name": "Zapdos",
     "baseStats": {
@@ -7558,7 +7370,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 145,
     "name": "Galarian Zapdos",
     "baseStats": {
@@ -7592,7 +7403,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 146,
     "name": "Moltres",
     "baseStats": {
@@ -7628,7 +7438,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 146,
     "name": "Galarian Moltres",
     "baseStats": {
@@ -7662,7 +7471,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 147,
     "name": "Dratini",
     "baseStats": {
@@ -7702,7 +7510,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 148,
     "name": "Dragonair",
     "baseStats": {
@@ -7738,7 +7545,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 149,
     "name": "Dragonite",
     "baseStats": {
@@ -7776,7 +7582,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 151,
     "name": "Mew",
     "baseStats": {
@@ -7810,7 +7615,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 150,
     "name": "Mewtwo",
     "baseStats": {
@@ -7847,7 +7651,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 150,
     "name": "MegaX Mewtwo",
     "baseStats": {
@@ -7881,7 +7684,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 150,
     "name": "MegaY Mewtwo",
     "baseStats": {
@@ -7915,7 +7717,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 152,
     "name": "Chikorita",
     "baseStats": {
@@ -7951,7 +7752,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 153,
     "name": "Bayleef",
     "baseStats": {
@@ -7987,7 +7787,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 154,
     "name": "Meganium",
     "baseStats": {
@@ -8021,7 +7820,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 155,
     "name": "Cyndaquil",
     "baseStats": {
@@ -8057,7 +7855,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 156,
     "name": "Quilava",
     "baseStats": {
@@ -8093,7 +7890,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 157,
     "name": "Typhlosion",
     "baseStats": {
@@ -8127,7 +7923,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 158,
     "name": "Totodile",
     "baseStats": {
@@ -8163,7 +7958,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 159,
     "name": "Croconaw",
     "baseStats": {
@@ -8199,7 +7993,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 160,
     "name": "Feraligatr",
     "baseStats": {
@@ -8233,7 +8026,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 161,
     "name": "Sentret",
     "baseStats": {
@@ -8269,7 +8061,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 162,
     "name": "Furret",
     "baseStats": {
@@ -8303,7 +8094,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 163,
     "name": "Hoothoot",
     "baseStats": {
@@ -8351,7 +8141,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 164,
     "name": "Noctowl",
     "baseStats": {
@@ -8397,7 +8186,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 165,
     "name": "Ledyba",
     "baseStats": {
@@ -8433,7 +8221,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 166,
     "name": "Ledian",
     "baseStats": {
@@ -8467,7 +8254,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 167,
     "name": "Spinarak",
     "baseStats": {
@@ -8503,7 +8289,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 168,
     "name": "Ariados",
     "baseStats": {
@@ -8537,7 +8322,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 169,
     "name": "Crobat",
     "baseStats": {
@@ -8579,7 +8363,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 170,
     "name": "Chinchou",
     "baseStats": {
@@ -8631,7 +8414,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 171,
     "name": "Lanturn",
     "baseStats": {
@@ -8683,7 +8465,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 172,
     "name": "Pichu",
     "baseStats": {
@@ -8727,7 +8508,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 173,
     "name": "Cleffa",
     "baseStats": {
@@ -8771,7 +8551,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 174,
     "name": "Igglybuff",
     "baseStats": {
@@ -8813,7 +8592,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 175,
     "name": "Togepi",
     "baseStats": {
@@ -8861,7 +8639,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 176,
     "name": "Togetic",
     "baseStats": {
@@ -8909,7 +8686,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 177,
     "name": "Natu",
     "baseStats": {
@@ -8959,7 +8735,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 178,
     "name": "Xatu",
     "baseStats": {
@@ -9007,7 +8782,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 179,
     "name": "Mareep",
     "baseStats": {
@@ -9043,7 +8817,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 180,
     "name": "Flaaffy",
     "baseStats": {
@@ -9079,7 +8852,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 181,
     "name": "Ampharos",
     "baseStats": {
@@ -9115,7 +8887,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 181,
     "name": "Mega Ampharos",
     "baseStats": {
@@ -9149,7 +8920,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 182,
     "name": "Bellossom",
     "baseStats": {
@@ -9187,7 +8957,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 183,
     "name": "Marill",
     "baseStats": {
@@ -9229,7 +8998,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 184,
     "name": "Azumarill",
     "baseStats": {
@@ -9269,7 +9037,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 185,
     "name": "Sudowoodo",
     "baseStats": {
@@ -9311,7 +9078,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 186,
     "name": "Politoed",
     "baseStats": {
@@ -9351,7 +9117,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 187,
     "name": "Hoppip",
     "baseStats": {
@@ -9387,7 +9152,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 188,
     "name": "Skiploom",
     "baseStats": {
@@ -9423,7 +9187,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 189,
     "name": "Jumpluff",
     "baseStats": {
@@ -9457,7 +9220,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 190,
     "name": "Aipom",
     "baseStats": {
@@ -9493,7 +9255,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 191,
     "name": "Sunkern",
     "baseStats": {
@@ -9529,7 +9290,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 192,
     "name": "Sunflora",
     "baseStats": {
@@ -9563,7 +9323,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 193,
     "name": "Yanma",
     "baseStats": {
@@ -9599,7 +9358,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 194,
     "name": "Wooper",
     "baseStats": {
@@ -9649,7 +9407,6 @@
     ]
   },
   {
-    "isGen9": true,
     "dexId": 194,
     "name": "Paldean Wooper",
     "baseStats": {
@@ -9685,7 +9442,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 195,
     "name": "Quagsire",
     "baseStats": {
@@ -9733,7 +9489,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 196,
     "name": "Espeon",
     "baseStats": {
@@ -9775,7 +9530,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 197,
     "name": "Umbreon",
     "baseStats": {
@@ -9813,7 +9567,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 198,
     "name": "Murkrow",
     "baseStats": {
@@ -9849,7 +9602,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 199,
     "name": "Slowking",
     "baseStats": {
@@ -9885,7 +9637,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 199,
     "name": "Galarian Slowking",
     "baseStats": {
@@ -9919,7 +9670,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 200,
     "name": "Misdreavus",
     "baseStats": {
@@ -9955,7 +9705,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 201,
     "name": "Unown",
     "baseStats": {
@@ -10018,7 +9767,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 202,
     "name": "Wobbuffet",
     "baseStats": {
@@ -10056,7 +9804,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 203,
     "name": "Girafarig",
     "baseStats": {
@@ -10090,7 +9837,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 204,
     "name": "Pineco",
     "baseStats": {
@@ -10126,7 +9872,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 205,
     "name": "Forretress",
     "baseStats": {
@@ -10160,7 +9905,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 206,
     "name": "Dunsparce",
     "baseStats": {
@@ -10200,7 +9944,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 207,
     "name": "Gligar",
     "baseStats": {
@@ -10236,7 +9979,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 208,
     "name": "Steelix",
     "baseStats": {
@@ -10286,7 +10028,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 208,
     "name": "Mega Steelix",
     "baseStats": {
@@ -10320,7 +10061,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 209,
     "name": "Snubbull",
     "baseStats": {
@@ -10356,7 +10096,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 210,
     "name": "Granbull",
     "baseStats": {
@@ -10390,7 +10129,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 211,
     "name": "Qwilfish",
     "baseStats": {
@@ -10442,7 +10180,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 211,
     "name": "Hisuian Qwilfish",
     "baseStats": {
@@ -10478,7 +10215,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 212,
     "name": "Scizor",
     "baseStats": {
@@ -10520,7 +10256,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 212,
     "name": "Mega Scizor",
     "baseStats": {
@@ -10554,7 +10289,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 213,
     "name": "Shuckle",
     "baseStats": {
@@ -10598,7 +10332,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 214,
     "name": "Heracross",
     "baseStats": {
@@ -10638,7 +10371,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 214,
     "name": "Mega Heracross",
     "baseStats": {
@@ -10672,7 +10404,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 215,
     "name": "Sneasel",
     "baseStats": {
@@ -10724,7 +10455,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 215,
     "name": "Hisuian Sneasel",
     "baseStats": {
@@ -10762,7 +10492,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 216,
     "name": "Teddiursa",
     "baseStats": {
@@ -10799,7 +10528,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 217,
     "name": "Ursaring",
     "baseStats": {
@@ -10835,7 +10563,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 218,
     "name": "Slugma",
     "baseStats": {
@@ -10871,7 +10598,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 219,
     "name": "Magcargo",
     "baseStats": {
@@ -10905,7 +10631,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 220,
     "name": "Swinub",
     "baseStats": {
@@ -10950,7 +10675,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 221,
     "name": "Piloswine",
     "baseStats": {
@@ -10996,7 +10720,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 222,
     "name": "Corsola",
     "baseStats": {
@@ -11032,7 +10755,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 222,
     "name": "Galarian Corsola",
     "baseStats": {
@@ -11073,7 +10795,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 223,
     "name": "Remoraid",
     "baseStats": {
@@ -11121,7 +10842,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 224,
     "name": "Octillery",
     "baseStats": {
@@ -11167,7 +10887,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 225,
     "name": "Delibird",
     "baseStats": {
@@ -11213,7 +10932,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 226,
     "name": "Mantine",
     "baseStats": {
@@ -11259,7 +10977,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 227,
     "name": "Skarmory",
     "baseStats": {
@@ -11299,7 +11016,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 228,
     "name": "Houndour",
     "baseStats": {
@@ -11335,7 +11051,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 229,
     "name": "Houndoom",
     "baseStats": {
@@ -11371,7 +11086,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 229,
     "name": "Mega Houndoom",
     "baseStats": {
@@ -11405,7 +11119,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 230,
     "name": "Kingdra",
     "baseStats": {
@@ -11445,7 +11158,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 231,
     "name": "Phanpy",
     "baseStats": {
@@ -11481,7 +11193,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 232,
     "name": "Donphan",
     "baseStats": {
@@ -11515,7 +11226,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 233,
     "name": "Porygon2",
     "baseStats": {
@@ -11551,7 +11261,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 234,
     "name": "Stantler",
     "baseStats": {
@@ -11587,7 +11296,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 235,
     "name": "Smeargle",
     "baseStats": {
@@ -11621,7 +11329,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 236,
     "name": "Tyrogue",
     "baseStats": {
@@ -11667,7 +11374,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 237,
     "name": "Hitmontop",
     "baseStats": {
@@ -11707,7 +11413,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 238,
     "name": "Smoochum",
     "baseStats": {
@@ -11749,7 +11454,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 239,
     "name": "Elekid",
     "baseStats": {
@@ -11791,7 +11495,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 240,
     "name": "Magby",
     "baseStats": {
@@ -11833,7 +11536,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 241,
     "name": "Miltank",
     "baseStats": {
@@ -11873,7 +11575,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 242,
     "name": "Blissey",
     "baseStats": {
@@ -11911,7 +11612,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 243,
     "name": "Raikou",
     "baseStats": {
@@ -11945,7 +11645,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 244,
     "name": "Entei",
     "baseStats": {
@@ -11979,7 +11678,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 245,
     "name": "Suicune",
     "baseStats": {
@@ -12013,7 +11711,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 246,
     "name": "Larvitar",
     "baseStats": {
@@ -12051,7 +11748,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 247,
     "name": "Pupitar",
     "baseStats": {
@@ -12089,7 +11785,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 248,
     "name": "Tyranitar",
     "baseStats": {
@@ -12130,7 +11825,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 248,
     "name": "Mega Tyranitar",
     "baseStats": {
@@ -12164,7 +11858,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 249,
     "name": "Lugia",
     "baseStats": {
@@ -12198,7 +11891,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 250,
     "name": "Ho-Oh",
     "baseStats": {
@@ -12232,7 +11924,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 251,
     "name": "Celebi",
     "baseStats": {
@@ -12266,7 +11957,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 252,
     "name": "Treecko",
     "baseStats": {
@@ -12302,7 +11992,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 253,
     "name": "Grovyle",
     "baseStats": {
@@ -12338,7 +12027,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 254,
     "name": "Sceptile",
     "baseStats": {
@@ -12374,7 +12062,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 254,
     "name": "Mega Sceptile",
     "baseStats": {
@@ -12408,7 +12095,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 255,
     "name": "Torchic",
     "baseStats": {
@@ -12444,7 +12130,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 256,
     "name": "Combusken",
     "baseStats": {
@@ -12480,7 +12165,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 257,
     "name": "Blaziken",
     "baseStats": {
@@ -12516,7 +12200,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 257,
     "name": "Mega Blaziken",
     "baseStats": {
@@ -12550,7 +12233,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 258,
     "name": "Mudkip",
     "baseStats": {
@@ -12586,7 +12268,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 259,
     "name": "Marshtomp",
     "baseStats": {
@@ -12622,7 +12303,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 260,
     "name": "Swampert",
     "baseStats": {
@@ -12658,7 +12338,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 260,
     "name": "Mega Swampert",
     "baseStats": {
@@ -12692,7 +12371,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 261,
     "name": "Poochyena",
     "baseStats": {
@@ -12728,7 +12406,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 262,
     "name": "Mightyena",
     "baseStats": {
@@ -12762,7 +12439,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 263,
     "name": "Zigzagoon",
     "baseStats": {
@@ -12800,7 +12476,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 263,
     "name": "Galarian Zigzagoon",
     "baseStats": {
@@ -12848,7 +12523,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 264,
     "name": "Linoone",
     "baseStats": {
@@ -12884,7 +12558,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 264,
     "name": "Galarian Linoone",
     "baseStats": {
@@ -12934,7 +12607,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 265,
     "name": "Wurmple",
     "baseStats": {
@@ -12971,7 +12643,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 266,
     "name": "Silcoon",
     "baseStats": {
@@ -13007,7 +12678,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 267,
     "name": "Beautifly",
     "baseStats": {
@@ -13041,7 +12711,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 268,
     "name": "Cascoon",
     "baseStats": {
@@ -13077,7 +12746,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 269,
     "name": "Dustox",
     "baseStats": {
@@ -13111,7 +12779,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 270,
     "name": "Lotad",
     "baseStats": {
@@ -13152,7 +12819,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 271,
     "name": "Lombre",
     "baseStats": {
@@ -13193,7 +12859,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 272,
     "name": "Ludicolo",
     "baseStats": {
@@ -13232,7 +12897,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 273,
     "name": "Seedot",
     "baseStats": {
@@ -13273,7 +12937,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 274,
     "name": "Nuzleaf",
     "baseStats": {
@@ -13314,7 +12977,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 275,
     "name": "Shiftry",
     "baseStats": {
@@ -13354,7 +13016,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 276,
     "name": "Taillow",
     "baseStats": {
@@ -13390,7 +13051,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 277,
     "name": "Swellow",
     "baseStats": {
@@ -13424,7 +13084,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 278,
     "name": "Wingull",
     "baseStats": {
@@ -13468,7 +13127,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 279,
     "name": "Pelipper",
     "baseStats": {
@@ -13512,7 +13170,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 280,
     "name": "Ralts",
     "baseStats": {
@@ -13566,7 +13223,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 281,
     "name": "Kirlia",
     "baseStats": {
@@ -13615,7 +13271,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 282,
     "name": "Gardevoir",
     "baseStats": {
@@ -13673,7 +13328,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 282,
     "name": "Mega Gardevoir",
     "baseStats": {
@@ -13707,7 +13361,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 283,
     "name": "Surskit",
     "baseStats": {
@@ -13743,7 +13396,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 284,
     "name": "Masquerain",
     "baseStats": {
@@ -13777,7 +13429,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 285,
     "name": "Shroomish",
     "baseStats": {
@@ -13813,7 +13464,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 286,
     "name": "Breloom",
     "baseStats": {
@@ -13847,7 +13497,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 287,
     "name": "Slakoth",
     "baseStats": {
@@ -13883,7 +13532,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 288,
     "name": "Vigoroth",
     "baseStats": {
@@ -13919,7 +13567,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 289,
     "name": "Slaking",
     "baseStats": {
@@ -13953,7 +13600,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 290,
     "name": "Nincada",
     "baseStats": {
@@ -13996,7 +13642,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 291,
     "name": "Ninjask",
     "baseStats": {
@@ -14036,7 +13681,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 292,
     "name": "Shedinja",
     "baseStats": {
@@ -14074,7 +13718,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 293,
     "name": "Whismur",
     "baseStats": {
@@ -14116,7 +13759,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 294,
     "name": "Loudred",
     "baseStats": {
@@ -14156,7 +13798,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 295,
     "name": "Exploud",
     "baseStats": {
@@ -14196,7 +13837,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 296,
     "name": "Makuhita",
     "baseStats": {
@@ -14232,7 +13872,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 297,
     "name": "Hariyama",
     "baseStats": {
@@ -14266,7 +13905,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 298,
     "name": "Azurill",
     "baseStats": {
@@ -14306,7 +13944,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 299,
     "name": "Nosepass",
     "baseStats": {
@@ -14342,7 +13979,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 300,
     "name": "Skitty",
     "baseStats": {
@@ -14378,7 +14014,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 301,
     "name": "Delcatty",
     "baseStats": {
@@ -14412,7 +14047,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 302,
     "name": "Sableye",
     "baseStats": {
@@ -14457,7 +14091,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 302,
     "name": "Mega Sableye",
     "baseStats": {
@@ -14491,7 +14124,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 303,
     "name": "Mawile",
     "baseStats": {
@@ -14532,7 +14164,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 303,
     "name": "Mega Mawile",
     "baseStats": {
@@ -14566,7 +14197,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 304,
     "name": "Aron",
     "baseStats": {
@@ -14612,7 +14242,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 305,
     "name": "Lairon",
     "baseStats": {
@@ -14658,7 +14287,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 306,
     "name": "Aggron",
     "baseStats": {
@@ -14704,7 +14332,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 306,
     "name": "Mega Aggron",
     "baseStats": {
@@ -14738,7 +14365,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 307,
     "name": "Meditite",
     "baseStats": {
@@ -14774,7 +14400,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 308,
     "name": "Medicham",
     "baseStats": {
@@ -14810,7 +14435,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 308,
     "name": "Mega Medicham",
     "baseStats": {
@@ -14844,7 +14468,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 309,
     "name": "Electrike",
     "baseStats": {
@@ -14886,7 +14509,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 310,
     "name": "Manectric",
     "baseStats": {
@@ -14928,7 +14550,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 310,
     "name": "Mega Manectric",
     "baseStats": {
@@ -14962,7 +14583,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 311,
     "name": "Plusle",
     "baseStats": {
@@ -14996,7 +14616,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 312,
     "name": "Minun",
     "baseStats": {
@@ -15030,7 +14649,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 313,
     "name": "Volbeat",
     "baseStats": {
@@ -15064,7 +14682,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 314,
     "name": "Illumise",
     "baseStats": {
@@ -15098,7 +14715,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 315,
     "name": "Roselia",
     "baseStats": {
@@ -15152,7 +14768,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 316,
     "name": "Gulpin",
     "baseStats": {
@@ -15188,7 +14803,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 317,
     "name": "Swalot",
     "baseStats": {
@@ -15222,7 +14836,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 318,
     "name": "Carvanha",
     "baseStats": {
@@ -15264,7 +14877,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 319,
     "name": "Sharpedo",
     "baseStats": {
@@ -15310,7 +14922,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 319,
     "name": "Mega Sharpedo",
     "baseStats": {
@@ -15344,7 +14955,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 320,
     "name": "Wailmer",
     "baseStats": {
@@ -15392,7 +15002,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 321,
     "name": "Wailord",
     "baseStats": {
@@ -15436,7 +15045,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 322,
     "name": "Numel",
     "baseStats": {
@@ -15472,7 +15080,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 323,
     "name": "Camerupt",
     "baseStats": {
@@ -15508,7 +15115,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 323,
     "name": "Mega Camerupt",
     "baseStats": {
@@ -15542,7 +15148,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 324,
     "name": "Torkoal",
     "baseStats": {
@@ -15598,7 +15203,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 325,
     "name": "Spoink",
     "baseStats": {
@@ -15634,7 +15238,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 326,
     "name": "Grumpig",
     "baseStats": {
@@ -15668,7 +15271,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 327,
     "name": "Spinda",
     "baseStats": {
@@ -15704,7 +15306,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 328,
     "name": "Trapinch",
     "baseStats": {
@@ -15750,7 +15351,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 329,
     "name": "Vibrava",
     "baseStats": {
@@ -15793,7 +15393,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 330,
     "name": "Flygon",
     "baseStats": {
@@ -15836,7 +15435,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 331,
     "name": "Cacnea",
     "baseStats": {
@@ -15872,7 +15470,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 332,
     "name": "Cacturne",
     "baseStats": {
@@ -15906,7 +15503,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 333,
     "name": "Swablu",
     "baseStats": {
@@ -15950,7 +15546,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 334,
     "name": "Altaria",
     "baseStats": {
@@ -15996,7 +15591,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 334,
     "name": "Mega Altaria",
     "baseStats": {
@@ -16030,7 +15624,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 335,
     "name": "Zangoose",
     "baseStats": {
@@ -16064,7 +15657,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 336,
     "name": "Seviper",
     "baseStats": {
@@ -16098,7 +15690,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 337,
     "name": "Lunatone",
     "baseStats": {
@@ -16134,7 +15725,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 338,
     "name": "Solrock",
     "baseStats": {
@@ -16170,7 +15760,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 339,
     "name": "Barboach",
     "baseStats": {
@@ -16220,7 +15809,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 340,
     "name": "Whiscash",
     "baseStats": {
@@ -16268,7 +15856,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 341,
     "name": "Corphish",
     "baseStats": {
@@ -16316,7 +15903,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 342,
     "name": "Crawdaunt",
     "baseStats": {
@@ -16366,7 +15952,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 343,
     "name": "Baltoy",
     "baseStats": {
@@ -16407,7 +15992,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 344,
     "name": "Claydol",
     "baseStats": {
@@ -16447,7 +16031,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 345,
     "name": "Lileep",
     "baseStats": {
@@ -16490,7 +16073,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 346,
     "name": "Cradily",
     "baseStats": {
@@ -16532,7 +16114,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 347,
     "name": "Anorith",
     "baseStats": {
@@ -16575,7 +16156,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 348,
     "name": "Armaldo",
     "baseStats": {
@@ -16616,7 +16196,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 349,
     "name": "Feebas",
     "baseStats": {
@@ -16660,7 +16239,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 350,
     "name": "Milotic",
     "baseStats": {
@@ -16702,7 +16280,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 351,
     "name": "Castform",
     "baseStats": {
@@ -16740,7 +16317,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 352,
     "name": "Kecleon",
     "baseStats": {
@@ -16774,7 +16350,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 353,
     "name": "Shuppet",
     "baseStats": {
@@ -16810,7 +16385,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 354,
     "name": "Banette",
     "baseStats": {
@@ -16846,7 +16420,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 354,
     "name": "Mega Banette",
     "baseStats": {
@@ -16880,7 +16453,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 355,
     "name": "Duskull",
     "baseStats": {
@@ -16922,7 +16494,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 356,
     "name": "Dusclops",
     "baseStats": {
@@ -16964,7 +16535,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 357,
     "name": "Tropius",
     "baseStats": {
@@ -16998,7 +16568,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 358,
     "name": "Chimecho",
     "baseStats": {
@@ -17032,7 +16601,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 359,
     "name": "Absol",
     "baseStats": {
@@ -17074,7 +16642,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 359,
     "name": "Mega Absol",
     "baseStats": {
@@ -17108,7 +16675,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 360,
     "name": "Wynaut",
     "baseStats": {
@@ -17148,7 +16714,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 361,
     "name": "Snorunt",
     "baseStats": {
@@ -17198,7 +16763,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 362,
     "name": "Glalie",
     "baseStats": {
@@ -17247,7 +16811,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 362,
     "name": "Mega Glalie",
     "baseStats": {
@@ -17281,7 +16844,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 363,
     "name": "Spheal",
     "baseStats": {
@@ -17323,7 +16885,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 364,
     "name": "Sealeo",
     "baseStats": {
@@ -17365,7 +16926,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 365,
     "name": "Walrein",
     "baseStats": {
@@ -17405,7 +16965,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 366,
     "name": "Clamperl",
     "baseStats": {
@@ -17442,7 +17001,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 367,
     "name": "Huntail",
     "baseStats": {
@@ -17476,7 +17034,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 368,
     "name": "Gorebyss",
     "baseStats": {
@@ -17510,7 +17067,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 369,
     "name": "Relicanth",
     "baseStats": {
@@ -17550,7 +17106,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 370,
     "name": "Luvdisc",
     "baseStats": {
@@ -17584,7 +17139,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 371,
     "name": "Bagon",
     "baseStats": {
@@ -17623,7 +17177,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 372,
     "name": "Shelgon",
     "baseStats": {
@@ -17662,7 +17215,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 373,
     "name": "Salamence",
     "baseStats": {
@@ -17701,7 +17253,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 373,
     "name": "Mega Salamence",
     "baseStats": {
@@ -17735,7 +17286,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 374,
     "name": "Beldum",
     "baseStats": {
@@ -17775,7 +17325,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 375,
     "name": "Metang",
     "baseStats": {
@@ -17817,7 +17366,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 376,
     "name": "Metagross",
     "baseStats": {
@@ -17859,7 +17407,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 376,
     "name": "Mega Metagross",
     "baseStats": {
@@ -17893,7 +17440,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 377,
     "name": "Regirock",
     "baseStats": {
@@ -17927,7 +17473,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 378,
     "name": "Regice",
     "baseStats": {
@@ -17961,7 +17506,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 379,
     "name": "Registeel",
     "baseStats": {
@@ -17995,7 +17539,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 380,
     "name": "Latias",
     "baseStats": {
@@ -18031,7 +17574,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 380,
     "name": "Mega Latias",
     "baseStats": {
@@ -18065,7 +17607,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 381,
     "name": "Latios",
     "baseStats": {
@@ -18101,7 +17642,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 381,
     "name": "Mega Latios",
     "baseStats": {
@@ -18135,7 +17675,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 382,
     "name": "Kyogre",
     "baseStats": {
@@ -18171,7 +17710,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 382,
     "name": "Primal Kyogre",
     "baseStats": {
@@ -18205,7 +17743,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 383,
     "name": "Groudon",
     "baseStats": {
@@ -18241,7 +17778,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 383,
     "name": "Primal Groudon",
     "baseStats": {
@@ -18275,7 +17811,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 384,
     "name": "Rayquaza",
     "baseStats": {
@@ -18311,7 +17846,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 384,
     "name": "Mega Rayquaza",
     "baseStats": {
@@ -18345,7 +17879,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 385,
     "name": "Jirachi",
     "baseStats": {
@@ -18379,7 +17912,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 386,
     "name": "Deoxys",
     "baseStats": {
@@ -18417,7 +17949,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 386,
     "name": "Attack Deoxys",
     "baseStats": {
@@ -18451,7 +17982,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 386,
     "name": "Defense Deoxys",
     "baseStats": {
@@ -18485,7 +18015,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 386,
     "name": "Speed Deoxys",
     "baseStats": {
@@ -18519,7 +18048,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 387,
     "name": "Turtwig",
     "baseStats": {
@@ -18555,7 +18083,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 388,
     "name": "Grotle",
     "baseStats": {
@@ -18591,7 +18118,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 389,
     "name": "Torterra",
     "baseStats": {
@@ -18625,7 +18151,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 390,
     "name": "Chimchar",
     "baseStats": {
@@ -18661,7 +18186,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 391,
     "name": "Monferno",
     "baseStats": {
@@ -18697,7 +18221,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 392,
     "name": "Infernape",
     "baseStats": {
@@ -18731,7 +18254,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 393,
     "name": "Piplup",
     "baseStats": {
@@ -18767,7 +18289,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 394,
     "name": "Prinplup",
     "baseStats": {
@@ -18803,7 +18324,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 395,
     "name": "Empoleon",
     "baseStats": {
@@ -18837,7 +18357,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 396,
     "name": "Starly",
     "baseStats": {
@@ -18873,7 +18392,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 397,
     "name": "Staravia",
     "baseStats": {
@@ -18909,7 +18427,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 398,
     "name": "Staraptor",
     "baseStats": {
@@ -18943,7 +18460,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 399,
     "name": "Bidoof",
     "baseStats": {
@@ -18979,7 +18495,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 400,
     "name": "Bibarel",
     "baseStats": {
@@ -19013,7 +18528,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 401,
     "name": "Kricketot",
     "baseStats": {
@@ -19049,7 +18563,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 402,
     "name": "Kricketune",
     "baseStats": {
@@ -19083,7 +18596,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 403,
     "name": "Shinx",
     "baseStats": {
@@ -19125,7 +18637,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 404,
     "name": "Luxio",
     "baseStats": {
@@ -19167,7 +18678,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 405,
     "name": "Luxray",
     "baseStats": {
@@ -19207,7 +18717,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 406,
     "name": "Budew",
     "baseStats": {
@@ -19253,7 +18762,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 407,
     "name": "Roserade",
     "baseStats": {
@@ -19295,7 +18803,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 408,
     "name": "Cranidos",
     "baseStats": {
@@ -19331,7 +18838,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 409,
     "name": "Rampardos",
     "baseStats": {
@@ -19365,7 +18871,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 410,
     "name": "Shieldon",
     "baseStats": {
@@ -19401,7 +18906,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 411,
     "name": "Bastiodon",
     "baseStats": {
@@ -19435,7 +18939,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 412,
     "name": "Burmy",
     "baseStats": {
@@ -19478,7 +18981,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 413,
     "name": "Wormadam",
     "baseStats": {
@@ -19516,7 +19018,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 413,
     "name": "Wormadam Sandy Cloak",
     "baseStats": {
@@ -19550,7 +19051,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 413,
     "name": "Wormadam Trash Cloak",
     "baseStats": {
@@ -19584,7 +19084,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 414,
     "name": "Mothim",
     "baseStats": {
@@ -19618,7 +19117,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 415,
     "name": "Combee",
     "baseStats": {
@@ -19662,7 +19160,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 416,
     "name": "Vespiquen",
     "baseStats": {
@@ -19704,7 +19201,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 417,
     "name": "Pachirisu",
     "baseStats": {
@@ -19738,7 +19234,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 418,
     "name": "Buizel",
     "baseStats": {
@@ -19774,7 +19269,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 419,
     "name": "Floatzel",
     "baseStats": {
@@ -19808,7 +19302,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 420,
     "name": "Cherubi",
     "baseStats": {
@@ -19854,7 +19347,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 421,
     "name": "Cherrim",
     "baseStats": {
@@ -19899,7 +19391,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 422,
     "name": "Shellos",
     "baseStats": {
@@ -19944,7 +19435,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 423,
     "name": "Gastrodon",
     "baseStats": {
@@ -19993,7 +19483,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 424,
     "name": "Ambipom",
     "baseStats": {
@@ -20027,7 +19516,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 425,
     "name": "Drifloon",
     "baseStats": {
@@ -20075,7 +19563,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 426,
     "name": "Drifblim",
     "baseStats": {
@@ -20121,7 +19608,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 427,
     "name": "Buneary",
     "baseStats": {
@@ -20163,7 +19649,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 428,
     "name": "Lopunny",
     "baseStats": {
@@ -20205,7 +19690,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 428,
     "name": "Mega Lopunny",
     "baseStats": {
@@ -20239,7 +19723,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 429,
     "name": "Mismagius",
     "baseStats": {
@@ -20273,7 +19756,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 430,
     "name": "Honchkrow",
     "baseStats": {
@@ -20307,7 +19789,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 431,
     "name": "Glameow",
     "baseStats": {
@@ -20343,7 +19824,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 432,
     "name": "Purugly",
     "baseStats": {
@@ -20377,7 +19857,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 433,
     "name": "Chingling",
     "baseStats": {
@@ -20413,7 +19892,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 434,
     "name": "Stunky",
     "baseStats": {
@@ -20459,7 +19937,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 435,
     "name": "Skuntank",
     "baseStats": {
@@ -20503,7 +19980,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 436,
     "name": "Bronzor",
     "baseStats": {
@@ -20561,7 +20037,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 437,
     "name": "Bronzong",
     "baseStats": {
@@ -20615,7 +20090,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 438,
     "name": "Bonsly",
     "baseStats": {
@@ -20660,7 +20134,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 439,
     "name": "Mime Jr",
     "baseStats": {
@@ -20707,7 +20180,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 440,
     "name": "Happiny",
     "baseStats": {
@@ -20747,7 +20219,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 441,
     "name": "Chatot",
     "baseStats": {
@@ -20781,7 +20252,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 442,
     "name": "Spiritomb",
     "baseStats": {
@@ -20815,7 +20285,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 443,
     "name": "Gible",
     "baseStats": {
@@ -20854,7 +20323,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 444,
     "name": "Gabite",
     "baseStats": {
@@ -20893,7 +20361,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 445,
     "name": "Garchomp",
     "baseStats": {
@@ -20932,7 +20399,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 445,
     "name": "Mega Garchomp",
     "baseStats": {
@@ -20966,7 +20432,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 446,
     "name": "Munchlax",
     "baseStats": {
@@ -21008,7 +20473,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 447,
     "name": "Riolu",
     "baseStats": {
@@ -21053,7 +20517,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 448,
     "name": "Lucario",
     "baseStats": {
@@ -21098,7 +20561,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 448,
     "name": "Mega Lucario",
     "baseStats": {
@@ -21132,7 +20594,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 449,
     "name": "Hippopotas",
     "baseStats": {
@@ -21172,7 +20633,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 450,
     "name": "Hippowdon",
     "baseStats": {
@@ -21210,7 +20670,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 451,
     "name": "Skorupi",
     "baseStats": {
@@ -21258,7 +20717,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 452,
     "name": "Drapion",
     "baseStats": {
@@ -21306,7 +20764,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 453,
     "name": "Croagunk",
     "baseStats": {
@@ -21347,7 +20804,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 454,
     "name": "Toxicroak",
     "baseStats": {
@@ -21386,7 +20842,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 455,
     "name": "Carnivine",
     "baseStats": {
@@ -21420,7 +20875,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 456,
     "name": "Finneon",
     "baseStats": {
@@ -21456,7 +20910,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 457,
     "name": "Lumineon",
     "baseStats": {
@@ -21490,7 +20943,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 458,
     "name": "Mantyke",
     "baseStats": {
@@ -21534,7 +20986,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 459,
     "name": "Snover",
     "baseStats": {
@@ -21576,7 +21027,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 460,
     "name": "Abomasnow",
     "baseStats": {
@@ -21624,7 +21074,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 460,
     "name": "Mega Abomasnow",
     "baseStats": {
@@ -21658,7 +21107,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 461,
     "name": "Weavile",
     "baseStats": {
@@ -21704,7 +21152,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 462,
     "name": "Magnezone",
     "baseStats": {
@@ -21746,7 +21193,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 463,
     "name": "Lickilicky",
     "baseStats": {
@@ -21786,7 +21232,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 464,
     "name": "Rhyperior",
     "baseStats": {
@@ -21832,7 +21277,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 465,
     "name": "Tangrowth",
     "baseStats": {
@@ -21876,7 +21320,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 466,
     "name": "Electivire",
     "baseStats": {
@@ -21916,7 +21359,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 467,
     "name": "Magmortar",
     "baseStats": {
@@ -21956,7 +21398,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 468,
     "name": "Togekiss",
     "baseStats": {
@@ -22002,7 +21443,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 469,
     "name": "Yanmega",
     "baseStats": {
@@ -22036,7 +21476,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 470,
     "name": "Leafeon",
     "baseStats": {
@@ -22078,7 +21517,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 471,
     "name": "Glaceon",
     "baseStats": {
@@ -22120,7 +21558,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 472,
     "name": "Gliscor",
     "baseStats": {
@@ -22154,7 +21591,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 473,
     "name": "Mamoswine",
     "baseStats": {
@@ -22194,7 +21630,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 474,
     "name": "Porygon-Z",
     "baseStats": {
@@ -22228,7 +21663,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 475,
     "name": "Gallade",
     "baseStats": {
@@ -22269,7 +21703,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 475,
     "name": "Mega Gallade",
     "baseStats": {
@@ -22303,7 +21736,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 476,
     "name": "Probopass",
     "baseStats": {
@@ -22337,7 +21769,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 477,
     "name": "Dusknoir",
     "baseStats": {
@@ -22375,7 +21806,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 478,
     "name": "Froslass",
     "baseStats": {
@@ -22417,7 +21847,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 479,
     "name": "Rotom",
     "baseStats": {
@@ -22461,7 +21890,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 479,
     "name": "Rotom Heat",
     "baseStats": {
@@ -22495,7 +21923,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 479,
     "name": "Rotom Wash",
     "baseStats": {
@@ -22529,7 +21956,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 479,
     "name": "Rotom Frost",
     "baseStats": {
@@ -22563,7 +21989,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 479,
     "name": "Rotom Fan",
     "baseStats": {
@@ -22597,7 +22022,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 479,
     "name": "Rotom Mow",
     "baseStats": {
@@ -22631,7 +22055,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 480,
     "name": "Uxie",
     "baseStats": {
@@ -22665,7 +22088,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 481,
     "name": "Mesprit",
     "baseStats": {
@@ -22699,7 +22121,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 482,
     "name": "Azelf",
     "baseStats": {
@@ -22733,7 +22154,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 483,
     "name": "Dialga",
     "baseStats": {
@@ -22767,7 +22187,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 484,
     "name": "Palkia",
     "baseStats": {
@@ -22801,7 +22220,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 485,
     "name": "Heatran",
     "baseStats": {
@@ -22835,7 +22253,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 486,
     "name": "Regigigas",
     "baseStats": {
@@ -22869,7 +22286,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 487,
     "name": "Giratina",
     "baseStats": {
@@ -22906,7 +22322,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 487,
     "name": "Giratina Origin Form",
     "baseStats": {
@@ -22940,7 +22355,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 488,
     "name": "Cresselia",
     "baseStats": {
@@ -22974,7 +22388,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 489,
     "name": "Phione",
     "baseStats": {
@@ -23008,7 +22421,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 490,
     "name": "Manaphy",
     "baseStats": {
@@ -23042,7 +22454,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 491,
     "name": "Darkrai",
     "baseStats": {
@@ -23076,7 +22487,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 492,
     "name": "Shaymin",
     "baseStats": {
@@ -23113,7 +22523,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 492,
     "name": "Shaymin Sky Form",
     "baseStats": {
@@ -23147,7 +22556,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 493,
     "name": "Arceus",
     "baseStats": {
@@ -23200,7 +22608,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 494,
     "name": "Victini",
     "baseStats": {
@@ -23234,7 +22641,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 495,
     "name": "Snivy",
     "baseStats": {
@@ -23270,7 +22676,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 496,
     "name": "Servine",
     "baseStats": {
@@ -23306,7 +22711,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 497,
     "name": "Serperior",
     "baseStats": {
@@ -23340,7 +22744,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 498,
     "name": "Tepig",
     "baseStats": {
@@ -23376,7 +22779,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 499,
     "name": "Pignite",
     "baseStats": {
@@ -23412,7 +22814,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 500,
     "name": "Emboar",
     "baseStats": {
@@ -23446,7 +22847,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 501,
     "name": "Oshawott",
     "baseStats": {
@@ -23482,7 +22882,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 502,
     "name": "Dewott",
     "baseStats": {
@@ -23518,7 +22917,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 503,
     "name": "Samurott",
     "baseStats": {
@@ -23552,7 +22950,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 504,
     "name": "Patrat",
     "baseStats": {
@@ -23588,7 +22985,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 505,
     "name": "Watchog",
     "baseStats": {
@@ -23622,7 +23018,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 506,
     "name": "Lillipup",
     "baseStats": {
@@ -23664,7 +23059,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 507,
     "name": "Herdier",
     "baseStats": {
@@ -23704,7 +23098,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 508,
     "name": "Stoutland",
     "baseStats": {
@@ -23744,7 +23137,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 509,
     "name": "Purrloin",
     "baseStats": {
@@ -23786,7 +23178,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 510,
     "name": "Liepard",
     "baseStats": {
@@ -23834,7 +23225,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 511,
     "name": "Pansage",
     "baseStats": {
@@ -23870,7 +23260,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 512,
     "name": "Simisage",
     "baseStats": {
@@ -23904,7 +23293,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 513,
     "name": "Pansear",
     "baseStats": {
@@ -23940,7 +23328,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 514,
     "name": "Simisear",
     "baseStats": {
@@ -23974,7 +23361,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 515,
     "name": "Panpour",
     "baseStats": {
@@ -24010,7 +23396,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 516,
     "name": "Simipour",
     "baseStats": {
@@ -24044,7 +23429,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 517,
     "name": "Munna",
     "baseStats": {
@@ -24084,7 +23468,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 518,
     "name": "Musharna",
     "baseStats": {
@@ -24124,7 +23507,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 519,
     "name": "Pidove",
     "baseStats": {
@@ -24170,7 +23552,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 520,
     "name": "Tranquill",
     "baseStats": {
@@ -24214,7 +23595,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 521,
     "name": "Unfezant",
     "baseStats": {
@@ -24258,7 +23638,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 522,
     "name": "Blitzle",
     "baseStats": {
@@ -24294,7 +23673,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 523,
     "name": "Zebstrika",
     "baseStats": {
@@ -24328,7 +23706,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 524,
     "name": "Roggenrola",
     "baseStats": {
@@ -24373,7 +23750,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 525,
     "name": "Boldore",
     "baseStats": {
@@ -24417,7 +23793,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 526,
     "name": "Gigalith",
     "baseStats": {
@@ -24461,7 +23836,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 527,
     "name": "Woobat",
     "baseStats": {
@@ -24509,7 +23883,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 528,
     "name": "Swoobat",
     "baseStats": {
@@ -24557,7 +23930,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 529,
     "name": "Drilbur",
     "baseStats": {
@@ -24599,7 +23971,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 530,
     "name": "Excadrill",
     "baseStats": {
@@ -24637,7 +24008,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 531,
     "name": "Audino",
     "baseStats": {
@@ -24677,7 +24047,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 531,
     "name": "Mega Audino",
     "baseStats": {
@@ -24711,7 +24080,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 532,
     "name": "Timburr",
     "baseStats": {
@@ -24753,7 +24121,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 533,
     "name": "Gurdurr",
     "baseStats": {
@@ -24797,7 +24164,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 534,
     "name": "Conkeldurr",
     "baseStats": {
@@ -24839,7 +24205,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 535,
     "name": "Tympole",
     "baseStats": {
@@ -24883,7 +24248,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 536,
     "name": "Palpitoad",
     "baseStats": {
@@ -24931,7 +24295,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 537,
     "name": "Seismitoad",
     "baseStats": {
@@ -24977,7 +24340,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 538,
     "name": "Throh",
     "baseStats": {
@@ -25014,7 +24376,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 539,
     "name": "Sawk",
     "baseStats": {
@@ -25051,7 +24412,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 540,
     "name": "Sewaddle",
     "baseStats": {
@@ -25087,7 +24447,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 541,
     "name": "Swadloon",
     "baseStats": {
@@ -25123,7 +24482,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 542,
     "name": "Leavanny",
     "baseStats": {
@@ -25157,7 +24515,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 543,
     "name": "Venipede",
     "baseStats": {
@@ -25197,7 +24554,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 544,
     "name": "Whirlipede",
     "baseStats": {
@@ -25241,7 +24597,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 545,
     "name": "Scolipede",
     "baseStats": {
@@ -25283,7 +24638,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 546,
     "name": "Cottonee",
     "baseStats": {
@@ -25328,7 +24682,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 547,
     "name": "Whimsicott",
     "baseStats": {
@@ -25374,7 +24727,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 548,
     "name": "Petilil",
     "baseStats": {
@@ -25414,7 +24766,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 549,
     "name": "Lilligant",
     "baseStats": {
@@ -25454,7 +24805,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 550,
     "name": "Basculin",
     "baseStats": {
@@ -25516,7 +24866,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 550,
     "name": "Blue Striped Basculin",
     "baseStats": {
@@ -25554,7 +24903,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 550,
     "name": "White Striped Basculin",
     "baseStats": {
@@ -25594,7 +24942,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 551,
     "name": "Sandile",
     "baseStats": {
@@ -25634,7 +24981,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 552,
     "name": "Krokorok",
     "baseStats": {
@@ -25680,7 +25026,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 553,
     "name": "Krookodile",
     "baseStats": {
@@ -25724,7 +25069,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 554,
     "name": "Darumaka",
     "baseStats": {
@@ -25762,7 +25106,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 554,
     "name": "Galarian Darumaka",
     "baseStats": {
@@ -25805,7 +25148,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 555,
     "name": "Darmanitan",
     "baseStats": {
@@ -25842,7 +25184,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 555,
     "name": "Darmanitan Zen Mode",
     "baseStats": {
@@ -25876,7 +25217,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 555,
     "name": "Galarian Darmanitan",
     "baseStats": {
@@ -25917,7 +25257,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 555,
     "name": "Galarian Darmanitan Zen Mode",
     "baseStats": {
@@ -25951,7 +25290,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 556,
     "name": "Maractus",
     "baseStats": {
@@ -25991,7 +25329,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 557,
     "name": "Dwebble",
     "baseStats": {
@@ -26044,7 +25381,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 558,
     "name": "Crustle",
     "baseStats": {
@@ -26095,7 +25431,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 559,
     "name": "Scraggy",
     "baseStats": {
@@ -26138,7 +25473,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 560,
     "name": "Scrafty",
     "baseStats": {
@@ -26179,7 +25513,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 561,
     "name": "Sigilyph",
     "baseStats": {
@@ -26223,7 +25556,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 562,
     "name": "Yamask",
     "baseStats": {
@@ -26261,7 +25593,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 562,
     "name": "Galarian Yamask",
     "baseStats": {
@@ -26310,7 +25641,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 563,
     "name": "Cofagrigus",
     "baseStats": {
@@ -26344,7 +25674,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 564,
     "name": "Tirtouga",
     "baseStats": {
@@ -26380,7 +25709,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 565,
     "name": "Carracosta",
     "baseStats": {
@@ -26414,7 +25742,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 566,
     "name": "Archen",
     "baseStats": {
@@ -26450,7 +25777,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 567,
     "name": "Archeops",
     "baseStats": {
@@ -26484,7 +25810,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 568,
     "name": "Trubbish",
     "baseStats": {
@@ -26530,7 +25855,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 569,
     "name": "Garbodor",
     "baseStats": {
@@ -26576,7 +25900,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 570,
     "name": "Zorua",
     "baseStats": {
@@ -26618,7 +25941,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 571,
     "name": "Zoroark",
     "baseStats": {
@@ -26658,7 +25980,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 572,
     "name": "Minccino",
     "baseStats": {
@@ -26698,7 +26019,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 573,
     "name": "Cinccino",
     "baseStats": {
@@ -26738,7 +26058,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 574,
     "name": "Gothita",
     "baseStats": {
@@ -26777,7 +26096,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 575,
     "name": "Gothorita",
     "baseStats": {
@@ -26816,7 +26134,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 576,
     "name": "Gothitelle",
     "baseStats": {
@@ -26854,7 +26171,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 577,
     "name": "Solosis",
     "baseStats": {
@@ -26893,7 +26209,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 578,
     "name": "Duosion",
     "baseStats": {
@@ -26932,7 +26247,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 579,
     "name": "Reuniclus",
     "baseStats": {
@@ -26970,7 +26284,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 580,
     "name": "Ducklett",
     "baseStats": {
@@ -27006,7 +26319,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 581,
     "name": "Swanna",
     "baseStats": {
@@ -27040,7 +26352,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 582,
     "name": "Vanillite",
     "baseStats": {
@@ -27085,7 +26396,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 583,
     "name": "Vanillish",
     "baseStats": {
@@ -27127,7 +26437,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 584,
     "name": "Vanilluxe",
     "baseStats": {
@@ -27174,7 +26483,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 585,
     "name": "Deerling",
     "baseStats": {
@@ -27215,7 +26523,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 586,
     "name": "Sawsbuck",
     "baseStats": {
@@ -27254,7 +26561,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 587,
     "name": "Emolga",
     "baseStats": {
@@ -27294,7 +26600,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 588,
     "name": "Karrablast",
     "baseStats": {
@@ -27338,7 +26643,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 589,
     "name": "Escavalier",
     "baseStats": {
@@ -27379,7 +26683,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 590,
     "name": "Foongus",
     "baseStats": {
@@ -27425,7 +26728,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 591,
     "name": "Amoonguss",
     "baseStats": {
@@ -27469,7 +26771,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 592,
     "name": "Frillish",
     "baseStats": {
@@ -27513,7 +26814,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 593,
     "name": "Jellicent",
     "baseStats": {
@@ -27557,7 +26857,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 594,
     "name": "Alomomola",
     "baseStats": {
@@ -27591,7 +26890,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 595,
     "name": "Joltik",
     "baseStats": {
@@ -27643,7 +26941,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 596,
     "name": "Galvantula",
     "baseStats": {
@@ -27693,7 +26990,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 597,
     "name": "Ferroseed",
     "baseStats": {
@@ -27747,7 +27043,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 598,
     "name": "Ferrothorn",
     "baseStats": {
@@ -27799,7 +27094,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 599,
     "name": "Klink",
     "baseStats": {
@@ -27846,7 +27140,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 600,
     "name": "Klang",
     "baseStats": {
@@ -27890,7 +27183,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 601,
     "name": "Klinklang",
     "baseStats": {
@@ -27934,7 +27226,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 602,
     "name": "Tynamo",
     "baseStats": {
@@ -27970,7 +27261,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 603,
     "name": "Eelektrik",
     "baseStats": {
@@ -28006,7 +27296,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 604,
     "name": "Eelektross",
     "baseStats": {
@@ -28040,7 +27329,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 605,
     "name": "Elgyem",
     "baseStats": {
@@ -28082,7 +27370,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 606,
     "name": "Beheeyem",
     "baseStats": {
@@ -28120,7 +27407,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 607,
     "name": "Litwick",
     "baseStats": {
@@ -28176,7 +27462,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 608,
     "name": "Lampent",
     "baseStats": {
@@ -28226,7 +27511,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 609,
     "name": "Chandelure",
     "baseStats": {
@@ -28276,7 +27560,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 610,
     "name": "Axew",
     "baseStats": {
@@ -28318,7 +27601,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 611,
     "name": "Fraxure",
     "baseStats": {
@@ -28359,7 +27641,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 612,
     "name": "Haxorus",
     "baseStats": {
@@ -28398,7 +27679,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 613,
     "name": "Cubchoo",
     "baseStats": {
@@ -28441,7 +27721,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 614,
     "name": "Beartic",
     "baseStats": {
@@ -28483,7 +27762,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 615,
     "name": "Cryogonal",
     "baseStats": {
@@ -28523,7 +27801,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 616,
     "name": "Shelmet",
     "baseStats": {
@@ -28567,7 +27844,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 617,
     "name": "Accelgor",
     "baseStats": {
@@ -28608,7 +27884,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 618,
     "name": "Stunfisk",
     "baseStats": {
@@ -28644,7 +27919,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 618,
     "name": "Galarian Stunfisk",
     "baseStats": {
@@ -28690,7 +27964,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 619,
     "name": "Mienfoo",
     "baseStats": {
@@ -28732,7 +28005,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 620,
     "name": "Mienshao",
     "baseStats": {
@@ -28772,7 +28044,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 621,
     "name": "Druddigon",
     "baseStats": {
@@ -28814,7 +28085,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 622,
     "name": "Golett",
     "baseStats": {
@@ -28858,7 +28128,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 623,
     "name": "Golurk",
     "baseStats": {
@@ -28904,7 +28173,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 624,
     "name": "Pawniard",
     "baseStats": {
@@ -28962,7 +28230,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 625,
     "name": "Bisharp",
     "baseStats": {
@@ -29020,7 +28287,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 626,
     "name": "Bouffalant",
     "baseStats": {
@@ -29060,7 +28326,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 627,
     "name": "Rufflet",
     "baseStats": {
@@ -29100,7 +28365,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 628,
     "name": "Braviary",
     "baseStats": {
@@ -29140,7 +28404,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 629,
     "name": "Vullaby",
     "baseStats": {
@@ -29183,7 +28446,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 630,
     "name": "Mandibuzz",
     "baseStats": {
@@ -29224,7 +28486,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 631,
     "name": "Heatmor",
     "baseStats": {
@@ -29276,7 +28537,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 632,
     "name": "Durant",
     "baseStats": {
@@ -29322,7 +28582,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 633,
     "name": "Deino",
     "baseStats": {
@@ -29360,7 +28619,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 634,
     "name": "Zweilous",
     "baseStats": {
@@ -29398,7 +28656,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 635,
     "name": "Hydreigon",
     "baseStats": {
@@ -29436,7 +28693,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 636,
     "name": "Larvesta",
     "baseStats": {
@@ -29478,7 +28734,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 637,
     "name": "Volcarona",
     "baseStats": {
@@ -29518,7 +28773,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 638,
     "name": "Cobalion",
     "baseStats": {
@@ -29552,7 +28806,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 639,
     "name": "Terrakion",
     "baseStats": {
@@ -29586,7 +28839,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 640,
     "name": "Virizion",
     "baseStats": {
@@ -29620,7 +28872,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 641,
     "name": "Tornadus",
     "baseStats": {
@@ -29657,7 +28908,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 641,
     "name": "Tornadus Therian Form",
     "baseStats": {
@@ -29691,7 +28941,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 642,
     "name": "Thundurus",
     "baseStats": {
@@ -29728,7 +28977,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 642,
     "name": "Thundurus Therian Form",
     "baseStats": {
@@ -29762,7 +29010,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 643,
     "name": "Reshiram",
     "baseStats": {
@@ -29798,7 +29045,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 644,
     "name": "Zekrom",
     "baseStats": {
@@ -29834,7 +29080,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 645,
     "name": "Landorus",
     "baseStats": {
@@ -29871,7 +29116,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 645,
     "name": "Landorus Therian Form",
     "baseStats": {
@@ -29905,7 +29149,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 646,
     "name": "Kyurem",
     "baseStats": {
@@ -29942,7 +29185,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 646,
     "name": "Kyurem Black",
     "baseStats": {
@@ -29978,7 +29220,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 646,
     "name": "Kyurem White",
     "baseStats": {
@@ -30014,7 +29255,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 647,
     "name": "Keldeo",
     "baseStats": {
@@ -30050,7 +29290,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 648,
     "name": "Meloetta",
     "baseStats": {
@@ -30087,7 +29326,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 648,
     "name": "Meloetta Pirouette",
     "baseStats": {
@@ -30121,7 +29359,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 649,
     "name": "Genesect",
     "baseStats": {
@@ -30160,7 +29397,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 650,
     "name": "Chespin",
     "baseStats": {
@@ -30196,7 +29432,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 651,
     "name": "Quilladin",
     "baseStats": {
@@ -30232,7 +29467,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 652,
     "name": "Chesnaught",
     "baseStats": {
@@ -30266,7 +29500,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 653,
     "name": "Fennekin",
     "baseStats": {
@@ -30302,7 +29535,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 654,
     "name": "Braixen",
     "baseStats": {
@@ -30338,7 +29570,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 655,
     "name": "Delphox",
     "baseStats": {
@@ -30372,7 +29603,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 656,
     "name": "Froakie",
     "baseStats": {
@@ -30408,7 +29638,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 657,
     "name": "Frogadier",
     "baseStats": {
@@ -30444,7 +29673,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 658,
     "name": "Greninja",
     "baseStats": {
@@ -30480,7 +29708,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 658,
     "name": "Ash Greninja",
     "baseStats": {
@@ -30514,7 +29741,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 659,
     "name": "Bunnelby",
     "baseStats": {
@@ -30556,7 +29782,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 660,
     "name": "Diggersby",
     "baseStats": {
@@ -30598,7 +29823,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 661,
     "name": "Fletchling",
     "baseStats": {
@@ -30640,7 +29864,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 662,
     "name": "Fletchinder",
     "baseStats": {
@@ -30682,7 +29905,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 663,
     "name": "Talonflame",
     "baseStats": {
@@ -30726,7 +29948,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 664,
     "name": "Scatterbug",
     "baseStats": {
@@ -30762,7 +29983,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 665,
     "name": "Spewpa",
     "baseStats": {
@@ -30798,7 +30018,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 666,
     "name": "Vivillon",
     "baseStats": {
@@ -30853,7 +30072,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 667,
     "name": "Litleo",
     "baseStats": {
@@ -30889,7 +30107,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 668,
     "name": "Pyroar",
     "baseStats": {
@@ -30923,7 +30140,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 669,
     "name": "Flabebe",
     "baseStats": {
@@ -30966,7 +30182,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 670,
     "name": "Floette",
     "baseStats": {
@@ -31009,7 +30224,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 671,
     "name": "Florges",
     "baseStats": {
@@ -31049,7 +30263,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 672,
     "name": "Skiddo",
     "baseStats": {
@@ -31085,7 +30298,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 673,
     "name": "Gogoat",
     "baseStats": {
@@ -31119,7 +30331,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 674,
     "name": "Pancham",
     "baseStats": {
@@ -31159,7 +30370,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 675,
     "name": "Pangoro",
     "baseStats": {
@@ -31203,7 +30413,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 676,
     "name": "Furfrou",
     "baseStats": {
@@ -31248,7 +30457,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 677,
     "name": "Espurr",
     "baseStats": {
@@ -31289,7 +30497,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 678,
     "name": "Meowstic",
     "baseStats": {
@@ -31336,7 +30543,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 678,
     "name": "Meowstic Female",
     "baseStats": {
@@ -31378,7 +30584,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 679,
     "name": "Honedge",
     "baseStats": {
@@ -31423,7 +30628,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 680,
     "name": "Doublade",
     "baseStats": {
@@ -31464,7 +30668,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 681,
     "name": "Aegislash",
     "baseStats": {
@@ -31505,7 +30708,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 681,
     "name": "Aegislash Blade Form",
     "baseStats": {
@@ -31546,7 +30748,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 682,
     "name": "Spritzee",
     "baseStats": {
@@ -31586,7 +30787,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 683,
     "name": "Aromatisse",
     "baseStats": {
@@ -31624,7 +30824,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 684,
     "name": "Swirlix",
     "baseStats": {
@@ -31664,7 +30863,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 685,
     "name": "Slurpuff",
     "baseStats": {
@@ -31702,7 +30900,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 686,
     "name": "Inkay",
     "baseStats": {
@@ -31750,7 +30947,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 687,
     "name": "Malamar",
     "baseStats": {
@@ -31798,7 +30994,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 688,
     "name": "Binacle",
     "baseStats": {
@@ -31852,7 +31047,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 689,
     "name": "Barbaracle",
     "baseStats": {
@@ -31900,7 +31094,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 690,
     "name": "Skrelp",
     "baseStats": {
@@ -31942,7 +31135,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 691,
     "name": "Dragalge",
     "baseStats": {
@@ -31982,7 +31174,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 692,
     "name": "Clauncher",
     "baseStats": {
@@ -32024,7 +31215,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 693,
     "name": "Clawitzer",
     "baseStats": {
@@ -32064,7 +31254,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 694,
     "name": "Helioptile",
     "baseStats": {
@@ -32110,7 +31299,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 695,
     "name": "Heliolisk",
     "baseStats": {
@@ -32152,7 +31340,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 696,
     "name": "Tyrunt",
     "baseStats": {
@@ -32196,7 +31383,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 697,
     "name": "Tyrantrum",
     "baseStats": {
@@ -32238,7 +31424,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 698,
     "name": "Amaura",
     "baseStats": {
@@ -32282,7 +31467,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 699,
     "name": "Aurorus",
     "baseStats": {
@@ -32324,7 +31508,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 700,
     "name": "Sylveon",
     "baseStats": {
@@ -32366,7 +31549,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 701,
     "name": "Hawlucha",
     "baseStats": {
@@ -32412,7 +31594,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 702,
     "name": "Dedenne",
     "baseStats": {
@@ -32454,7 +31635,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 703,
     "name": "Carbink",
     "baseStats": {
@@ -32496,7 +31676,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 704,
     "name": "Goomy",
     "baseStats": {
@@ -32538,7 +31717,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 705,
     "name": "Sliggoo",
     "baseStats": {
@@ -32580,7 +31758,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 706,
     "name": "Goodra",
     "baseStats": {
@@ -32620,7 +31797,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 707,
     "name": "Klefki",
     "baseStats": {
@@ -32662,7 +31838,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 708,
     "name": "Phantump",
     "baseStats": {
@@ -32706,7 +31881,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 709,
     "name": "Trevenant",
     "baseStats": {
@@ -32750,7 +31924,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 710,
     "name": "Pumpkaboo",
     "baseStats": {
@@ -32799,7 +31972,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 710,
     "name": "Small Pumpkaboo",
     "baseStats": {
@@ -32837,7 +32009,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 710,
     "name": "Large Pumpkaboo",
     "baseStats": {
@@ -32875,7 +32046,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 710,
     "name": "Super Pumpkaboo",
     "baseStats": {
@@ -32913,7 +32083,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 711,
     "name": "Gourgeist",
     "baseStats": {
@@ -32962,7 +32131,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 711,
     "name": "Small Gourgeist",
     "baseStats": {
@@ -32998,7 +32166,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 711,
     "name": "Large Gourgeist",
     "baseStats": {
@@ -33034,7 +32201,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 711,
     "name": "Super Gourgeist",
     "baseStats": {
@@ -33070,7 +32236,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 712,
     "name": "Bergmite",
     "baseStats": {
@@ -33116,7 +32281,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 713,
     "name": "Avalugg",
     "baseStats": {
@@ -33165,7 +32329,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 714,
     "name": "Noibat",
     "baseStats": {
@@ -33211,7 +32374,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 715,
     "name": "Noivern",
     "baseStats": {
@@ -33255,7 +32417,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 716,
     "name": "Xerneas",
     "baseStats": {
@@ -33292,7 +32453,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 717,
     "name": "Yveltal",
     "baseStats": {
@@ -33326,7 +32486,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 718,
     "name": "Zygarde",
     "baseStats": {
@@ -33364,7 +32523,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 718,
     "name": "Zygarde 10%",
     "baseStats": {
@@ -33398,7 +32556,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 718,
     "name": "Zygarde Complete",
     "baseStats": {
@@ -33432,7 +32589,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 719,
     "name": "Diancie",
     "baseStats": {
@@ -33468,7 +32624,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 719,
     "name": "Mega Diancie",
     "baseStats": {
@@ -33502,7 +32657,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 720,
     "name": "Hoopa",
     "baseStats": {
@@ -33539,7 +32693,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 720,
     "name": "Hoopa Unbound",
     "baseStats": {
@@ -33573,7 +32726,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 721,
     "name": "Volcanion",
     "baseStats": {
@@ -33607,7 +32759,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 722,
     "name": "Rowlet",
     "baseStats": {
@@ -33643,7 +32794,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 723,
     "name": "Dartrix",
     "baseStats": {
@@ -33679,7 +32829,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 724,
     "name": "Decidueye",
     "baseStats": {
@@ -33713,7 +32862,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 725,
     "name": "Litten",
     "baseStats": {
@@ -33749,7 +32897,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 726,
     "name": "Torracat",
     "baseStats": {
@@ -33785,7 +32932,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 727,
     "name": "Incineroar",
     "baseStats": {
@@ -33819,7 +32965,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 728,
     "name": "Popplio",
     "baseStats": {
@@ -33855,7 +33000,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 729,
     "name": "Brionne",
     "baseStats": {
@@ -33891,7 +33035,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 730,
     "name": "Primarina",
     "baseStats": {
@@ -33925,7 +33068,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 731,
     "name": "Pikipek",
     "baseStats": {
@@ -33961,7 +33103,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 732,
     "name": "Trumbeak",
     "baseStats": {
@@ -33997,7 +33138,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 733,
     "name": "Toucannon",
     "baseStats": {
@@ -34031,7 +33171,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 734,
     "name": "Yungoos",
     "baseStats": {
@@ -34067,7 +33206,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 735,
     "name": "Gumshoos",
     "baseStats": {
@@ -34101,7 +33239,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 736,
     "name": "Grubbin",
     "baseStats": {
@@ -34141,7 +33278,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 737,
     "name": "Charjabug",
     "baseStats": {
@@ -34183,7 +33319,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 738,
     "name": "Vikavolt",
     "baseStats": {
@@ -34225,7 +33360,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 739,
     "name": "Crabrawler",
     "baseStats": {
@@ -34261,7 +33395,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 740,
     "name": "Crabominable",
     "baseStats": {
@@ -34295,7 +33428,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 741,
     "name": "Oricorio",
     "baseStats": {
@@ -34334,7 +33466,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 741,
     "name": "Oricorio Pom-Pom",
     "baseStats": {
@@ -34373,7 +33504,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 741,
     "name": "Oricorio Pau",
     "baseStats": {
@@ -34412,7 +33542,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 741,
     "name": "Oricorio Sensu",
     "baseStats": {
@@ -34451,7 +33580,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 742,
     "name": "Cutiefly",
     "baseStats": {
@@ -34495,7 +33623,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 743,
     "name": "Ribombee",
     "baseStats": {
@@ -34537,7 +33664,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 744,
     "name": "Rockruff",
     "baseStats": {
@@ -34585,7 +33711,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 745,
     "name": "Lycanroc",
     "baseStats": {
@@ -34633,7 +33758,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 745,
     "name": "Midnight Lycanroc",
     "baseStats": {
@@ -34677,7 +33801,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 745,
     "name": "Dusk Lycanroc",
     "baseStats": {
@@ -34721,7 +33844,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 746,
     "name": "Wishiwashi",
     "baseStats": {
@@ -34774,7 +33896,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 746,
     "name": "Wishiwashi School",
     "baseStats": {
@@ -34811,7 +33932,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 747,
     "name": "Mareanie",
     "baseStats": {
@@ -34865,7 +33985,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 748,
     "name": "Toxapex",
     "baseStats": {
@@ -34917,7 +34036,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 749,
     "name": "Mudbray",
     "baseStats": {
@@ -34957,7 +34075,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 750,
     "name": "Mudsdale",
     "baseStats": {
@@ -34995,7 +34112,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 751,
     "name": "Dewpider",
     "baseStats": {
@@ -35045,7 +34161,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 752,
     "name": "Araquanid",
     "baseStats": {
@@ -35095,7 +34210,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 753,
     "name": "Fomantis",
     "baseStats": {
@@ -35139,7 +34253,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 754,
     "name": "Lurantis",
     "baseStats": {
@@ -35181,7 +34294,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 755,
     "name": "Morelull",
     "baseStats": {
@@ -35230,7 +34342,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 756,
     "name": "Shiinotic",
     "baseStats": {
@@ -35278,7 +34389,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 757,
     "name": "Salandit",
     "baseStats": {
@@ -35332,7 +34442,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 758,
     "name": "Salazzle",
     "baseStats": {
@@ -35385,7 +34494,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 759,
     "name": "Stufful",
     "baseStats": {
@@ -35432,7 +34540,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 760,
     "name": "Bewear",
     "baseStats": {
@@ -35478,7 +34585,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 761,
     "name": "Bounsweet",
     "baseStats": {
@@ -35520,7 +34626,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 762,
     "name": "Steenee",
     "baseStats": {
@@ -35564,7 +34669,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 763,
     "name": "Tsareena",
     "baseStats": {
@@ -35606,7 +34710,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 764,
     "name": "Comfey",
     "baseStats": {
@@ -35646,7 +34749,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 765,
     "name": "Oranguru",
     "baseStats": {
@@ -35686,7 +34788,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 766,
     "name": "Passimian",
     "baseStats": {
@@ -35724,7 +34825,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 767,
     "name": "Wimpod",
     "baseStats": {
@@ -35768,7 +34868,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 768,
     "name": "Golisopod",
     "baseStats": {
@@ -35810,7 +34909,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 769,
     "name": "Sandygast",
     "baseStats": {
@@ -35852,7 +34950,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 770,
     "name": "Palossand",
     "baseStats": {
@@ -35891,7 +34988,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 771,
     "name": "Pyukumuku",
     "baseStats": {
@@ -35943,7 +35039,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 772,
     "name": "Type: Null",
     "baseStats": {
@@ -35979,7 +35074,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 773,
     "name": "Silvally",
     "baseStats": {
@@ -36032,7 +35126,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 774,
     "name": "Minior",
     "baseStats": {
@@ -36076,7 +35169,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 774,
     "name": "Meteor Minior",
     "baseStats": {
@@ -36120,7 +35212,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 775,
     "name": "Komala",
     "baseStats": {
@@ -36154,7 +35245,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 776,
     "name": "Turtonator",
     "baseStats": {
@@ -36195,7 +35285,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 777,
     "name": "Togedemaru",
     "baseStats": {
@@ -36237,7 +35326,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 778,
     "name": "Mimikyu",
     "baseStats": {
@@ -36282,7 +35370,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 779,
     "name": "Bruxish",
     "baseStats": {
@@ -36316,7 +35403,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 780,
     "name": "Drampa",
     "baseStats": {
@@ -36355,7 +35441,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 781,
     "name": "Dhelmise",
     "baseStats": {
@@ -36395,7 +35480,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 782,
     "name": "Jangmo-o",
     "baseStats": {
@@ -36437,7 +35521,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 783,
     "name": "Hakamo-o",
     "baseStats": {
@@ -36479,7 +35562,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 784,
     "name": "Kommo-o",
     "baseStats": {
@@ -36519,7 +35601,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 785,
     "name": "Tapu Koko",
     "baseStats": {
@@ -36553,7 +35634,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 786,
     "name": "Tapu Lele",
     "baseStats": {
@@ -36587,7 +35667,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 787,
     "name": "Tapu Bulu",
     "baseStats": {
@@ -36621,7 +35700,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 788,
     "name": "Tapu Fini",
     "baseStats": {
@@ -36655,7 +35733,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 789,
     "name": "Cosmog",
     "baseStats": {
@@ -36691,7 +35768,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 790,
     "name": "Cosmoem",
     "baseStats": {
@@ -36728,7 +35804,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 791,
     "name": "Solgaleo",
     "baseStats": {
@@ -36764,7 +35839,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 792,
     "name": "Lunala",
     "baseStats": {
@@ -36800,7 +35874,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 793,
     "name": "Nihilego",
     "baseStats": {
@@ -36834,7 +35907,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 794,
     "name": "Buzzwole",
     "baseStats": {
@@ -36868,7 +35940,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 795,
     "name": "Pheromosa",
     "baseStats": {
@@ -36902,7 +35973,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 796,
     "name": "Xurkitree",
     "baseStats": {
@@ -36936,7 +36006,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 797,
     "name": "Celesteela",
     "baseStats": {
@@ -36970,7 +36039,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 798,
     "name": "Kartana",
     "baseStats": {
@@ -37004,7 +36072,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 799,
     "name": "Guzzlord",
     "baseStats": {
@@ -37038,7 +36105,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 800,
     "name": "Necrozma",
     "baseStats": {
@@ -37076,7 +36142,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 800,
     "name": "Necrozma Dusk Mane",
     "baseStats": {
@@ -37110,7 +36175,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 800,
     "name": "Necrozma Dawn Wings",
     "baseStats": {
@@ -37144,7 +36208,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 800,
     "name": "Ultra Necrozma",
     "baseStats": {
@@ -37178,7 +36241,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 801,
     "name": "Magearna",
     "baseStats": {
@@ -37212,7 +36274,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 802,
     "name": "Marshadow",
     "baseStats": {
@@ -37249,7 +36310,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 803,
     "name": "Poipole",
     "baseStats": {
@@ -37285,7 +36345,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 804,
     "name": "Naganadel",
     "baseStats": {
@@ -37319,7 +36378,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 805,
     "name": "Stakataka",
     "baseStats": {
@@ -37353,7 +36411,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 806,
     "name": "Blacephalon",
     "baseStats": {
@@ -37387,7 +36444,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 807,
     "name": "Zeraora",
     "baseStats": {
@@ -37421,7 +36477,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 808,
     "name": "Meltan",
     "baseStats": {
@@ -37455,7 +36510,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 809,
     "name": "Melmetal",
     "baseStats": {
@@ -37491,7 +36545,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 810,
     "name": "Grookey",
     "baseStats": {
@@ -37527,7 +36580,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 811,
     "name": "Thwackey",
     "baseStats": {
@@ -37563,7 +36615,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 812,
     "name": "Rillaboom",
     "baseStats": {
@@ -37599,7 +36650,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 813,
     "name": "Scorbunny",
     "baseStats": {
@@ -37635,7 +36685,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 814,
     "name": "Raboot",
     "baseStats": {
@@ -37671,7 +36720,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 815,
     "name": "Cinderace",
     "baseStats": {
@@ -37707,7 +36755,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 816,
     "name": "Sobble",
     "baseStats": {
@@ -37743,7 +36790,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 817,
     "name": "Drizzile",
     "baseStats": {
@@ -37779,7 +36825,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 818,
     "name": "Inteleon",
     "baseStats": {
@@ -37815,7 +36860,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 819,
     "name": "Skwovet",
     "baseStats": {
@@ -37859,7 +36903,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 820,
     "name": "Greedent",
     "baseStats": {
@@ -37903,7 +36946,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 821,
     "name": "Rookidee",
     "baseStats": {
@@ -37947,7 +36989,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 822,
     "name": "Corvisquire",
     "baseStats": {
@@ -37995,7 +37036,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 823,
     "name": "Corviknight",
     "baseStats": {
@@ -38045,7 +37085,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 824,
     "name": "Blipbug",
     "baseStats": {
@@ -38095,7 +37134,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 825,
     "name": "Dottler",
     "baseStats": {
@@ -38146,7 +37184,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 826,
     "name": "Orbeetle",
     "baseStats": {
@@ -38197,7 +37234,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 827,
     "name": "Nickit",
     "baseStats": {
@@ -38243,7 +37279,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 828,
     "name": "Thievul",
     "baseStats": {
@@ -38291,7 +37326,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 829,
     "name": "Gossifleur",
     "baseStats": {
@@ -38341,7 +37375,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 830,
     "name": "Eldegoss",
     "baseStats": {
@@ -38391,7 +37424,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 831,
     "name": "Wooloo",
     "baseStats": {
@@ -38435,7 +37467,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 832,
     "name": "Dubwool",
     "baseStats": {
@@ -38481,7 +37512,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 833,
     "name": "Chewtle",
     "baseStats": {
@@ -38537,7 +37567,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 834,
     "name": "Drednaw",
     "baseStats": {
@@ -38587,7 +37616,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 835,
     "name": "Yamper",
     "baseStats": {
@@ -38631,7 +37659,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 836,
     "name": "Boltund",
     "baseStats": {
@@ -38679,7 +37706,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 837,
     "name": "Rolycoly",
     "baseStats": {
@@ -38723,7 +37749,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 838,
     "name": "Carkol",
     "baseStats": {
@@ -38777,7 +37802,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 839,
     "name": "Coalossal",
     "baseStats": {
@@ -38832,7 +37856,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 840,
     "name": "Applin",
     "baseStats": {
@@ -38885,7 +37908,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 841,
     "name": "Flapple",
     "baseStats": {
@@ -38928,7 +37950,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 842,
     "name": "Appletun",
     "baseStats": {
@@ -38971,7 +37992,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 843,
     "name": "Silicobra",
     "baseStats": {
@@ -39013,7 +38033,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 844,
     "name": "Sandaconda",
     "baseStats": {
@@ -39059,7 +38078,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 845,
     "name": "Cramorant",
     "baseStats": {
@@ -39104,7 +38122,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 846,
     "name": "Arrokuda",
     "baseStats": {
@@ -39158,7 +38175,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 847,
     "name": "Barraskewda",
     "baseStats": {
@@ -39204,7 +38220,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 848,
     "name": "Toxel",
     "baseStats": {
@@ -39257,7 +38272,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 849,
     "name": "Toxtricity",
     "baseStats": {
@@ -39311,7 +38325,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 849,
     "name": "Low Key Toxtricity",
     "baseStats": {
@@ -39345,7 +38358,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 850,
     "name": "Sizzlipede",
     "baseStats": {
@@ -39399,7 +38411,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 851,
     "name": "Centiskorch",
     "baseStats": {
@@ -39451,7 +38462,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 852,
     "name": "Clobbopus",
     "baseStats": {
@@ -39493,7 +38503,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 853,
     "name": "Grapploct",
     "baseStats": {
@@ -39535,7 +38544,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 854,
     "name": "Sinistea",
     "baseStats": {
@@ -39585,7 +38593,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 855,
     "name": "Polteageist",
     "baseStats": {
@@ -39630,7 +38637,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 856,
     "name": "Hatenna",
     "baseStats": {
@@ -39676,7 +38682,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 857,
     "name": "Hattrem",
     "baseStats": {
@@ -39722,7 +38727,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 858,
     "name": "Hatterene",
     "baseStats": {
@@ -39772,7 +38776,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 859,
     "name": "Impidimp",
     "baseStats": {
@@ -39828,7 +38831,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 860,
     "name": "Morgrem",
     "baseStats": {
@@ -39882,7 +38884,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 861,
     "name": "Grimmsnarl",
     "baseStats": {
@@ -39938,7 +38939,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 862,
     "name": "Obstagoon",
     "baseStats": {
@@ -39982,7 +38982,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 863,
     "name": "Perrserker",
     "baseStats": {
@@ -40028,7 +39027,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 864,
     "name": "Cursola",
     "baseStats": {
@@ -40068,7 +39066,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 865,
     "name": "Sirfetch'd",
     "baseStats": {
@@ -40107,7 +39104,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 866,
     "name": "Mr Rime",
     "baseStats": {
@@ -40162,7 +39158,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 867,
     "name": "Runerigus",
     "baseStats": {
@@ -40207,7 +39202,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 868,
     "name": "Milcery",
     "baseStats": {
@@ -40251,7 +39245,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 869,
     "name": "Alcremie",
     "baseStats": {
@@ -40311,7 +39304,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 870,
     "name": "Falinks",
     "baseStats": {
@@ -40356,7 +39348,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 871,
     "name": "Pincurchin",
     "baseStats": {
@@ -40404,7 +39395,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 872,
     "name": "Snom",
     "baseStats": {
@@ -40448,7 +39438,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 873,
     "name": "Frosmoth",
     "baseStats": {
@@ -40494,7 +39483,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 874,
     "name": "Stonjourner",
     "baseStats": {
@@ -40532,7 +39520,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 875,
     "name": "Eiscue",
     "baseStats": {
@@ -40574,7 +39561,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 875,
     "name": "Eiscue Noice Face",
     "baseStats": {
@@ -40611,7 +39597,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 876,
     "name": "Indeedee",
     "baseStats": {
@@ -40668,7 +39653,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 876,
     "name": "Indeedee Female",
     "baseStats": {
@@ -40707,7 +39691,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 877,
     "name": "Morpeko",
     "baseStats": {
@@ -40752,7 +39735,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 878,
     "name": "Cufant",
     "baseStats": {
@@ -40792,7 +39774,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 879,
     "name": "Copperajah",
     "baseStats": {
@@ -40840,7 +39821,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 880,
     "name": "Dracozolt",
     "baseStats": {
@@ -40878,7 +39858,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 881,
     "name": "Arctozolt",
     "baseStats": {
@@ -40916,7 +39895,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 882,
     "name": "Dracovish",
     "baseStats": {
@@ -40954,7 +39932,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 883,
     "name": "Arctovish",
     "baseStats": {
@@ -40992,7 +39969,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 884,
     "name": "Duraludon",
     "baseStats": {
@@ -41038,7 +40014,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 885,
     "name": "Dreepy",
     "baseStats": {
@@ -41084,7 +40059,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 886,
     "name": "Drakloak",
     "baseStats": {
@@ -41128,7 +40102,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 887,
     "name": "Dragapult",
     "baseStats": {
@@ -41170,7 +40143,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 888,
     "name": "Zacian",
     "baseStats": {
@@ -41207,7 +40179,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 888,
     "name": "Crowned Zacian",
     "baseStats": {
@@ -41244,7 +40215,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 889,
     "name": "Zamazenta",
     "baseStats": {
@@ -41281,7 +40251,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 889,
     "name": "Crowned Zamazenta",
     "baseStats": {
@@ -41318,7 +40287,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 890,
     "name": "Eternatus",
     "baseStats": {
@@ -41354,7 +40322,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 890,
     "name": "Eternamax Eternatus",
     "baseStats": {
@@ -41390,7 +40357,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 891,
     "name": "Kubfu",
     "baseStats": {
@@ -41427,7 +40393,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 892,
     "name": "Urshifu Single Strike",
     "baseStats": {
@@ -41461,7 +40426,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 892,
     "name": "Urshifu Rapid Strike",
     "baseStats": {
@@ -41495,7 +40459,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 893,
     "name": "Zarude",
     "baseStats": {
@@ -41529,7 +40492,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 894,
     "name": "Regieleki",
     "baseStats": {
@@ -41563,7 +40525,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 895,
     "name": "Regidrago",
     "baseStats": {
@@ -41597,7 +40558,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 896,
     "name": "Glastrier",
     "baseStats": {
@@ -41631,7 +40591,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 897,
     "name": "Spectrier",
     "baseStats": {
@@ -41665,7 +40624,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 898,
     "name": "Calyrex",
     "baseStats": {
@@ -41702,7 +40660,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 898,
     "name": "Ice Rider Calyrex",
     "baseStats": {
@@ -41736,7 +40693,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 898,
     "name": "Shadow Rider Calyrex",
     "baseStats": {
@@ -41770,7 +40726,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 899,
     "name": "Wyrdeer",
     "baseStats": {
@@ -41804,7 +40759,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 900,
     "name": "Kleavor",
     "baseStats": {
@@ -41838,7 +40792,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 901,
     "name": "Ursaluna",
     "baseStats": {
@@ -41872,7 +40825,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 902,
     "name": "Basculegion Male",
     "baseStats": {
@@ -41909,7 +40861,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 902,
     "name": "Basculegion Female",
     "baseStats": {
@@ -41946,7 +40897,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 903,
     "name": "Sneasler",
     "baseStats": {
@@ -41980,7 +40930,6 @@
     "forms": []
   },
   {
-    "isGen9": false,
     "dexId": 905,
     "name": "Enamorus Incarnate",
     "baseStats": {
@@ -42017,7 +40966,6 @@
     ]
   },
   {
-    "isGen9": false,
     "dexId": 905,
     "name": "Enamorus Therian",
     "baseStats": {
@@ -42052,5 +41000,1825 @@
       "Incarnate",
       "Therian"
     ]
+  },
+  {
+    "dexId": 906,
+    "name": "Sprigatito",
+    "baseStats": {
+      "hp": 40,
+      "atk": 61,
+      "def": 54,
+      "spA": 45,
+      "spD": 45,
+      "spe": 65,
+      "tot": 310
+    },
+    "catchRate": 45,
+    "type1": "grass",
+    "type2": null,
+    "weight": 4.1,
+    "height": 0.4,
+    "evolutions": [
+      "Floragato"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Grass",
+    "abilities": {
+      "ability1": "Overgrow",
+      "ability2": null,
+      "abilityH": "Protean"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 907,
+    "name": "Floragato",
+    "baseStats": {
+      "hp": 61,
+      "atk": 80,
+      "def": 63,
+      "spA": 60,
+      "spD": 63,
+      "spe": 83,
+      "tot": 410
+    },
+    "catchRate": 45,
+    "type1": "grass",
+    "type2": null,
+    "weight": 12.2,
+    "height": 0.9,
+    "evolutions": [
+      "Meowscarada"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Grass",
+    "abilities": {
+      "ability1": "Overgrow",
+      "ability2": null,
+      "abilityH": "Protean"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 908,
+    "name": "Meowscarada",
+    "baseStats": {
+      "hp": 76,
+      "atk": 110,
+      "def": 70,
+      "spA": 81,
+      "spD": 70,
+      "spe": 123,
+      "tot": 530
+    },
+    "catchRate": 45,
+    "type1": "grass",
+    "type2": "dark",
+    "weight": 31.2,
+    "height": 1.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Grass",
+    "abilities": {
+      "ability1": "Overgrow",
+      "ability2": null,
+      "abilityH": "Protean"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 909,
+    "name": "Fuecoco",
+    "baseStats": {
+      "hp": 67,
+      "atk": 45,
+      "def": 59,
+      "spA": 63,
+      "spD": 40,
+      "spe": 36,
+      "tot": 310
+    },
+    "catchRate": 45,
+    "type1": "fire",
+    "type2": null,
+    "weight": 9.8,
+    "height": 0.4,
+    "evolutions": [
+      "Crocalor"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Blaze",
+      "ability2": null,
+      "abilityH": "Unaware"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 910,
+    "name": "Crocalor",
+    "baseStats": {
+      "hp": 81,
+      "atk": 55,
+      "def": 78,
+      "spA": 90,
+      "spD": 58,
+      "spe": 49,
+      "tot": 411
+    },
+    "catchRate": 45,
+    "type1": "fire",
+    "type2": null,
+    "weight": 30.7,
+    "height": 1,
+    "evolutions": [
+      "Skeledirge"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Blaze",
+      "ability2": null,
+      "abilityH": "Unaware"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 911,
+    "name": "Skeledirge",
+    "baseStats": {
+      "hp": 104,
+      "atk": 75,
+      "def": 100,
+      "spA": 110,
+      "spD": 75,
+      "spe": 66,
+      "tot": 530
+    },
+    "catchRate": 45,
+    "type1": "fire",
+    "type2": null,
+    "weight": 326.5,
+    "height": 1.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Blaze",
+      "ability2": null,
+      "abilityH": "Unaware"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 912,
+    "name": "Quaxly",
+    "baseStats": {
+      "hp": 55,
+      "atk": 65,
+      "def": 45,
+      "spA": 50,
+      "spD": 45,
+      "spe": 50,
+      "tot": 310
+    },
+    "catchRate": 45,
+    "type1": "water",
+    "type2": null,
+    "weight": 6.1,
+    "height": 0.5,
+    "evolutions": [
+      "Quaxwell"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": "Water 1",
+    "abilities": {
+      "ability1": "Torrent",
+      "ability2": null,
+      "abilityH": "Moxie"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 913,
+    "name": "Quaxwell",
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 65,
+      "spA": 65,
+      "spD": 60,
+      "spe": 65,
+      "tot": 410
+    },
+    "catchRate": 45,
+    "type1": "water",
+    "type2": null,
+    "weight": 21.5,
+    "height": 1.2,
+    "evolutions": [
+      "Quaquaval"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": "Water 1",
+    "abilities": {
+      "ability1": "Torrent",
+      "ability2": null,
+      "abilityH": "Moxie"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 914,
+    "name": "Quaquaval",
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 80,
+      "spA": 85,
+      "spD": 75,
+      "spe": 85,
+      "tot": 530
+    },
+    "catchRate": 45,
+    "type1": "water",
+    "type2": "fighting",
+    "weight": 61.9,
+    "height": 1.8,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "87.5% ♂ : 12.5% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": "Water 1",
+    "abilities": {
+      "ability1": "Torrent",
+      "ability2": null,
+      "abilityH": "Moxie"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 915,
+    "name": "Lechonk",
+    "baseStats": {
+      "hp": 54,
+      "atk": 45,
+      "def": 40,
+      "spA": 35,
+      "spD": 45,
+      "spe": 35,
+      "tot": 254
+    },
+    "catchRate": 255,
+    "type1": "normal",
+    "type2": null,
+    "weight": 10.2,
+    "height": 0.5,
+    "evolutions": [
+      "Oinkologne Male",
+      "Oinkologne Female"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Aroma Veil",
+      "ability2": "Gluttony",
+      "abilityH": "Thick Fat"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 916,
+    "name": "Oinkologne Male",
+    "baseStats": {
+      "hp": 110,
+      "atk": 100,
+      "def": 75,
+      "spA": 59,
+      "spD": 80,
+      "spe": 65,
+      "tot": 489
+    },
+    "catchRate": 100,
+    "type1": "normal",
+    "type2": null,
+    "weight": 120,
+    "height": 1,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ♂",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Lingering Aroma",
+      "ability2": "Gluttony",
+      "abilityH": "Thick Fat"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Male",
+      "Female"
+    ]
+  },
+  {
+    "dexId": 916,
+    "name": "Oinkologne Female",
+    "baseStats": {
+      "hp": 115,
+      "atk": 90,
+      "def": 70,
+      "spA": 59,
+      "spD": 90,
+      "spe": 65,
+      "tot": 489
+    },
+    "catchRate": 100,
+    "type1": "normal",
+    "type2": null,
+    "weight": 120,
+    "height": 1,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Aroma Veil",
+      "ability2": "Gluttony",
+      "abilityH": "Thick Fat"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Male",
+      "Female"
+    ]
+  },
+  {
+    "dexId": 917,
+    "name": "Dundunspace Two-Segment",
+    "baseStats": {
+      "hp": 125,
+      "atk": 100,
+      "def": 80,
+      "spA": 85,
+      "spD": 75,
+      "spe": 55,
+      "tot": 520
+    },
+    "catchRate": 45,
+    "type1": "normal",
+    "type2": null,
+    "weight": 39.2,
+    "height": 3.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Serene Grace",
+      "ability2": "Run Away",
+      "abilityH": "Rattled"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Dundunsparce Two-Segment",
+      "Dundunsparce Three-Segment"
+    ]
+  },
+  {
+    "dexId": 917,
+    "name": "Dundunspace Three-Segment",
+    "baseStats": {
+      "hp": 125,
+      "atk": 100,
+      "def": 80,
+      "spA": 85,
+      "spD": 75,
+      "spe": 55,
+      "tot": 520
+    },
+    "catchRate": 45,
+    "type1": "normal",
+    "type2": null,
+    "weight": 47.4,
+    "height": 4.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Serene Grace",
+      "ability2": "Run Away",
+      "abilityH": "Rattled"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Two-Segment Form",
+      "Three-Segment Form"
+    ]
+  },
+  {
+    "dexId": 918,
+    "name": "Tarontula",
+    "baseStats": {
+      "hp": 35,
+      "atk": 41,
+      "def": 45,
+      "spA": 29,
+      "spD": 40,
+      "spe": 20,
+      "tot": 210
+    },
+    "catchRate": 255,
+    "type1": "bug",
+    "type2": null,
+    "weight": 4,
+    "height": 0.3,
+    "evolutions": [
+      "Spidops"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Bug",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Insomnia",
+      "ability2": null,
+      "abilityH": "Stakeout"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 919,
+    "name": "Spidops",
+    "baseStats": {
+      "hp": 60,
+      "atk": 79,
+      "def": 92,
+      "spA": 52,
+      "spD": 86,
+      "spe": 35,
+      "tot": 404
+    },
+    "catchRate": 120,
+    "type1": "bug",
+    "type2": null,
+    "weight": 16.5,
+    "height": 1,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Bug",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Insomnia",
+      "ability2": null,
+      "abilityH": "Stakeout"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 920,
+    "name": "Nymble",
+    "baseStats": {
+      "hp": 33,
+      "atk": 46,
+      "def": 40,
+      "spA": 21,
+      "spD": 25,
+      "spe": 45,
+      "tot": 210
+    },
+    "catchRate": 190,
+    "type1": "bug",
+    "type2": null,
+    "weight": 1,
+    "height": 0.2,
+    "evolutions": [
+      "Lokix"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Bug",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Swarm",
+      "ability2": null,
+      "abilityH": "Tinted lens"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 921,
+    "name": "Lokix",
+    "baseStats": {
+      "hp": 71,
+      "atk": 102,
+      "def": 78,
+      "spA": 52,
+      "spD": 55,
+      "spe": 92,
+      "tot": 450
+    },
+    "catchRate": 30,
+    "type1": "bug",
+    "type2": "dark",
+    "weight": 17.5,
+    "height": 1,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Bug",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Swarm",
+      "ability2": null,
+      "abilityH": "Tinted lens"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 922,
+    "name": "Rellor",
+    "baseStats": {
+      "hp": 41,
+      "atk": 50,
+      "def": 60,
+      "spA": 31,
+      "spD": 58,
+      "spe": 30,
+      "tot": 270
+    },
+    "catchRate": 190,
+    "type1": "bug",
+    "type2": null,
+    "weight": 1,
+    "height": 0.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Bug",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Swarm",
+      "ability2": null,
+      "abilityH": "Tinted lens"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 922,
+    "name": "Rellor",
+    "baseStats": {
+      "hp": 41,
+      "atk": 50,
+      "def": 60,
+      "spA": 31,
+      "spD": 58,
+      "spe": 30,
+      "tot": 270
+    },
+    "catchRate": 190,
+    "type1": "bug",
+    "type2": null,
+    "weight": 1,
+    "height": 0.2,
+    "evolutions": [
+      "Rabsca"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Bug",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Compound Eyes",
+      "ability2": null,
+      "abilityH": "Shed Skin"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 923,
+    "name": "Rabsca",
+    "baseStats": {
+      "hp": 75,
+      "atk": 50,
+      "def": 85,
+      "spA": 115,
+      "spD": 100,
+      "spe": 45,
+      "tot": 470
+    },
+    "catchRate": 45,
+    "type1": "bug",
+    "type2": "psychic",
+    "weight": 3.5,
+    "height": 0.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Bug",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Synchronize",
+      "ability2": null,
+      "abilityH": "Telepathy"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 924,
+    "name": "Greavard",
+    "baseStats": {
+      "hp": 50,
+      "atk": 61,
+      "def": 60,
+      "spA": 30,
+      "spD": 55,
+      "spe": 34,
+      "tot": 290
+    },
+    "catchRate": 120,
+    "type1": "ghost",
+    "type2": null,
+    "weight": 35,
+    "height": 0.6,
+    "evolutions": [
+      "Houndstone"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Pickup",
+      "ability2": null,
+      "abilityH": "Fluffy"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 925,
+    "name": "Houndstone",
+    "baseStats": {
+      "hp": 72,
+      "atk": 101,
+      "def": 100,
+      "spA": 50,
+      "spD": 97,
+      "spe": 68,
+      "tot": 488
+    },
+    "catchRate": 60,
+    "type1": "ghost",
+    "type2": null,
+    "weight": 15,
+    "height": 2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Sand Rush",
+      "ability2": null,
+      "abilityH": "Fluffy"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 926,
+    "name": "Flittle",
+    "baseStats": {
+      "hp": 30,
+      "atk": 35,
+      "def": 30,
+      "spA": 55,
+      "spD": 30,
+      "spe": 75,
+      "tot": 255
+    },
+    "catchRate": 120,
+    "type1": "psychic",
+    "type2": null,
+    "weight": 1.5,
+    "height": 0.2,
+    "evolutions": [
+      "Espathra"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Anticipation",
+      "ability2": "Frisk",
+      "abilityH": "Speed Boost"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 927,
+    "name": "Espathra",
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 60,
+      "spA": 101,
+      "spD": 60,
+      "spe": 105,
+      "tot": 481
+    },
+    "catchRate": 60,
+    "type1": "psychic",
+    "type2": null,
+    "weight": 90,
+    "height": 1.9,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Opportunist",
+      "ability2": "Frisk",
+      "abilityH": "Speed Boost"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 928,
+    "name": "Farigiraf",
+    "baseStats": {
+      "hp": 120,
+      "atk": 90,
+      "def": 70,
+      "spA": 110,
+      "spD": 70,
+      "spe": 60,
+      "tot": 520
+    },
+    "catchRate": 45,
+    "type1": "normal",
+    "type2": "psychic",
+    "weight": 160,
+    "height": 3.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Cud Chew",
+      "ability2": "Armor Tail",
+      "abilityH": "Sap Sipper"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 929,
+    "name": "Wiglett",
+    "baseStats": {
+      "hp": 10,
+      "atk": 55,
+      "def": 25,
+      "spA": 35,
+      "spD": 25,
+      "spe": 95,
+      "tot": 245
+    },
+    "catchRate": 255,
+    "type1": "water",
+    "type2": null,
+    "weight": 1.8,
+    "height": 1.2,
+    "evolutions": [
+      "Wugtrio"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 3",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Gooey",
+      "ability2": "Rattled",
+      "abilityH": "Sand Veil"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 930,
+    "name": "Wugtrio",
+    "baseStats": {
+      "hp": 35,
+      "atk": 100,
+      "def": 50,
+      "spA": 50,
+      "spD": 70,
+      "spe": 120,
+      "tot": 425
+    },
+    "catchRate": 50,
+    "type1": "water",
+    "type2": null,
+    "weight": 5.4,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 3",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Gooey",
+      "ability2": "Rattled",
+      "abilityH": "Sand Veil"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 931,
+    "name": "Dondozo",
+    "baseStats": {
+      "hp": 150,
+      "atk": 100,
+      "def": 115,
+      "spA": 65,
+      "spD": 65,
+      "spe": 35,
+      "tot": 530
+    },
+    "catchRate": 25,
+    "type1": "water",
+    "type2": null,
+    "weight": 220,
+    "height": 12,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 2",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Unaware",
+      "ability2": "Oblivious",
+      "abilityH": "Water Veil"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 932,
+    "name": "Veluza",
+    "baseStats": {
+      "hp": 90,
+      "atk": 102,
+      "def": 73,
+      "spA": 78,
+      "spD": 65,
+      "spe": 70,
+      "tot": 478
+    },
+    "catchRate": 100,
+    "type1": "water",
+    "type2": "psychic",
+    "weight": 90,
+    "height": 2.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 2",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Mold Breaker",
+      "ability2": null,
+      "abilityH": "Sharpness"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 933,
+    "name": "Finizen",
+    "baseStats": {
+      "hp": 70,
+      "atk": 45,
+      "def": 40,
+      "spA": 45,
+      "spD": 40,
+      "spe": 75,
+      "tot": 315
+    },
+    "catchRate": 200,
+    "type1": "water",
+    "type2": null,
+    "weight": 60.2,
+    "height": 1.3,
+    "evolutions": [
+      "Palafin"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Water 2",
+    "abilities": {
+      "ability1": "Water Veil",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 934,
+    "name": "Palafin Zero",
+    "baseStats": {
+      "hp": 110,
+      "atk": 70,
+      "def": 72,
+      "spA": 53,
+      "spD": 62,
+      "spe": 100,
+      "tot": 457
+    },
+    "catchRate": 45,
+    "type1": "water",
+    "type2": null,
+    "weight": 60.2,
+    "height": 1.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Water 2",
+    "abilities": {
+      "ability1": "Zero to Hero",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Palafin Zero",
+      "Palafin Hero"
+    ]
+  },
+  {
+    "dexId": 934,
+    "name": "Palafin Hero",
+    "baseStats": {
+      "hp": 100,
+      "atk": 160,
+      "def": 97,
+      "spA": 106,
+      "spD": 87,
+      "spe": 100,
+      "tot": 650
+    },
+    "catchRate": 45,
+    "type1": "water",
+    "type2": null,
+    "weight": 97.4,
+    "height": 1.8,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Water 2",
+    "abilities": {
+      "ability1": "Zero to Hero",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Palafin Zero",
+      "Palafin Hero"
+    ]
+  },
+  {
+    "dexId": 935,
+    "name": "Smolive",
+    "baseStats": {
+      "hp": 41,
+      "atk": 35,
+      "def": 45,
+      "spA": 58,
+      "spD": 51,
+      "spe": 30,
+      "tot": 260
+    },
+    "catchRate": 255,
+    "type1": "grass",
+    "type2": "normal",
+    "weight": 6.5,
+    "height": 0.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Early Bird",
+      "ability2": null,
+      "abilityH": "Harvest"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 935,
+    "name": "Smolive",
+    "baseStats": {
+      "hp": 41,
+      "atk": 35,
+      "def": 45,
+      "spA": 58,
+      "spD": 51,
+      "spe": 30,
+      "tot": 260
+    },
+    "catchRate": 255,
+    "type1": "grass",
+    "type2": "normal",
+    "weight": 6.5,
+    "height": 0.3,
+    "evolutions": [
+      "Dollive"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Early Bird",
+      "ability2": null,
+      "abilityH": "Harvest"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 936,
+    "name": "Dolliv",
+    "baseStats": {
+      "hp": 52,
+      "atk": 53,
+      "def": 60,
+      "spA": 78,
+      "spD": 78,
+      "spe": 33,
+      "tot": 354
+    },
+    "catchRate": 120,
+    "type1": "grass",
+    "type2": "normal",
+    "weight": 11.9,
+    "height": 0.6,
+    "evolutions": [
+      "Arboliva"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Early Bird",
+      "ability2": null,
+      "abilityH": "Harvest"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 937,
+    "name": "Arboliva",
+    "baseStats": {
+      "hp": 78,
+      "atk": 69,
+      "def": 90,
+      "spA": 125,
+      "spD": 109,
+      "spe": 39,
+      "tot": 510
+    },
+    "catchRate": 45,
+    "type1": "grass",
+    "type2": "normal",
+    "weight": 48.2,
+    "height": 1.4,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Seed Sower",
+      "ability2": null,
+      "abilityH": "Harvest"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 938,
+    "name": "Capsakid",
+    "baseStats": {
+      "hp": 50,
+      "atk": 62,
+      "def": 40,
+      "spA": 62,
+      "spD": 40,
+      "spe": 50,
+      "tot": 304
+    },
+    "catchRate": 190,
+    "type1": "grass",
+    "type2": null,
+    "weight": 3,
+    "height": 0.3,
+    "evolutions": [
+      "Scovillain"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Chlorophyll",
+      "ability2": "Insomnia",
+      "abilityH": "Klutz"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 939,
+    "name": "Scovillain",
+    "baseStats": {
+      "hp": 65,
+      "atk": 108,
+      "def": 65,
+      "spA": 108,
+      "spD": 65,
+      "spe": 75,
+      "tot": 486
+    },
+    "catchRate": 75,
+    "type1": "grass",
+    "type2": null,
+    "weight": 3,
+    "height": 0.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Chlorophyll",
+      "ability2": "Insomnia",
+      "abilityH": "Moody"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 940,
+    "name": "Tadbulb",
+    "baseStats": {
+      "hp": 61,
+      "atk": 62,
+      "def": 40,
+      "spA": 62,
+      "spD": 40,
+      "spe": 50,
+      "tot": 304
+    },
+    "catchRate": 190,
+    "type1": "electric",
+    "type2": null,
+    "weight": 0.4,
+    "height": 0.3,
+    "evolutions": [
+      "Bellibolt"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 1",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Own Tempo",
+      "ability2": "Static",
+      "abilityH": "Damp"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 941,
+    "name": "Bellibolt",
+    "baseStats": {
+      "hp": 109,
+      "atk": 64,
+      "def": 91,
+      "spA": 103,
+      "spD": 83,
+      "spe": 45,
+      "tot": 495
+    },
+    "catchRate": 50,
+    "type1": "electric",
+    "type2": null,
+    "weight": 113,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 1",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Electromorphosis",
+      "ability2": "Static",
+      "abilityH": "Damp"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 942,
+    "name": "Varoom",
+    "baseStats": {
+      "hp": 45,
+      "atk": 70,
+      "def": 63,
+      "spA": 30,
+      "spD": 45,
+      "spe": 47,
+      "tot": 300
+    },
+    "catchRate": 190,
+    "type1": "steel",
+    "type2": "poison",
+    "weight": 35,
+    "height": 1,
+    "evolutions": [
+      "Revavroom"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Mineral",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Overcoat",
+      "ability2": null,
+      "abilityH": "Slow Start"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 943,
+    "name": "Revavaroom",
+    "baseStats": {
+      "hp": 80,
+      "atk": 119,
+      "def": 90,
+      "spA": 54,
+      "spD": 67,
+      "spe": 90,
+      "tot": 500
+    },
+    "catchRate": 75,
+    "type1": "steel",
+    "type2": "poison",
+    "weight": 120,
+    "height": 1.8,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Mineral",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Overcoat",
+      "ability2": null,
+      "abilityH": "Filter"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 944,
+    "name": "Orthworm",
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 145,
+      "spA": 60,
+      "spD": 55,
+      "spe": 65,
+      "tot": 480
+    },
+    "catchRate": 25,
+    "type1": "steel",
+    "type2": null,
+    "weight": 310,
+    "height": 2.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Earth Eater",
+      "ability2": null,
+      "abilityH": "Sand Veil"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 945,
+    "name": "Tandemaus",
+    "baseStats": {
+      "hp": 50,
+      "atk": 50,
+      "def": 45,
+      "spA": 40,
+      "spD": 45,
+      "spe": 75,
+      "tot": 305
+    },
+    "catchRate": 150,
+    "type1": "normal",
+    "type2": null,
+    "weight": 1.8,
+    "height": 0.3,
+    "evolutions": [
+      "Maushold"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Fairy",
+    "eggGroup2": "Field",
+    "abilities": {
+      "ability1": "Run Away",
+      "ability2": "Pickup",
+      "abilityH": "Own Tempo"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 946,
+    "name": "Maushold Of Three",
+    "baseStats": {
+      "hp": 74,
+      "atk": 75,
+      "def": 70,
+      "spA": 65,
+      "spD": 75,
+      "spe": 111,
+      "tot": 470
+    },
+    "catchRate": 75,
+    "type1": "normal",
+    "type2": null,
+    "weight": 2.3,
+    "height": 0.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Fairy",
+    "eggGroup2": "Field",
+    "abilities": {
+      "ability1": "Friend Guard",
+      "ability2": "Cheek Pouch",
+      "abilityH": "Techinician"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Maushold Of Three",
+      "Maushold Of Four"
+    ]
+  },
+  {
+    "dexId": 946,
+    "name": "Maushold Of Three",
+    "baseStats": {
+      "hp": 74,
+      "atk": 75,
+      "def": 70,
+      "spA": 65,
+      "spD": 75,
+      "spe": 111,
+      "tot": 470
+    },
+    "catchRate": 75,
+    "type1": "normal",
+    "type2": null,
+    "weight": 2.8,
+    "height": 0.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Fairy",
+    "eggGroup2": "Field",
+    "abilities": {
+      "ability1": "Friend Guard",
+      "ability2": "Cheek Pouch",
+      "abilityH": "Techinician"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Maushold Of Three",
+      "Maushold Of Four"
+    ]
+  },
+  {
+    "dexId": 947,
+    "name": "Cetoddle",
+    "baseStats": {
+      "hp": 108,
+      "atk": 68,
+      "def": 45,
+      "spA": 30,
+      "spD": 40,
+      "spe": 43,
+      "tot": 334
+    },
+    "catchRate": 150,
+    "type1": "ice",
+    "type2": null,
+    "weight": 45,
+    "height": 1.2,
+    "evolutions": [
+      "Cetitan"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Thick Fat",
+      "ability2": "Snow Cloak",
+      "abilityH": "Sheer Force"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 948,
+    "name": "Cetitan",
+    "baseStats": {
+      "hp": 170,
+      "atk": 113,
+      "def": 65,
+      "spA": 454,
+      "spD": 55,
+      "spe": 73,
+      "tot": 521
+    },
+    "catchRate": 50,
+    "type1": "ice",
+    "type2": null,
+    "weight": 700,
+    "height": 4.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Thick Fat",
+      "ability2": "Slush Rush",
+      "abilityH": "Sheer Force"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 949,
+    "name": "Frigibax",
+    "baseStats": {
+      "hp": 65,
+      "atk": 75,
+      "def": 45,
+      "spA": 35,
+      "spD": 45,
+      "spe": 55,
+      "tot": 320
+    },
+    "catchRate": 45,
+    "type1": "dragon",
+    "type2": "ice",
+    "weight": 17,
+    "height": 0.5,
+    "evolutions": [
+      "Artibax"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Dragon",
+    "eggGroup2": "Mineral",
+    "abilities": {
+      "ability1": "Thermal Exchange",
+      "ability2": null,
+      "abilityH": "Ice Body"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 950,
+    "name": "Artibax",
+    "baseStats": {
+      "hp": 90,
+      "atk": 95,
+      "def": 66,
+      "spA": 45,
+      "spD": 65,
+      "spe": 62,
+      "tot": 423
+    },
+    "catchRate": 25,
+    "type1": "dragon",
+    "type2": "ice",
+    "weight": 30,
+    "height": 0.8,
+    "evolutions": [
+      "Baxcalibur"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Dragon",
+    "eggGroup2": "Mineral",
+    "abilities": {
+      "ability1": "Thermal Exchange",
+      "ability2": null,
+      "abilityH": "Ice Body"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 951,
+    "name": "Baxcalibur",
+    "baseStats": {
+      "hp": 115,
+      "atk": 145,
+      "def": 92,
+      "spA": 75,
+      "spD": 86,
+      "spe": 87,
+      "tot": 600
+    },
+    "catchRate": 10,
+    "type1": "dragon",
+    "type2": "ice",
+    "weight": 210,
+    "height": 2.1,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Dragon",
+    "eggGroup2": "Mineral",
+    "abilities": {
+      "ability1": "Thermal Exchange",
+      "ability2": null,
+      "abilityH": "Ice Body"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 952,
+    "name": "Tatsugiri",
+    "baseStats": {
+      "hp": 68,
+      "atk": 50,
+      "def": 60,
+      "spA": 120,
+      "spD": 95,
+      "spe": 82,
+      "tot": 475
+    },
+    "catchRate": 100,
+    "type1": "dragon",
+    "type2": "water",
+    "weight": 8,
+    "height": 0.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 2",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Commander",
+      "ability2": null,
+      "abilityH": "Storm Drain"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
   }
 ]
