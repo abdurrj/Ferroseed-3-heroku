@@ -43492,7 +43492,7 @@
       "spA": 80,
       "spD": 72,
       "spe": 110,
-      "tot": 4485
+      "tot": 485
     },
     "catchRate": 90,
     "type1": "poison",
@@ -43508,6 +43508,1014 @@
       "ability1": "Unburden",
       "ability2": "Poison Touch",
       "abilityH": "Prankster"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 970,
+    "name": "Fidough",
+    "baseStats": {
+      "hp": 37,
+      "atk": 55,
+      "def": 70,
+      "spA": 30,
+      "spD": 55,
+      "spe": 65,
+      "tot": 312
+    },
+    "catchRate": 190,
+    "type1": "fairy",
+    "type2": null,
+    "weight": 10.9,
+    "height": 0.3,
+    "evolutions": [
+      "Dachsbun"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Mineral",
+    "abilities": {
+      "ability1": "Own Tempo",
+      "ability2": null,
+      "abilityH": "Klutz"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 971,
+    "name": "Dachsbun",
+    "baseStats": {
+      "hp": 57,
+      "atk": 80,
+      "def": 115,
+      "spA": 50,
+      "spD": 80,
+      "spe": 95,
+      "tot": 477
+    },
+    "catchRate": 90,
+    "type1": "fairy",
+    "type2": null,
+    "weight": 14.9,
+    "height": 0.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Mineral",
+    "abilities": {
+      "ability1": "Well-Baked Body",
+      "ability2": null,
+      "abilityH": "Aroma Veil"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 972,
+    "name": "Maschiff",
+    "baseStats": {
+      "hp": 60,
+      "atk": 78,
+      "def": 60,
+      "spA": 40,
+      "spD": 51,
+      "spe": 51,
+      "tot": 340
+    },
+    "catchRate": 150,
+    "type1": "dark",
+    "type2": null,
+    "weight": 16,
+    "height": 0.5,
+    "evolutions": [
+      "Mabosstiff"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Intimidate",
+      "ability2": "Run Away",
+      "abilityH": "Stakeout"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 973,
+    "name": "Mabosstiff",
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 90,
+      "spA": 60,
+      "spD": 70,
+      "spe": 85,
+      "tot": 505
+    },
+    "catchRate": 75,
+    "type1": "dark",
+    "type2": null,
+    "weight": 61,
+    "height": 1.1,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Intimidate",
+      "ability2": "Guard Dog",
+      "abilityH": "Stakeout"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 974,
+    "name": "Bramblin",
+    "baseStats": {
+      "hp": 40,
+      "atk": 65,
+      "def": 30,
+      "spA": 45,
+      "spD": 35,
+      "spe": 60,
+      "tot": 275
+    },
+    "catchRate": 190,
+    "type1": "grass",
+    "type2": "ghost",
+    "weight": 0.6,
+    "height": 0.6,
+    "evolutions": [
+      "Brambleghast"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Wind Rider",
+      "ability2": null,
+      "abilityH": "Infiltrator"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 975,
+    "name": "Brambleghast",
+    "baseStats": {
+      "hp": 55,
+      "atk": 115,
+      "def": 70,
+      "spA": 80,
+      "spD": 70,
+      "spe": 90,
+      "tot": 480
+    },
+    "catchRate": 45,
+    "type1": "grass",
+    "type2": "ghost",
+    "weight": 6,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Wind Rider",
+      "ability2": null,
+      "abilityH": "Infiltrator"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 976,
+    "name": "Gimmighoul Chest Form",
+    "baseStats": {
+      "hp": 45,
+      "atk": 30,
+      "def": 70,
+      "spA": 75,
+      "spD": 70,
+      "spe": 70,
+      "tot": 300
+    },
+    "catchRate": 45,
+    "type1": "ghost",
+    "type2": null,
+    "weight": 5,
+    "height": 0.3,
+    "evolutions": [
+      "Gholdengo"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Rattled",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Undiscovered",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Gimmighoul Chest Form",
+      "Gimmighoul Roaming Form"
+    ]
+  },
+  {
+    "dexId": 976,
+    "name": "Gimmighoul Roaming Form",
+    "baseStats": {
+      "hp": 45,
+      "atk": 30,
+      "def": 25,
+      "spA": 75,
+      "spD": 45,
+      "spe": 80,
+      "tot": 300
+    },
+    "catchRate": 45,
+    "type1": "ghost",
+    "type2": null,
+    "weight": 0.1,
+    "height": 0.1,
+    "evolutions": [
+      "Gholdengo"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Run Away",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Gimmighoul Chest Form",
+      "Gimmighoul Roaming Form"
+    ]
+  },
+  {
+    "dexId": 977,
+    "name": "Gholdengo",
+    "baseStats": {
+      "hp": 87,
+      "atk": 60,
+      "def": 95,
+      "spA": 133,
+      "spD": 91,
+      "spe": 84,
+      "tot": 550
+    },
+    "catchRate": 45,
+    "type1": "ghost",
+    "type2": null,
+    "weight": 30,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Good as Gold",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 978,
+    "name": "Great Tusk",
+    "baseStats": {
+      "hp": 115,
+      "atk": 131,
+      "def": 131,
+      "spA": 53,
+      "spD": 53,
+      "spe": 87,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "ground",
+    "type2": "fighting",
+    "weight": 320,
+    "height": 2.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Protosynthesis",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 979,
+    "name": "Brune Bonnet",
+    "baseStats": {
+      "hp": 111,
+      "atk": 127,
+      "def": 99,
+      "spA": 79,
+      "spD": 99,
+      "spe": 55,
+      "tot": 570
+    },
+    "catchRate": 50,
+    "type1": "grass",
+    "type2": "dark",
+    "weight": 21,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Protosynthesis",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 981,
+    "name": "Sandy Shocks",
+    "baseStats": {
+      "hp": 85,
+      "atk": 81,
+      "def": 97,
+      "spA": 121,
+      "spD": 85,
+      "spe": 101,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "electric",
+    "type2": "ground",
+    "weight": 60,
+    "height": 2.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Protosynthesis",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 982,
+    "name": "Scream Tail",
+    "baseStats": {
+      "hp": 115,
+      "atk": 65,
+      "def": 99,
+      "spA": 65,
+      "spD": 115,
+      "spe": 111,
+      "tot": 570
+    },
+    "catchRate": 50,
+    "type1": "fairy",
+    "type2": "psychic",
+    "weight": 8,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Protosynthesis",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 983,
+    "name": "Flutter mane",
+    "baseStats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 55,
+      "spA": 135,
+      "spD": 135,
+      "spe": 135,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "ghost",
+    "type2": "fairy",
+    "weight": 4,
+    "height": 1.4,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Protosynthesis",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 984,
+    "name": "Slither Wing",
+    "baseStats": {
+      "hp": 85,
+      "atk": 135,
+      "def": 79,
+      "spA": 85,
+      "spD": 105,
+      "spe": 81,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "bug",
+    "type2": "fighting",
+    "weight": 92,
+    "height": 3.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Protosynthesis",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 985,
+    "name": "Roaring moon",
+    "baseStats": {
+      "hp": 105,
+      "atk": 139,
+      "def": 71,
+      "spA": 55,
+      "spD": 101,
+      "spe": 119,
+      "tot": 590
+    },
+    "catchRate": 10,
+    "type1": "dragon",
+    "type2": "dark",
+    "weight": 380,
+    "height": 2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Protosynthesis",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 986,
+    "name": "Iron Treads",
+    "baseStats": {
+      "hp": 90,
+      "atk": 112,
+      "def": 120,
+      "spA": 72,
+      "spD": 70,
+      "spe": 106,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "ground",
+    "type2": "steel",
+    "weight": 240,
+    "height": 0.9,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Quark Drive",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 988,
+    "name": "Iron Moth",
+    "baseStats": {
+      "hp": 80,
+      "atk": 70,
+      "def": 60,
+      "spA": 140,
+      "spD": 110,
+      "spe": 110,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "fire",
+    "type2": "poison",
+    "weight": 36,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Quark Drive",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 989,
+    "name": "Iron Hands",
+    "baseStats": {
+      "hp": 154,
+      "atk": 140,
+      "def": 108,
+      "spA": 50,
+      "spD": 68,
+      "spe": 50,
+      "tot": 570
+    },
+    "catchRate": 50,
+    "type1": "fighting",
+    "type2": "electric",
+    "weight": 380.7,
+    "height": 1.8,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Quark Drive",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 990,
+    "name": "Iron Jugulis",
+    "baseStats": {
+      "hp": 94,
+      "atk": 80,
+      "def": 86,
+      "spA": 122,
+      "spD": 80,
+      "spe": 108,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "dark",
+    "type2": "flying",
+    "weight": 380.7,
+    "height": 1.8,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Quark Drive",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 991,
+    "name": "Iron Thorns",
+    "baseStats": {
+      "hp": 100,
+      "atk": 134,
+      "def": 110,
+      "spA": 70,
+      "spD": 84,
+      "spe": 72,
+      "tot": 570
+    },
+    "catchRate": 30,
+    "type1": "rock",
+    "type2": "electric",
+    "weight": 303,
+    "height": 1.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Quark Drive",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 992,
+    "name": "Iron Bundle",
+    "baseStats": {
+      "hp": 56,
+      "atk": 80,
+      "def": 114,
+      "spA": 124,
+      "spD": 60,
+      "spe": 136,
+      "tot": 570
+    },
+    "catchRate": 50,
+    "type1": "ice",
+    "type2": "water",
+    "weight": 11,
+    "height": 0.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Quark Drive",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 993,
+    "name": "Iron Valiant",
+    "baseStats": {
+      "hp": 74,
+      "atk": 130,
+      "def": 90,
+      "spA": 120,
+      "spD": 60,
+      "spe": 116,
+      "tot": 590
+    },
+    "catchRate": 10,
+    "type1": "fairy",
+    "type2": "fighting",
+    "weight": 35,
+    "height": 1.4,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Quark Drive",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 994,
+    "name": "Ting-Lu",
+    "baseStats": {
+      "hp": 155,
+      "atk": 110,
+      "def": 125,
+      "spA": 55,
+      "spD": 80,
+      "spe": 45,
+      "tot": 570
+    },
+    "catchRate": 6,
+    "type1": "dark",
+    "type2": "ground",
+    "weight": 699.7,
+    "height": 2.7,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Vessel of Ruin",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 995,
+    "name": "Chien-Pao",
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 80,
+      "spA": 90,
+      "spD": 65,
+      "spe": 135,
+      "tot": 570
+    },
+    "catchRate": 6,
+    "type1": "dark",
+    "type2": "ice",
+    "weight": 152.2,
+    "height": 1.9,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Sword of Ruin",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 996,
+    "name": "Wo-Chien",
+    "baseStats": {
+      "hp": 85,
+      "atk": 85,
+      "def": 100,
+      "spA": 95,
+      "spD": 135,
+      "spe": 70,
+      "tot": 570
+    },
+    "catchRate": 6,
+    "type1": "dark",
+    "type2": "grass",
+    "weight": 74.2,
+    "height": 1.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Tablets of Ruin",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 997,
+    "name": "Chi-Yu",
+    "baseStats": {
+      "hp": 55,
+      "atk": 80,
+      "def": 80,
+      "spA": 135,
+      "spD": 120,
+      "spe": 100,
+      "tot": 570
+    },
+    "catchRate": 6,
+    "type1": "dark",
+    "type2": "fire",
+    "weight": 4.9,
+    "height": 0.4,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Beads of Ruin",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 998,
+    "name": "Koraidon",
+    "baseStats": {
+      "hp": 100,
+      "atk": 135,
+      "def": 115,
+      "spA": 85,
+      "spD": 100,
+      "spe": 135,
+      "tot": 670
+    },
+    "catchRate": 3,
+    "type1": "fighting",
+    "type2": "dragon",
+    "weight": 303,
+    "height": 2.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Orichalcum Pulse",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 999,
+    "name": "Miraidon",
+    "baseStats": {
+      "hp": 100,
+      "atk": 85,
+      "def": 100,
+      "spA": 135,
+      "spD": 115,
+      "spe": 135,
+      "tot": 670
+    },
+    "catchRate": 3,
+    "type1": "electric",
+    "type2": "dragon",
+    "weight": 240,
+    "height": 3.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ⚲",
+    "eggGroup1": "Undiscovered",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Hadron Engine",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1000,
+    "name": "Tinkatink",
+    "baseStats": {
+      "hp": 100,
+      "atk": 85,
+      "def": 100,
+      "spA": 135,
+      "spD": 115,
+      "spe": 135,
+      "tot": 670
+    },
+    "catchRate": 190,
+    "type1": "fairy",
+    "type2": "steel",
+    "weight": 8.9,
+    "height": 0.4,
+    "evolutions": [
+      "Tinkatuff"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ♀",
+    "eggGroup1": "Fairy",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Mold Breaker",
+      "ability2": "Own Tempo",
+      "abilityH": "Pickpocket"
     },
     "dens": {
       "sword": [],
