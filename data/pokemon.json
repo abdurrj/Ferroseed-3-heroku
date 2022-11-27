@@ -42820,5 +42820,699 @@
       "shield": []
     },
     "forms": []
+  },
+  {
+    "dexId": 953,
+    "name": "Cyclizar",
+    "baseStats": {
+      "hp": 70,
+      "atk": 95,
+      "def": 65,
+      "spA": 85,
+      "spD": 65,
+      "spe": 121,
+      "tot": 501
+    },
+    "catchRate": 190,
+    "type1": "dragon",
+    "type2": "normal",
+    "weight": 63,
+    "height": 1.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Shed Skin",
+      "ability2": null,
+      "abilityH": "Regenerator"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 954,
+    "name": "Pawmi",
+    "baseStats": {
+      "hp": 45,
+      "atk": 50,
+      "def": 20,
+      "spA": 40,
+      "spD": 25,
+      "spe": 60,
+      "tot": 240
+    },
+    "catchRate": 190,
+    "type1": "electric",
+    "type2": null,
+    "weight": 2.5,
+    "height": 0.3,
+    "evolutions": [
+      "Pawmo"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Static",
+      "ability2": "Natural Cure",
+      "abilityH": "Iron Fist"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 955,
+    "name": "Pawmo",
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 40,
+      "spA": 50,
+      "spD": 40,
+      "spe": 85,
+      "tot": 350
+    },
+    "catchRate": 80,
+    "type1": "electric",
+    "type2": "fighting",
+    "weight": 6.5,
+    "height": 0.4,
+    "evolutions": [
+      "Pawmot"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Volt Absorb",
+      "ability2": "Natural Cure",
+      "abilityH": "Iron Fist"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 956,
+    "name": "Pawmot",
+    "baseStats": {
+      "hp": 70,
+      "atk": 115,
+      "def": 70,
+      "spA": 70,
+      "spD": 60,
+      "spe": 105,
+      "tot": 490
+    },
+    "catchRate": 45,
+    "type1": "electric",
+    "type2": "fighting",
+    "weight": 6.5,
+    "height": 0.4,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Volt Absorb",
+      "ability2": "Natural Cure",
+      "abilityH": "Iron Fist"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 957,
+    "name": "Wattrel",
+    "baseStats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 35,
+      "spA": 55,
+      "spD": 40,
+      "spe": 70,
+      "tot": 280
+    },
+    "catchRate": 180,
+    "type1": "electric",
+    "type2": "flying",
+    "weight": 3.6,
+    "height": 0.4,
+    "evolutions": [
+      "Kilowattrel"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": "Water 1",
+    "abilities": {
+      "ability1": "Wind Power",
+      "ability2": "Volt Absorb",
+      "abilityH": "Competitive"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 958,
+    "name": "Kilowattrel",
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 60,
+      "spA": 105,
+      "spD": 60,
+      "spe": 125,
+      "tot": 490
+    },
+    "catchRate": 90,
+    "type1": "electric",
+    "type2": "flying",
+    "weight": 38.6,
+    "height": 1.4,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": "Water 1",
+    "abilities": {
+      "ability1": "Wind Power",
+      "ability2": "Volt Absorb",
+      "abilityH": "Competitive"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 959,
+    "name": "Bombirdier",
+    "baseStats": {
+      "hp": 70,
+      "atk": 103,
+      "def": 85,
+      "spA": 60,
+      "spD": 85,
+      "spe": 82,
+      "tot": 485
+    },
+    "catchRate": 25,
+    "type1": "flying",
+    "type2": "dark",
+    "weight": 42.9,
+    "height": 1.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Big Pecks",
+      "ability2": "Keen Eye",
+      "abilityH": "Rocky Payload"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 960,
+    "name": "Squawkabilly White plumage",
+    "baseStats": {
+      "hp": 82,
+      "atk": 96,
+      "def": 51,
+      "spA": 45,
+      "spD": 51,
+      "spe": 92,
+      "tot": 417
+    },
+    "catchRate": 190,
+    "type1": "normal",
+    "type2": "flying",
+    "weight": 2.4,
+    "height": 0.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Intimidate",
+      "ability2": "Hustle",
+      "abilityH": "Guts"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Squawkabilly White plumage",
+      "Squawkabilly Yellow plumage",
+      "Squawkabilly Green plumage",
+      "Squawkabilly Blue plumage"
+    ]
+  },
+  {
+    "dexId": 960,
+    "name": "Squawkabilly Yellow plumage",
+    "baseStats": {
+      "hp": 82,
+      "atk": 96,
+      "def": 51,
+      "spA": 45,
+      "spD": 51,
+      "spe": 92,
+      "tot": 417
+    },
+    "catchRate": 190,
+    "type1": "normal",
+    "type2": "flying",
+    "weight": 2.4,
+    "height": 0.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Intimidate",
+      "ability2": "Hustle",
+      "abilityH": "Guts"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Squawkabilly White plumage",
+      "Squawkabilly Yellow plumage",
+      "Squawkabilly Green plumage",
+      "Squawkabilly Blue plumage"
+    ]
+  },
+  {
+    "dexId": 960,
+    "name": "Squawkabilly Green plumage",
+    "baseStats": {
+      "hp": 82,
+      "atk": 96,
+      "def": 51,
+      "spA": 45,
+      "spD": 51,
+      "spe": 92,
+      "tot": 417
+    },
+    "catchRate": 190,
+    "type1": "normal",
+    "type2": "flying",
+    "weight": 2.4,
+    "height": 0.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Intimidate",
+      "ability2": "Hustle",
+      "abilityH": "Sheer Force"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Squawkabilly White plumage",
+      "Squawkabilly Yellow plumage",
+      "Squawkabilly Green plumage",
+      "Squawkabilly Blue plumage"
+    ]
+  },
+  {
+    "dexId": 960,
+    "name": "Squawkabilly Blue plumage",
+    "baseStats": {
+      "hp": 82,
+      "atk": 96,
+      "def": 51,
+      "spA": 45,
+      "spD": 51,
+      "spe": 92,
+      "tot": 417
+    },
+    "catchRate": 190,
+    "type1": "normal",
+    "type2": "flying",
+    "weight": 2.4,
+    "height": 0.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Intimidate",
+      "ability2": "Hustle",
+      "abilityH": "Sheer Force"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": [
+      "Squawkabilly White plumage",
+      "Squawkabilly Yellow plumage",
+      "Squawkabilly Green plumage",
+      "Squawkabilly Blue plumage"
+    ]
+  },
+  {
+    "dexId": 961,
+    "name": "Flamigo",
+    "baseStats": {
+      "hp": 82,
+      "atk": 115,
+      "def": 74,
+      "spA": 75,
+      "spD": 64,
+      "spe": 90,
+      "tot": 500
+    },
+    "catchRate": 100,
+    "type1": "flying",
+    "type2": "fighting",
+    "weight": 37,
+    "height": 1.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Flying",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Scrappy",
+      "ability2": "Tangled Feet",
+      "abilityH": "Costar"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 962,
+    "name": "Klawf",
+    "baseStats": {
+      "hp": 70,
+      "atk": 100,
+      "def": 115,
+      "spA": 35,
+      "spD": 55,
+      "spe": 75,
+      "tot": 450
+    },
+    "catchRate": 120,
+    "type1": "rock",
+    "type2": null,
+    "weight": 79,
+    "height": 1.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Water 3",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Anger Shell",
+      "ability2": "Shell Armor",
+      "abilityH": "Regenerator"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 963,
+    "name": "Nacli",
+    "baseStats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 75,
+      "spA": 35,
+      "spD": 35,
+      "spe": 25,
+      "tot": 280
+    },
+    "catchRate": 255,
+    "type1": "rock",
+    "type2": null,
+    "weight": 16,
+    "height": 0.4,
+    "evolutions": [
+      "Naclstack"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Mineral",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Purifying Salt",
+      "ability2": "Sturdy",
+      "abilityH": "Clear Body"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 964,
+    "name": "Naclstack",
+    "baseStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 100,
+      "spA": 35,
+      "spD": 65,
+      "spe": 35,
+      "tot": 355
+    },
+    "catchRate": 120,
+    "type1": "rock",
+    "type2": null,
+    "weight": 105,
+    "height": 0.6,
+    "evolutions": [
+      "Garganacl"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Mineral",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Purifying Salt",
+      "ability2": "Sturdy",
+      "abilityH": "Clear Body"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 965,
+    "name": "Garganacl",
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 130,
+      "spA": 454,
+      "spD": 90,
+      "spe": 35,
+      "tot": 500
+    },
+    "catchRate": 45,
+    "type1": "rock",
+    "type2": null,
+    "weight": 240,
+    "height": 2.3,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Mineral",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Purifying Salt",
+      "ability2": "Sturdy",
+      "abilityH": "Clear Body"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 966,
+    "name": "Glimmet",
+    "baseStats": {
+      "hp": 48,
+      "atk": 35,
+      "def": 42,
+      "spA": 105,
+      "spD": 60,
+      "spe": 60,
+      "tot": 350
+    },
+    "catchRate": 70,
+    "type1": "rock",
+    "type2": "poison",
+    "weight": 8,
+    "height": 0.7,
+    "evolutions": [
+      "Glimmora"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Mineral",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Toxic Debris",
+      "ability2": null,
+      "abilityH": "Corrosion"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 967,
+    "name": "Glimmora",
+    "baseStats": {
+      "hp": 83,
+      "atk": 55,
+      "def": 90,
+      "spA": 130,
+      "spD": 81,
+      "spe": 86,
+      "tot": 525
+    },
+    "catchRate": 25,
+    "type1": "rock",
+    "type2": "poison",
+    "weight": 45,
+    "height": 1.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Mineral",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Toxic Debris",
+      "ability2": null,
+      "abilityH": "Corrosion"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 968,
+    "name": "Shroodle",
+    "baseStats": {
+      "hp": 40,
+      "atk": 65,
+      "def": 35,
+      "spA": 40,
+      "spD": 35,
+      "spe": 75,
+      "tot": 290
+    },
+    "catchRate": 190,
+    "type1": "poison",
+    "type2": "normal",
+    "weight": 0.7,
+    "height": 0.2,
+    "evolutions": [
+      "Grafaiai"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Unburden",
+      "ability2": "Pickpocket",
+      "abilityH": "Prankster"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 969,
+    "name": "Grafaiai",
+    "baseStats": {
+      "hp": 63,
+      "atk": 95,
+      "def": 65,
+      "spA": 80,
+      "spD": 72,
+      "spe": 110,
+      "tot": 4485
+    },
+    "catchRate": 90,
+    "type1": "poison",
+    "type2": "normal",
+    "weight": 27.2,
+    "height": 0.7,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Unburden",
+      "ability2": "Poison Touch",
+      "abilityH": "Prankster"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
   }
 ]
