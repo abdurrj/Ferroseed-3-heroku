@@ -2848,7 +2848,9 @@
     "type2": null,
     "weight": 32,
     "height": 1,
-    "evolutions": [],
+    "evolutions": [
+      "Annihilape"
+    ],
     "generation": "RedBlue",
     "genderRatio": "50% ♂ : 50% ♀",
     "eggGroup1": "Field",
@@ -28246,7 +28248,9 @@
     "type2": "Steel",
     "weight": 70,
     "height": 1.6,
-    "evolutions": [],
+    "evolutions": [
+      "Kingambit"
+    ],
     "generation": "BlackWhite",
     "genderRatio": "50% ♂ : 50% ♀",
     "eggGroup1": "Human-Like",
@@ -44516,6 +44520,343 @@
       "ability1": "Mold Breaker",
       "ability2": "Own Tempo",
       "abilityH": "Pickpocket"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1001,
+    "name": "Tinkatuff",
+    "baseStats": {
+      "hp": 65,
+      "atk": 55,
+      "def": 55,
+      "spA": 45,
+      "spD": 82,
+      "spe": 78,
+      "tot": 380
+    },
+    "catchRate": 90,
+    "type1": "fairy",
+    "type2": "steel",
+    "weight": 59.1,
+    "height": 0.7,
+    "evolutions": [
+      "Tinkaton"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ♀",
+    "eggGroup1": "Fairy",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Mold Breaker",
+      "ability2": "Own Tempo",
+      "abilityH": "Pickpocket"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1002,
+    "name": "Tinkaton",
+    "baseStats": {
+      "hp": 85,
+      "atk": 75,
+      "def": 77,
+      "spA": 70,
+      "spD": 105,
+      "spe": 94,
+      "tot": 506
+    },
+    "catchRate": 45,
+    "type1": "fairy",
+    "type2": "steel",
+    "weight": 112.8,
+    "height": 0.7,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "100% ♀",
+    "eggGroup1": "Fairy",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Mold Breaker",
+      "ability2": "Own Tempo",
+      "abilityH": "Pickpocket"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1003,
+    "name": "Charcadet",
+    "baseStats": {
+      "hp": 40,
+      "atk": 50,
+      "def": 40,
+      "spA": 50,
+      "spD": 40,
+      "spe": 35,
+      "tot": 255
+    },
+    "catchRate": 90,
+    "type1": "fire",
+    "type2": null,
+    "weight": 10.5,
+    "height": 0.6,
+    "evolutions": [
+      "Armarouge",
+      "Ceruledge"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Human-Like",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Flash Fire",
+      "ability2": null,
+      "abilityH": "Flame Body"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1004,
+    "name": "Armarouge",
+    "baseStats": {
+      "hp": 85,
+      "atk": 60,
+      "def": 100,
+      "spA": 125,
+      "spD": 80,
+      "spe": 75,
+      "tot": 525
+    },
+    "catchRate": 25,
+    "type1": "fire",
+    "type2": "psychic",
+    "weight": 85,
+    "height": 1.5,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Human-Like",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Flash Fire",
+      "ability2": null,
+      "abilityH": "Weak Armor"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1005,
+    "name": "Ceruledge",
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 80,
+      "spA": 60,
+      "spD": 100,
+      "spe": 85,
+      "tot": 525
+    },
+    "catchRate": 25,
+    "type1": "fire",
+    "type2": "ghost",
+    "weight": 62,
+    "height": 1.6,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Human-Like",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Flash Fire",
+      "ability2": null,
+      "abilityH": "Weak Armor"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1006,
+    "name": "Toedscool",
+    "baseStats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 35,
+      "spA": 50,
+      "spD": 100,
+      "spe": 70,
+      "tot": 335
+    },
+    "catchRate": 190,
+    "type1": "ground",
+    "type2": "grass",
+    "weight": 33,
+    "height": 0.9,
+    "evolutions": [
+      "Toedscruel"
+    ],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Mycelium Might",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1007,
+    "name": "Toedscruel",
+    "baseStats": {
+      "hp": 80,
+      "atk": 70,
+      "def": 65,
+      "spA": 80,
+      "spD": 120,
+      "spe": 100,
+      "tot": 515
+    },
+    "catchRate": 90,
+    "type1": "ground",
+    "type2": "grass",
+    "weight": 33,
+    "height": 0.9,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Mycelium Might",
+      "ability2": null,
+      "abilityH": null
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1008,
+    "name": "Kingambit",
+    "baseStats": {
+      "hp": 100,
+      "atk": 135,
+      "def": 120,
+      "spA": 60,
+      "spD": 85,
+      "spe": 50,
+      "tot": 550
+    },
+    "catchRate": 25,
+    "type1": "dark",
+    "type2": "steel",
+    "weight": 33,
+    "height": 0.9,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Grass",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Defiant",
+      "ability2": "Supreme Overlord",
+      "abilityH": "Pressure"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1009,
+    "name": "Clodsire",
+    "baseStats": {
+      "hp": 130,
+      "atk": 75,
+      "def": 60,
+      "spA": 45,
+      "spD": 100,
+      "spe": 20,
+      "tot": 430
+    },
+    "catchRate": 90,
+    "type1": "poison",
+    "type2": "ground",
+    "weight": 223,
+    "height": 1.8,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": "Water 1",
+    "abilities": {
+      "ability1": "Poison Point",
+      "ability2": "Water Absorb",
+      "abilityH": "Unaware"
+    },
+    "dens": {
+      "sword": [],
+      "shield": []
+    },
+    "forms": []
+  },
+  {
+    "dexId": 1010,
+    "name": "Annihilape",
+    "baseStats": {
+      "hp": 110,
+      "atk": 115,
+      "def": 80,
+      "spA": 50,
+      "spD": 90,
+      "spe": 90,
+      "tot": 535
+    },
+    "catchRate": 45,
+    "type1": "fighting",
+    "type2": "ghost",
+    "weight": 56,
+    "height": 1.2,
+    "evolutions": [],
+    "generation": "ScarletViolet",
+    "genderRatio": "50% ♂ : 50% ♀",
+    "eggGroup1": "Field",
+    "eggGroup2": null,
+    "abilities": {
+      "ability1": "Vital Spirit",
+      "ability2": "Innter Focus",
+      "abilityH": "Defiant"
     },
     "dens": {
       "sword": [],
