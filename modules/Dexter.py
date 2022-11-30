@@ -165,8 +165,8 @@ class Dexter(commands.Cog):
                         form = "Galarian"
                     elif form == "hisuian":
                         form = "Hisuian"
-                    elif form == "paldean":
-                        form == "Paldean"
+                    elif form in ['Paldean', 'paldean']:
+                        form == 'Paldean'
                     elif form == "paldeanwater" or form == "PaldeanWater":
                         form == "Paldean Water"
                     elif form == "paldeanfire" or form == "PaldeanFire":
