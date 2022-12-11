@@ -5,9 +5,9 @@ NAME = "name"
 POKEDEX_NUMBER = "id"
 STATS = "stats"
 
-regionForms = ["alolan", "galarian", "hisuian", "paldean"]
+regionForms = ["alolan", "galarian", "hisuian", "paldean", "paldean-fire", "paldean-water"]
 rotomForms = ["fan", "frost", "heat", "mow", "wash"]
-genderForms = ["male", "female"]
+genderForms = ["male", "female", "f", "m"]
 temporaryForms = ["mega", "mega-x", "mega-y", "gigantamax"]
 
 class AdvancedDex(commands.Cog):
@@ -42,12 +42,20 @@ class AdvancedDex(commands.Cog):
         if isShiny:
             pkmn = pkmn.replace("shiny", "").replace("*", "").strip()
 
-        print(pkmn)
         pokemonFromData = pokemonLookUp(pkmn, formFound)
-        print(pokemonFromData)
+
+
+        # if pokemonFromData:
+
+            # f"https://img.pokemondb.net/sprites/home/normal/{pokemonFromData}.png"
+
 
 def setup(client):
     client.add_cog(AdvancedDex(client))
+
+def generatePictureUrl(name, shiny, genderDifference):
+    folder = "shiny" if shiny else "normal"
+
 
 def pokemonLookUp(pkmn:str, form:str):
     pokemonName = None
@@ -80,6 +88,10 @@ def checkIfFormRequested(pkmn:str):
     for form in pokemonForms:
         for word in wordList:
             if word in form and len(word)>2:
+                if form == "male":
+                    form = ""
+                elif form == "female":
+                    form = "f"
                 return form, word
     return None, None
 
