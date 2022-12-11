@@ -50,17 +50,24 @@ def setup(client):
     client.add_cog(AdvancedDex(client))
 
 def pokemonLookUp(pkmn:str, form:str):
+    pokemonName = None
     with open(r"data/pokemon.json", "r") as readFile:
         data = json.load(readFile)
     for i in range(0, len(data)):
         pkmnInfo = data[i]
-        if pkmnInfo['name'].startswith(pkmn):
-            if form and form in pkmnInfo['forms']:
+        if pkmnInfo['name'].lower().startswith(pkmn):
+            if form and hasRequestedForm(form, pkmnInfo['forms']):
                 pokemonName = pkmnInfo['name'] + "-" + form
             else:
                 pokemonName = pkmnInfo['name']
-            return pokemonName
+            break
+    return pokemonName
 
+def hasRequestedForm(formRequested, formsAvailable):
+    for i in formsAvailable:
+        if formRequested.lower() in i.lower():
+            return True
+    return False
 
 def checkIfShinySpriteRequest(pkmn:str):
     if "*" in pkmn or "shiny" in pkmn:
@@ -68,7 +75,7 @@ def checkIfShinySpriteRequest(pkmn:str):
     return False
 
 def checkIfFormRequested(pkmn:str):
-    pokemonForms = regionForms + rotomForms + genderForms
+    pokemonForms = regionForms + rotomForms + genderForms + temporaryForms
     wordList = pkmn.split(" ")
     for form in pokemonForms:
         for word in wordList:
