@@ -1,8 +1,39 @@
 from BotImports import *
+import PokeApiConsumer
+
+
+regionForms = ["alolan", "galarian", "hisuian", "paldean"]
+rotomForms = ["fan", "frost", "heat", "mow", "wash"]
+genderForms = ["male", "female"]
+
+
+def checkIfShinySpriteRequest(pkmn:str):
+    pkmn = pkmn.lower()
+    if "*" in pkmn or "shiny" in pkmn:
+        return True
+    return False
+
+def checkIfFormRequested(pkmn:str):
+    pokemonForms = regionForms + rotomForms + genderForms
+    wordList = pkmn.lower().split(" ")
+    for form in pokemonForms:
+        for word in wordList:
+            if word.__contains__(form):
+                return word
+    return None
 
 class Dexter(commands.Cog):
     def __init__(self, client):
         self.client = client
+
+
+    @commands.command()
+    async def sprites(self, ctx, *, pkmn:str):
+        isShiny = checkIfShinySpriteRequest(pkmn)
+        form = checkIfFormRequested(pkmn)
+        if form:
+            pkmn
+
 
     @commands.command()
     async def sprite(self, ctx, pkmn, *shiny):
@@ -20,6 +51,35 @@ class Dexter(commands.Cog):
         else:
             pokemon = possible_names[0]
             
+        for i in range(0, len(data)):
+            pokemon_dict = data[i]
+            if pokemon in (pokemon_dict.values()):
+                if shiny:
+                    if shiny[0] == "*" or shiny[0].lower() == "shiny":
+                        folder = "shiny"
+                    else:
+                        folder = "normal"
+                else:
+                    folder = "normal"
+                pokemon_url_name = pokemon.replace(" ", "-")
+                await ctx.send("https://img.pokemondb.net/sprites/home/" + folder +"/"+ pokemon_url_name.lower() +".png")
+
+
+
+        with open(r"data/pokemon.json", "r") as read_file:
+            data = json.load(read_file)
+        pokemon = str((pkmn.lower()).title())
+        possible_names = []
+        for i in range(0, len(data)):
+            pkmn_info = data[i]
+            if pkmn_info['name'].startswith(pokemon):
+                poke_name = pkmn_info['name']
+                possible_names.append(poke_name)
+        if len(possible_names) == 0:
+            print("No match")
+        else:
+            pokemon = possible_names[0]
+
         for i in range(0, len(data)):
             pokemon_dict = data[i]
             if pokemon in (pokemon_dict.values()):

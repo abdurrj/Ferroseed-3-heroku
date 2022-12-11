@@ -1,10 +1,14 @@
 from modules.PokeApiConsumer import *
-from BotImports import *
 
 ABILITIES = "abilities"
 NAME = "name"
 POKEDEX_NUMBER = "id"
 STATS = "stats"
+
+regionForms = ["alolan", "galarian", "hisuian", "paldean"]
+rotomForms = ["fan", "frost", "heat", "mow", "wash"]
+genderForms = ["male", "female"]
+temporaryForms = ["mega", "mega-x", "mega-y", "gigantamax"]
 
 class AdvancedDex(commands.Cog):
     def __init__(self, client):
@@ -28,10 +32,49 @@ class AdvancedDex(commands.Cog):
     async def lookUpAbility(self, ctx, *, ability):
         await fetchAbility(ability)
 
+    @commands.command()
+    async def namecons(self, ctx, *, pkmn:str):
+        pkmn = pkmn.lower()
+        isShiny = checkIfShinySpriteRequest(pkmn)
+        formFound, formRequested = checkIfFormRequested(pkmn)
+        if formFound:
+            pkmn = pkmn.replace(formRequested, "").strip()
+        if isShiny:
+            pkmn = pkmn.replace("shiny", "").replace("*", "").strip()
 
+        print(pkmn)
+        pokemonFromData = pokemonLookUp(pkmn, formFound)
+        print(pokemonFromData)
 
 def setup(client):
     client.add_cog(AdvancedDex(client))
+
+def pokemonLookUp(pkmn:str, form:str):
+    with open(r"data/pokemon.json", "r") as readFile:
+        data = json.load(readFile)
+    for i in range(0, len(data)):
+        pkmnInfo = data[i]
+        if pkmnInfo['name'].startswith(pkmn):
+            if form and form in pkmnInfo['forms']:
+                pokemonName = pkmnInfo['name'] + "-" + form
+            else:
+                pokemonName = pkmnInfo['name']
+            return pokemonName
+
+
+def checkIfShinySpriteRequest(pkmn:str):
+    if "*" in pkmn or "shiny" in pkmn:
+        return True
+    return False
+
+def checkIfFormRequested(pkmn:str):
+    pokemonForms = regionForms + rotomForms + genderForms
+    wordList = pkmn.split(" ")
+    for form in pokemonForms:
+        for word in wordList:
+            if word in form and len(word)>2:
+                return form, word
+    return None, None
 
 def processPokemonResult(pokeInfo):
     pokemonName = pokeInfo[NAME]
@@ -54,8 +97,6 @@ def getPokemonAbilitiesAsString(abilityList):
             abilities = abilities + "\n"
 
     return abilities
-
-
 
 
 def processBaseStats(pokemonBaseStats):
