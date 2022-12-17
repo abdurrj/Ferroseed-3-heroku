@@ -42,20 +42,35 @@ class AdvancedDex(commands.Cog):
         if isShiny:
             pkmn = pkmn.replace("shiny", "").replace("*", "").strip()
 
-        pokemonFromData = pokemonLookUp(pkmn, formFound)
-
-
-        # if pokemonFromData:
-
-            # f"https://img.pokemondb.net/sprites/home/normal/{pokemonFromData}.png"
-
+        pokemonData = pokemonLookUp(pkmn, formFound)
+        if formFound and formFound not in pokemonData['name']:
+            return
+        genderDifference = await hasGenderDifference(pokemonData["dexId"])
+        url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference)
+        hasBackSprites = requests.head(urlBack).status_code == 200
+        await ctx.send(url)
+        if hasBackSprites:
+            await ctx.send(urlBack)
+        if genderDifference:
+            await ctx.send("Female sprite")
+            await ctx.send(urlFemale)
+            if hasBackSprites:
+                await ctx.send(urlFemaleBack)
 
 def setup(client):
     client.add_cog(AdvancedDex(client))
 
-def generatePictureUrl(name, shiny, genderDifference):
+def generatePictureUrl(name:str, shiny, genderDifference):
     folder = "shiny" if shiny else "normal"
-
+    name = name.lower()
+    url = f"https://img.pokemondb.net/sprites/home/{folder}/{name}.png"
+    urlBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}.png"
+    urlFemale = None
+    urlFemaleBack = None
+    if genderDifference:
+        urlFemale = f"https://img.pokemondb.net/sprites/home/{folder}/{name}-f.png"
+        urlFemaleBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}-f.png"
+    return url, urlBack, urlFemale, urlFemaleBack
 
 def pokemonLookUp(pkmn:str, form:str):
     pokemonName = None
@@ -69,7 +84,10 @@ def pokemonLookUp(pkmn:str, form:str):
             else:
                 pokemonName = pkmnInfo['name']
             break
-    return pokemonName
+    for i in range(0, len(data)):
+        pkmnInfo = data[i]
+        if pkmnInfo['name'] == pokemonName:
+            return pkmnInfo
 
 def hasRequestedForm(formRequested, formsAvailable):
     for i in formsAvailable:
@@ -81,6 +99,14 @@ def checkIfShinySpriteRequest(pkmn:str):
     if "*" in pkmn or "shiny" in pkmn:
         return True
     return False
+
+async def hasGenderDifference(dexId):
+    statusCode, pokemonResult = await fetchPokemonSpecies(dexId)
+    if pokemonResult and pokemonResult["has_gender_differences"]:
+        return pokemonResult["has_gender_differences"]
+    return False
+
+
 
 def checkIfFormRequested(pkmn:str):
     pokemonForms = regionForms + rotomForms + genderForms + temporaryForms

@@ -9,7 +9,7 @@ async def fetchPokemon(pokemon):
         return r.status_code, None
 
 async def fetchPokemonSpecies(pokemon):
-    r = requests.get(f"https://pokeapi.co/api/v2/pokemon/pokemon-species/{pokemon}")
+    r = requests.get(f"https://pokeapi.co/api/v2/pokemon-species/{pokemon}")
     if r.status_code == 200:
         return r.status_code, r.json()
     else:
