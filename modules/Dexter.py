@@ -433,9 +433,5 @@ def checkIfFormRequested(pkmn:str):
     for form in pokemonForms:
         for word in wordList:
             if word in form and len(word)>2:
-                if form == "male":
-                    form = ""
-                elif form == "female":
-                    form = "f"
                 return form, word
     return None, None
