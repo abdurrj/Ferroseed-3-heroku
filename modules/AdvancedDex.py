@@ -7,6 +7,8 @@ STATS = "stats"
 
 regionForms = ["alolan", "galarian", "hisuian", "paldean", "paldean-fire", "paldean-water"]
 rotomForms = ["fan", "frost", "heat", "mow", "wash"]
+calyrexForms = ["ice-rider", "shadow-rider"]
+darmanithanForms = ["standard", "zen"]
 genderForms = ["male", "female", "f", "m"]
 temporaryForms = ["mega", "mega-x", "mega-y", "gigantamax"]
 
@@ -14,23 +16,23 @@ class AdvancedDex(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-    @commands.command()
-    async def lookUpPokemon(self, ctx, *, pokemon):
-        httpResult, pokemonResult = await fetchPokemon(pokemon)
-        if httpResult != 200:
-            httpResult, pokemonResult = await fetchPokemon(pokemon+"-m")
-            if httpResult != 200:
-                await ctx.send(f"Sorry, i couldn't find {pokemon}")
-                return
+    # @commands.command()
+    # async def lookUpPokemon(self, ctx, *, pokemon):
+    #     httpResult, pokemonResult = await fetchPokemon(pokemon)
+    #     if httpResult != 200:
+    #         httpResult, pokemonResult = await fetchPokemon(pokemon+"-m")
+    #         if httpResult != 200:
+    #             await ctx.send(f"Sorry, i couldn't find {pokemon}")
+    #             return
+    #
+    #     # print(pokemonResult)
+    #     processPokemonResult(pokemonResult)
+    #
+    #     await ctx.send("Pokemon found. processing")
 
-        # print(pokemonResult)
-        processPokemonResult(pokemonResult)
-
-        await ctx.send("Pokemon found. processing")
-
-    @commands.command()
-    async def lookUpAbility(self, ctx, *, ability):
-        await fetchAbility(ability)
+    # @commands.command()
+    # async def lookUpAbility(self, ctx, *, ability):
+    #     await fetchAbility(ability)
 
     @commands.command()
     async def namecons(self, ctx, *, pkmn:str):
@@ -45,20 +47,26 @@ class AdvancedDex(commands.Cog):
         pokemonData = pokemonLookUp(pkmn, formFound)
         if formFound and formFound not in pokemonData['name']:
             return
+        genderDifference = False
         genderDifference = await hasGenderDifference(pokemonData["dexId"])
         url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference)
         hasBackSprites = requests.head(urlBack).status_code == 200
-        await ctx.send(url)
-        if hasBackSprites:
-            await ctx.send(urlBack)
-        if genderDifference:
-            await ctx.send("Female sprite")
-            await ctx.send(urlFemale)
-            if hasBackSprites:
-                await ctx.send(urlFemaleBack)
+        await sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack)
+
+
 
 def setup(client):
     client.add_cog(AdvancedDex(client))
+
+async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack):
+    await ctx.send(url)
+    if hasBackSprites:
+        await ctx.send(urlBack)
+    if genderDifference:
+        await ctx.send("Female sprite")
+        await ctx.send(urlFemale)
+        if hasBackSprites:
+            await ctx.send(urlFemaleBack)
 
 def generatePictureUrl(name:str, shiny, genderDifference):
     folder = "shiny" if shiny else "normal"
@@ -72,6 +80,21 @@ def generatePictureUrl(name:str, shiny, genderDifference):
         urlFemaleBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}-f.png"
     return url, urlBack, urlFemale, urlFemaleBack
 
+
+def correctForDarmanitan(pokemonName):
+    pokemonName = pokemonName.lower()
+    darmanitanNameAndForm = None
+    if "darmanitan" in pokemonName:
+        darmanitanNameAndForm = "darmanitan"
+        if "galarian" in pokemonName:
+            darmanitanNameAndForm = darmanitanNameAndForm + "-galarian"
+        if "zen" in pokemonName:
+            darmanitanNameAndForm = darmanitanNameAndForm + "-zen"
+        else:
+            darmanitanNameAndForm = darmanitanNameAndForm + "-standard"
+    return darmanitanNameAndForm
+
+
 def pokemonLookUp(pkmn:str, form:str):
     pokemonName = None
     with open(r"data/pokemon.json", "r") as readFile:
@@ -84,6 +107,9 @@ def pokemonLookUp(pkmn:str, form:str):
             else:
                 pokemonName = pkmnInfo['name']
             break
+    darmanitan = correctForDarmanitan(pokemonName)
+    if darmanitan:
+        pokemonName = darmanitan
     for i in range(0, len(data)):
         pkmnInfo = data[i]
         if pkmnInfo['name'] == pokemonName:

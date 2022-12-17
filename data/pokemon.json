@@ -6106,7 +6106,7 @@
   },
   {
     "dexId": 122,
-    "name": "Mr-galarian Mime",
+    "name": "Mr Mime-galarian",
     "baseStats": {
       "hp": 50,
       "atk": 65,
@@ -20154,7 +20154,7 @@
     "height": 0.6,
     "evolutions": [
       "Mr Mime",
-      "Mr-galarian Mime"
+      "Mr Mime-galarian"
     ],
     "generation": "DiamondPearl",
     "genderRatio": "50% ♂ : 50% ♀",
@@ -25151,7 +25151,7 @@
   },
   {
     "dexId": 555,
-    "name": "Darmanitan",
+    "name": "Darmanitan-standard",
     "baseStats": {
       "hp": 105,
       "atk": 140,
@@ -25187,7 +25187,7 @@
   },
   {
     "dexId": 555,
-    "name": "Darmanitan Zen Mode",
+    "name": "Darmanitan-Zen",
     "baseStats": {
       "hp": 105,
       "atk": 30,
@@ -25220,7 +25220,7 @@
   },
   {
     "dexId": 555,
-    "name": "Darmanitan-galarian",
+    "name": "Darmanitan-galarian-standard",
     "baseStats": {
       "hp": 105,
       "atk": 140,
@@ -25260,7 +25260,7 @@
   },
   {
     "dexId": 555,
-    "name": "Darmanitan-galarian Zen Mode",
+    "name": "Darmanitan-galarian-Zen",
     "baseStats": {
       "hp": 105,
       "atk": 160,
@@ -40659,13 +40659,13 @@
       "shield": []
     },
     "forms": [
-      "Ice Rider",
-      "Shadow Rider"
+      "Ice-Rider",
+      "Shadow-Rider"
     ]
   },
   {
     "dexId": 898,
-    "name": "Ice Rider Calyrex",
+    "name": "Calyrex-ice-rider",
     "baseStats": {
       "hp": 100,
       "atk": 165,
@@ -40698,7 +40698,7 @@
   },
   {
     "dexId": 898,
-    "name": "Shadow Rider Calyrex",
+    "name": "Calyrex-shadow-rider",
     "baseStats": {
       "hp": 100,
       "atk": 85,
