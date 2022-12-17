@@ -1,4 +1,4 @@
-from PokeApiConsumer import *
+from modules.PokeApiConsumer import *
 
 
 regionForms = ["alolan", "galarian", "hisuian", "paldean", "paldean-fire", "paldean-water"]
