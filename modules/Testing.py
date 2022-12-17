@@ -50,7 +50,8 @@ class Testing(commands.Cog):
         if formFound and formFound.lower() not in pokemonData['name'].lower():
             return
         genderDifference = False
-        genderDifference = await hasGenderDifference(pokemonData["dexId"])
+        if not pokemonData['name'].lower().startswith("basculegion"):
+            genderDifference = await hasGenderDifference(pokemonData["dexId"])
         url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference, pokemonData["generation"])
         hasBackSprites = requests.head(urlBack).status_code == 200
         await sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack)
@@ -65,7 +66,7 @@ async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFe
         if genderDifference:
             await ctx.send("This pokemon has gender differences!")
             await ctx.send("Male sprite:")
-            await ctx.send(url)
+        await ctx.send(url)
         if hasBackSprites:
             await ctx.send(urlBack)
         if genderDifference:
@@ -81,6 +82,10 @@ def generatePictureUrl(name:str, shiny, genderDifference, generation):
 
     folder = "shiny" if shiny else "normal"
     name = name.lower().replace(" ", "-")
+    if name.lower().startswith("nidoran"):
+        name = name.replace("female", "f")
+        if not name.lower().endswith("f"):
+            name = name + "-m"
     url = f"https://img.pokemondb.net/sprites/{db}/{folder}/{name}.png"
     urlBack = f"https://img.pokemondb.net/sprites/{db}/back-{folder}/{name}.png"
     urlFemale = None
@@ -152,10 +157,6 @@ def checkIfFormRequested(pkmn:str):
     for form in pokemonForms:
         for word in wordList:
             if word in form and len(word)>2:
-                if form == "male":
-                    form = ""
-                elif form == "female":
-                    form = "f"
                 return form, word
     return None, None
 

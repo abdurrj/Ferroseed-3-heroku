@@ -26,8 +26,9 @@ class Dexter(commands.Cog):
         if formFound and formFound.lower() not in pokemonData['name'].lower():
             return
         genderDifference = False
-        genderDifference = await hasGenderDifference(pokemonData["dexId"])
-        url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference)
+        if not pokemonData['name'].lower().startswith("basculegion"):
+            genderDifference = await hasGenderDifference(pokemonData["dexId"])
+        url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference, pokemonData["generation"])
         hasBackSprites = requests.head(urlBack).status_code == 200
         await sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack)
 
@@ -343,7 +344,7 @@ async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFe
         if genderDifference:
             await ctx.send("This pokemon has gender differences!")
             await ctx.send("Male sprite:")
-            await ctx.send(url)
+        await ctx.send(url)
         if hasBackSprites:
             await ctx.send(urlBack)
         if genderDifference:
@@ -352,16 +353,24 @@ async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFe
             if hasBackSprites:
                 await ctx.send(urlFemaleBack)
 
-def generatePictureUrl(name:str, shiny, genderDifference):
+def generatePictureUrl(name:str, shiny, genderDifference, generation):
+    db = "home"
+    if "scarlet" in generation.lower():
+        db = "scarlet-violet"
+
     folder = "shiny" if shiny else "normal"
     name = name.lower().replace(" ", "-")
-    url = f"https://img.pokemondb.net/sprites/home/{folder}/{name}.png"
-    urlBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}.png"
+    if name.lower().startswith("nidoran"):
+        name = name.replace("female", "f")
+        if not name.lower().endswith("f"):
+            name = name + "-m"
+    url = f"https://img.pokemondb.net/sprites/{db}/{folder}/{name}.png"
+    urlBack = f"https://img.pokemondb.net/sprites/{db}/back-{folder}/{name}.png"
     urlFemale = None
     urlFemaleBack = None
     if genderDifference:
-        urlFemale = f"https://img.pokemondb.net/sprites/home/{folder}/{name}-f.png"
-        urlFemaleBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}-f.png"
+        urlFemale = f"https://img.pokemondb.net/sprites/{db}/{folder}/{name}-f.png"
+        urlFemaleBack = f"https://img.pokemondb.net/sprites/{db}/back-{folder}/{name}-f.png"
     return url, urlBack, urlFemale, urlFemaleBack
 
 def correctForDarmanitan(pkmn, form):

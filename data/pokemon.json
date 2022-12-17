@@ -30478,7 +30478,7 @@
     "weight": 3.5,
     "height": 0.3,
     "evolutions": [
-      "Meowstic-female",
+      "Meowstic female",
       "Meowstic"
     ],
     "generation": "XY",
@@ -40830,7 +40830,7 @@
   },
   {
     "dexId": 902,
-    "name": "Basculegion Male",
+    "name": "Basculegion",
     "baseStats": {
       "hp": 120,
       "atk": 112,
@@ -41336,8 +41336,8 @@
     "weight": 10.2,
     "height": 0.5,
     "evolutions": [
-      "Oinkologne-male",
-      "Oinkologne-female"
+      "Oinkologne male",
+      "Oinkologne female"
     ],
     "generation": "ScarletViolet",
     "genderRatio": "50% ♂ : 50% ♀",
