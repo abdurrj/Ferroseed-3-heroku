@@ -6493,7 +6493,7 @@
     "weight": 85,
     "height": 1.4,
     "evolutions": [],
-    "generation": "SvarletViolet",
+    "generation": "ScarletViolet",
     "genderRatio": "100% ♂",
     "eggGroup1": "Field",
     "eggGroup2": null,
@@ -21893,7 +21893,7 @@
   },
   {
     "dexId": 479,
-    "name": "Rotom Heat",
+    "name": "Rotom-Heat",
     "baseStats": {
       "hp": 50,
       "atk": 65,
@@ -21926,7 +21926,7 @@
   },
   {
     "dexId": 479,
-    "name": "Rotom Wash",
+    "name": "Rotom-Wash",
     "baseStats": {
       "hp": 50,
       "atk": 65,
@@ -21959,7 +21959,7 @@
   },
   {
     "dexId": 479,
-    "name": "Rotom Frost",
+    "name": "Rotom-Frost",
     "baseStats": {
       "hp": 50,
       "atk": 65,
@@ -21992,7 +21992,7 @@
   },
   {
     "dexId": 479,
-    "name": "Rotom Fan",
+    "name": "Rotom-Fan",
     "baseStats": {
       "hp": 50,
       "atk": 65,
@@ -22025,7 +22025,7 @@
   },
   {
     "dexId": 479,
-    "name": "Rotom Mow",
+    "name": "Rotom-Mow",
     "baseStats": {
       "hp": 50,
       "atk": 65,

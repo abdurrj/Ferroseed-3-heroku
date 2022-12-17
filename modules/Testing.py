@@ -1,5 +1,7 @@
 from modules.PokeApiConsumer import *
 
+## This file is just for local testing and tweaking. This will not be deployed to the bot
+
 ABILITIES = "abilities"
 NAME = "name"
 POKEDEX_NUMBER = "id"
@@ -12,7 +14,7 @@ darmanithanForms = ["standard", "zen"]
 genderForms = ["male", "female", "f", "m"]
 temporaryForms = ["mega", "mega-x", "mega-y", "gigantamax"]
 
-class AdvancedDex(commands.Cog):
+class Testing(commands.Cog):
     def __init__(self, client):
         self.client = client
 
@@ -45,50 +47,61 @@ class AdvancedDex(commands.Cog):
             pkmn = pkmn.replace("shiny", "").replace("*", "").strip()
 
         pokemonData = pokemonLookUp(pkmn, formFound)
-        if formFound and formFound not in pokemonData['name']:
+        if formFound and formFound.lower() not in pokemonData['name'].lower():
             return
         genderDifference = False
         genderDifference = await hasGenderDifference(pokemonData["dexId"])
-        url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference)
+        url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference, pokemonData["generation"])
         hasBackSprites = requests.head(urlBack).status_code == 200
         await sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack)
 
 
 
 def setup(client):
-    client.add_cog(AdvancedDex(client))
+    client.add_cog(Testing(client))
 
 async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack):
-    await ctx.send(url)
-    if hasBackSprites:
-        await ctx.send(urlBack)
-    if genderDifference:
-        await ctx.send("Female sprite")
-        await ctx.send(urlFemale)
+    if requests.head(url).status_code == 200:
+        if genderDifference:
+            await ctx.send("This pokemon has gender differences!")
+            await ctx.send("Male sprite:")
+            await ctx.send(url)
         if hasBackSprites:
-            await ctx.send(urlFemaleBack)
+            await ctx.send(urlBack)
+        if genderDifference:
+            await ctx.send("Female sprite:")
+            await ctx.send(urlFemale)
+            if hasBackSprites:
+                await ctx.send(urlFemaleBack)
 
-def generatePictureUrl(name:str, shiny, genderDifference):
+def generatePictureUrl(name:str, shiny, genderDifference, generation):
+    db = "home"
+    if "scarlet" in generation.lower():
+        db = "scarlet-violet"
+
     folder = "shiny" if shiny else "normal"
-    name = name.lower()
-    url = f"https://img.pokemondb.net/sprites/home/{folder}/{name}.png"
-    urlBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}.png"
+    name = name.lower().replace(" ", "-")
+    url = f"https://img.pokemondb.net/sprites/{db}/{folder}/{name}.png"
+    urlBack = f"https://img.pokemondb.net/sprites/{db}/back-{folder}/{name}.png"
     urlFemale = None
     urlFemaleBack = None
     if genderDifference:
-        urlFemale = f"https://img.pokemondb.net/sprites/home/{folder}/{name}-f.png"
-        urlFemaleBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}-f.png"
+        urlFemale = f"https://img.pokemondb.net/sprites/{db}/{folder}/{name}-f.png"
+        urlFemaleBack = f"https://img.pokemondb.net/sprites/{db}/back-{folder}/{name}-f.png"
     return url, urlBack, urlFemale, urlFemaleBack
 
 
-def correctForDarmanitan(pokemonName):
-    pokemonName = pokemonName.lower()
+def correctForDarmanitan(pkmn, form):
+    if not form:
+        form = ""
+    pkmn = pkmn + " " + form
+    pkmn = pkmn.lower()
     darmanitanNameAndForm = None
-    if "darmanitan" in pokemonName:
+    if "darmanitan" in pkmn:
         darmanitanNameAndForm = "darmanitan"
-        if "galarian" in pokemonName:
+        if "galarian" in pkmn:
             darmanitanNameAndForm = darmanitanNameAndForm + "-galarian"
-        if "zen" in pokemonName:
+        if "zen" in pkmn:
             darmanitanNameAndForm = darmanitanNameAndForm + "-zen"
         else:
             darmanitanNameAndForm = darmanitanNameAndForm + "-standard"
@@ -97,22 +110,23 @@ def correctForDarmanitan(pokemonName):
 
 def pokemonLookUp(pkmn:str, form:str):
     pokemonName = None
-    with open(r"data/pokemon.json", "r") as readFile:
-        data = json.load(readFile)
-    for i in range(0, len(data)):
-        pkmnInfo = data[i]
-        if pkmnInfo['name'].lower().startswith(pkmn):
-            if form and hasRequestedForm(form, pkmnInfo['forms']):
-                pokemonName = pkmnInfo['name'] + "-" + form
-            else:
-                pokemonName = pkmnInfo['name']
-            break
-    darmanitan = correctForDarmanitan(pokemonName)
+    darmanitan = correctForDarmanitan(pkmn, form)
     if darmanitan:
         pokemonName = darmanitan
+    with open(r"data/pokemon.json", "r") as readFile:
+        data = json.load(readFile)
+    if not darmanitan:
+        for i in range(0, len(data)):
+            pkmnInfo = data[i]
+            if pkmnInfo['name'].lower().startswith(pkmn):
+                if form and hasRequestedForm(form, pkmnInfo['forms']):
+                    pokemonName = pkmnInfo['name'] + "-" + form
+                else:
+                    pokemonName = pkmnInfo['name']
+                break
     for i in range(0, len(data)):
         pkmnInfo = data[i]
-        if pkmnInfo['name'] == pokemonName:
+        if pkmnInfo['name'].lower() == pokemonName.lower():
             return pkmnInfo
 
 def hasRequestedForm(formRequested, formsAvailable):
@@ -132,10 +146,8 @@ async def hasGenderDifference(dexId):
         return pokemonResult["has_gender_differences"]
     return False
 
-
-
 def checkIfFormRequested(pkmn:str):
-    pokemonForms = regionForms + rotomForms + genderForms + temporaryForms
+    pokemonForms = regionForms + rotomForms + genderForms + temporaryForms + calyrexForms
     wordList = pkmn.split(" ")
     for form in pokemonForms:
         for word in wordList:
