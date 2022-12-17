@@ -1,7 +1,4 @@
-from discord.ext import commands
-from random import randint, randrange
-import json, discord
-
+from BotImports import *
 
 class Den(commands.Cog):
     def __init__(self, client):
@@ -54,13 +51,13 @@ class Den(commands.Cog):
         if args:
             loc = args[0]
             if loc == "ioa":
-                i = randint(94, 157)
+                i = random.randint(94, 157)
             elif loc == "swsh":
-                i = randint(1, 93)
+                i = random.randint(1, 93)
             elif loc == "ct":
-                i = randint(158, 197)
+                i = random.randint(158, 197)
         else:
-            i = randrange(197)
+            i = random.randrange(197)
         await ctx.send("<https://www.serebii.net/swordshield/maxraidbattles/den"+str(i)+".shtml>")
 
 

@@ -90,7 +90,8 @@ class reactrole(commands.Cog):
         else:
             react_role_dict[f"{reaction_name}"] = f"{role.id}"
             response = await writeReactionRolesToDb(self.client, message.id, react_role_dict)
-            if response != "UPDATE 1":
+            print(response)
+            if "UPDATE" not in response:
                 await ctx.send("Something went wrong")
                 return
         await ctx.send(f"{role.mention} has been registered to {reaction} on message:\n{message.jump_url}", allowed_mentions=allowed_mentions)

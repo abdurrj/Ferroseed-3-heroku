@@ -1,9 +1,36 @@
-from discord.ext import commands
-import json, discord
+from PokeApiConsumer import *
+
+
+regionForms = ["alolan", "galarian", "hisuian", "paldean", "paldean-fire", "paldean-water"]
+rotomForms = ["fan", "frost", "heat", "mow", "wash"]
+calyrexForms = ["ice-rider", "shadow-rider"]
+darmanithanForms = ["standard", "zen"]
+genderForms = ["male", "female", "f", "m"]
+temporaryForms = ["mega", "mega-x", "mega-y", "gigantamax"]
 
 class Dexter(commands.Cog):
     def __init__(self, client):
         self.client = client
+
+    @commands.command(aliases=["sprites", "newsprite"])
+    async def spriteNew(self, ctx, *, pkmn:str):
+        pkmn = pkmn.lower()
+        isShiny = checkIfShinySpriteRequest(pkmn)
+        formFound, formRequested = checkIfFormRequested(pkmn)
+        if formFound:
+            pkmn = pkmn.replace(formRequested, "").strip()
+        if isShiny:
+            pkmn = pkmn.replace("shiny", "").replace("*", "").strip()
+
+        pokemonData = pokemonLookUp(pkmn, formFound)
+        if formFound and formFound.lower() not in pokemonData['name'].lower():
+            return
+        genderDifference = False
+        genderDifference = await hasGenderDifference(pokemonData["dexId"])
+        url, urlBack, urlFemale, urlFemaleBack = generatePictureUrl(pokemonData["name"], isShiny, genderDifference)
+        hasBackSprites = requests.head(urlBack).status_code == 200
+        await sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack)
+
 
     @commands.command()
     async def sprite(self, ctx, pkmn, *shiny):
@@ -21,6 +48,35 @@ class Dexter(commands.Cog):
         else:
             pokemon = possible_names[0]
             
+        for i in range(0, len(data)):
+            pokemon_dict = data[i]
+            if pokemon in (pokemon_dict.values()):
+                if shiny:
+                    if shiny[0] == "*" or shiny[0].lower() == "shiny":
+                        folder = "shiny"
+                    else:
+                        folder = "normal"
+                else:
+                    folder = "normal"
+                pokemon_url_name = pokemon.replace(" ", "-")
+                await ctx.send("https://img.pokemondb.net/sprites/home/" + folder +"/"+ pokemon_url_name.lower() +".png")
+
+
+
+        with open(r"data/pokemon.json", "r") as read_file:
+            data = json.load(read_file)
+        pokemon = str((pkmn.lower()).title())
+        possible_names = []
+        for i in range(0, len(data)):
+            pkmn_info = data[i]
+            if pkmn_info['name'].startswith(pokemon):
+                poke_name = pkmn_info['name']
+                possible_names.append(poke_name)
+        if len(possible_names) == 0:
+            print("No match")
+        else:
+            pokemon = possible_names[0]
+
         for i in range(0, len(data)):
             pokemon_dict = data[i]
             if pokemon in (pokemon_dict.values()):
@@ -281,3 +337,96 @@ class Dexter(commands.Cog):
 
 def setup(client):
     client.add_cog(Dexter(client))
+
+async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack):
+    if requests.head(url).status_code == 200:
+        if genderDifference:
+            await ctx.send("This pokemon has gender differences!")
+            await ctx.send("Male sprite:")
+            await ctx.send(url)
+        if hasBackSprites:
+            await ctx.send(urlBack)
+        if genderDifference:
+            await ctx.send("Female sprite:")
+            await ctx.send(urlFemale)
+            if hasBackSprites:
+                await ctx.send(urlFemaleBack)
+
+def generatePictureUrl(name:str, shiny, genderDifference):
+    folder = "shiny" if shiny else "normal"
+    name = name.lower().replace(" ", "-")
+    url = f"https://img.pokemondb.net/sprites/home/{folder}/{name}.png"
+    urlBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}.png"
+    urlFemale = None
+    urlFemaleBack = None
+    if genderDifference:
+        urlFemale = f"https://img.pokemondb.net/sprites/home/{folder}/{name}-f.png"
+        urlFemaleBack = f"https://img.pokemondb.net/sprites/home/back-{folder}/{name}-f.png"
+    return url, urlBack, urlFemale, urlFemaleBack
+
+def correctForDarmanitan(pkmn, form):
+    if not form:
+        form = ""
+    pkmn = pkmn + " " + form
+    pkmn = pkmn.lower()
+    darmanitanNameAndForm = None
+    if "darmanitan" in pkmn:
+        darmanitanNameAndForm = "darmanitan"
+        if "galarian" in pkmn:
+            darmanitanNameAndForm = darmanitanNameAndForm + "-galarian"
+        if "zen" in pkmn:
+            darmanitanNameAndForm = darmanitanNameAndForm + "-zen"
+        else:
+            darmanitanNameAndForm = darmanitanNameAndForm + "-standard"
+    return darmanitanNameAndForm
+
+def pokemonLookUp(pkmn:str, form:str):
+    pokemonName = None
+    darmanitan = correctForDarmanitan(pkmn, form)
+    if darmanitan:
+        pokemonName = darmanitan
+    with open(r"data/pokemon.json", "r") as readFile:
+        data = json.load(readFile)
+    if not darmanitan:
+        for i in range(0, len(data)):
+            pkmnInfo = data[i]
+            if pkmnInfo['name'].lower().startswith(pkmn):
+                if form and hasRequestedForm(form, pkmnInfo['forms']):
+                    pokemonName = pkmnInfo['name'] + "-" + form
+                else:
+                    pokemonName = pkmnInfo['name']
+                break
+    for i in range(0, len(data)):
+        pkmnInfo = data[i]
+        if pkmnInfo['name'].lower() == pokemonName.lower():
+            return pkmnInfo
+
+def hasRequestedForm(formRequested, formsAvailable):
+    for i in formsAvailable:
+        if formRequested.lower() in i.lower():
+            return True
+    return False
+
+def checkIfShinySpriteRequest(pkmn:str):
+    if "*" in pkmn or "shiny" in pkmn:
+        return True
+    return False
+
+async def hasGenderDifference(dexId):
+    statusCode, pokemonResult = await fetchPokemonSpecies(dexId)
+    if pokemonResult and pokemonResult["has_gender_differences"]:
+        return pokemonResult["has_gender_differences"]
+    return False
+
+def checkIfFormRequested(pkmn:str):
+    pokemonForms = regionForms + rotomForms + genderForms + temporaryForms + calyrexForms
+    wordList = pkmn.split(" ")
+    for form in pokemonForms:
+        for word in wordList:
+            if word in form and len(word)>2:
+                if form == "male":
+                    form = ""
+                elif form == "female":
+                    form = "f"
+                return form, word
+    return None, None
