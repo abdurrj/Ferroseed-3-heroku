@@ -144,5 +144,5 @@ class reactrole(commands.Cog):
             return
         await ctx.send(f"Removed {reaction} and {role} connection in the database", allowed_mentions=allowed_mentions)
 
-def setup(client):
-    client.add_cog(reactrole(client))
+async def setup(client):
+    await client.add_cog(reactrole(client))

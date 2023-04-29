@@ -32,8 +32,8 @@ class Den(commands.Cog):
         raidchan = [739139612005630014, 735170480545333308, 735961355747590215]
         channeltest = all(channel != a for channel in raidchan)
         # To prevent deleting channels outside "A RAID CATEGORY"
-        if raidcat == b: # Checks if the command is used inside "A RAID CATEGORY"
-            if channeltest == True: # Prevents the command from working in the channel "a-raid-category"
+        if raidcat == b:  # Checks if the command is used inside "A RAID CATEGORY"
+            if channeltest == True:  # Prevents the command from working in the channel "a-raid-category"
                 await ctx.message.channel.delete()
             else:
                 await ctx.send("Not this channel, it's important! <a:RBops2:718139698912034937>")
@@ -132,5 +132,5 @@ class Den(commands.Cog):
                 await ctx.send(wrong_den_message + " " + 'Or if you ment a galarian form, please write "pokemon_name galarian"')
 
 
-def setup(client):
-    client.add_cog(Den(client))
+async def setup(client):
+    await client.add_cog(Den(client))

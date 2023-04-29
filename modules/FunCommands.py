@@ -63,7 +63,7 @@ class FunCommands(commands.Cog):
     @commands.command(name='hi', aliases=['hello'])
     async def ferroSayHi(self, ctx):
         userGreetResponse = await self.client.db.fetch('SELECT greeting from ferroseed.user_greet WHERE user_id = $1', ctx.author.id)
-        
+        response=self.ferroHappyEmoji
         if len(userGreetResponse) > 0:
             response = ast.literal_eval(userGreetResponse[0].get("greeting"))
         await ctx.send(response, allowed_mentions = self.noMentionsAllowed)
@@ -81,7 +81,7 @@ class FunCommands(commands.Cog):
     
     @commands.command(name = 'work', aliases=['homework'])
     async def sendWorkMessage(self, ctx, string:str=None):
-        isProductiveMessage = random.choice(True,False)
+        isProductiveMessage = random.getrandbits(1)
         string = string if string else ctx.author.mention
         if isProductiveMessage:
             outgoingMessage = f"<a:RBops:718139734693773330> {string}! Go be productive."
@@ -128,5 +128,5 @@ class FunCommands(commands.Cog):
         time = datetime.now(timezone).strftime("")
 
 
-def setup(client):
-    client.add_cog(FunCommands(client))
+async def setup(client):
+    await client.add_cog(FunCommands(client))
