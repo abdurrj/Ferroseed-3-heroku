@@ -61,6 +61,7 @@ class RaidFunctions(commands.Cog):
 
         raidCategory = raidStartChannel.category
 
+        message = await raidStartChannel.fetch_message(payload.message_id)
         raid = None
         for i in self.ongoingRaids:
             if message == i.raidStartMessage and i.raidHost == reactor:
