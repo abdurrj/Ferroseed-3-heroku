@@ -162,5 +162,5 @@ class petting(commands.Cog):
         await ctx.send("<a:PetTheBirb:754269160598536214>")
 
 
-def setup(client):
-    client.add_cog(petting(client))  
+async def setup(client):
+    await client.add_cog(petting(client))

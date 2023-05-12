@@ -18,6 +18,14 @@ class Testing(commands.Cog):
     def __init__(self, client):
         self.client = client
 
+
+    @commands.command()
+    async def stm(self, ctx, channel_id:int, *, message):
+        guild = ctx.guild
+        channel = discord.Guild.get_channel(guild, channel_id)
+        await channel.send(message)
+
+
     # @commands.command()
     # async def lookUpPokemon(self, ctx, *, pokemon):
     #     httpResult, pokemonResult = await fetchPokemon(pokemon)
@@ -58,8 +66,8 @@ class Testing(commands.Cog):
 
 
 
-def setup(client):
-    client.add_cog(Testing(client))
+async def setup(client):
+    await client.add_cog(Testing(client))
 
 async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack):
     if requests.head(url).status_code == 200:

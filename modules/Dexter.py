@@ -336,8 +336,8 @@ class Dexter(commands.Cog):
             
                 await ctx.send(embed=embed)
 
-def setup(client):
-    client.add_cog(Dexter(client))
+async def setup(client):
+    await client.add_cog(Dexter(client))
 
 async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFemale, urlFemaleBack):
     if requests.head(url).status_code == 200:

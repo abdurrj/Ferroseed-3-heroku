@@ -6,7 +6,7 @@ class BotGuildSettings(commands.Cog):
 
     @commands.Cog.listener("on_guild_join")
     async def addGuildToJson(self, guild):
-        await self.client.db.execute('UPDATE ferroseed.guilds SET prefix=$1 WHERE guild_id=$2', standardPrefix, guild.id)
+        await self.client.db.execute('UPDATE ferroseed.guilds SET prefix=$1 WHERE guild_id=$2', defaultPrefix, guild.id)
 
     @commands.Cog.listener("on_message")
     async def checkOrResetPrefix(self, message):
@@ -20,8 +20,8 @@ class BotGuildSettings(commands.Cog):
 
         # Type fb!reset to change prefix to "fb!" Can only be used by admins
         if message.content == "fb!reset" and message.author.guild_permissions.administrator == True:
-            await setPrefix(self.client, message)
-            await message.channel.send(f"Prefix changed to fb!")
+            await setPrefix(self.client, message, defaultPrefix)
+            await message.channel.send(f"Prefix changed to {defaultPrefix}")
 
     @commands.command(hidden=True, aliases=["changeprefix", "changePrefix"])
     @commands.has_permissions(administrator=True)
@@ -33,9 +33,9 @@ class BotGuildSettings(commands.Cog):
             await ctx.send("Prefix is too long. maximum 4 characters")
 
     @changeGuildPrefix.error
-    async def changeGuildPrefixError(error, ctx):
+    async def changeGuildPrefixError(self, error, ctx):
         if isinstance(error, commands.MissingRequiredArgument):
             await ctx.send("I need to know what you want to change the prefix to.")
             
-def setup(client):
-    client.add_cog(BotGuildSettings(client))
+async def setup(client):
+    await client.add_cog(BotGuildSettings(client))

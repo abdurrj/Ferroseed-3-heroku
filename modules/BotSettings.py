@@ -18,7 +18,7 @@ class BotSettings(commands.Cog):
     @commands.is_owner()
     async def externalModule(self, ctx, task=None, module=None):
         modules = await getExternalModules(self.client)
-        if not task or not module and task!="names":
+        if not task or not module and task != "names":
             await ctx.send("Please select a task: names, add, remove, load, unload, reload\nfollowed by name of a module")
             return
         print(task)
@@ -26,17 +26,17 @@ class BotSettings(commands.Cog):
             await ctx.send(', '.join(i for i in modules))
             return
 
-        if task=="add" or task=='remove':
-            if task=='add':
+        if task == "add" or task == 'remove':
+            if task == 'add':
                 modules.append(module)
-            elif task=="remove":
+            elif task == "remove":
                 modules.pop(module)
             await writeExternalModules(self.client, modules)
             return
 
-        if task=='load':
+        if task == 'load':
             try:
-                if module=='RaidCommands':
+                if module == 'RaidCommands':
                     self.client.load_extension(module)
                 else:
                     self.client.load_extension('modules.'+module)
@@ -50,7 +50,7 @@ class BotSettings(commands.Cog):
                 await ctx.send(f"Cannot unload {module}. This module only supports \"reload\"")
                 return
             try:
-                if module=='RaidCommands':
+                if module == 'RaidCommands':
                     self.client.unload_extension(module)
                 else:
                     self.client.unload_extension('modules.'+module)
@@ -61,7 +61,7 @@ class BotSettings(commands.Cog):
                 await ctx.send(f"Unable to unload {module}\nError: {error}")
         elif task == "reload":
             try:
-                if module=='RaidCommands':
+                if module == 'RaidCommands':
                     self.client.reload_extension(module)
                 else:
                     self.client.reload_extension('modules.'+module)
@@ -73,7 +73,7 @@ class BotSettings(commands.Cog):
 
     @commands.command(hidden=True)
     @commands.has_permissions(administrator=True)
-    async def ferro_say(self, ctx, channel:discord.TextChannel, *, msg:str):
+    async def ferro_say(self, ctx, channel: discord.TextChannel, *, msg: str):
         try:
             await channel.send(msg)
         except:
@@ -82,9 +82,9 @@ class BotSettings(commands.Cog):
 
     @commands.command(hidden=True)
     @commands.has_permissions(administrator=True)
-    async def edit_message(self, ctx, msg_old:discord.Message, msg_new:discord.Message):
+    async def edit_message(self, ctx, msg_old: discord.Message, msg_new:discord.Message):
         await msg_old.edit(content=msg_new.content)
 
     
-def setup(client):
-    client.add_cog(BotSettings(client))
+async def setup(client):
+    await client.add_cog(BotSettings(client))

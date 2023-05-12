@@ -100,5 +100,5 @@ class fc(commands.Cog):
             await ctx.send("something went wrong.")
         
 
-def setup(client):
-    client.add_cog(fc(client))
+async def setup(client):
+    await client.add_cog(fc(client))

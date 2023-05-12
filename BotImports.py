@@ -1,5 +1,5 @@
 from email.policy import default
-import discord, json, random, pytz, asyncio, os, dotenv, ast, asyncpg, re, emoji, sys, requests
+import discord, json, random, pytz, asyncio, os, dotenv, ast, asyncpg, re, emoji, sys, requests, time
 import numpy as np
 from discord.ext import commands, tasks
 from discord.ext.commands import CommandOnCooldown, BadArgument
@@ -17,17 +17,17 @@ TOKEN = os.getenv("TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
 PROFILE = os.getenv("profile")
 
-standardPrefix = "fb!"
+defaultPrefix = "fb!"
 
 ## General methods
 async def getPrefix(client, message):
     if not message.guild:
-        return commands.when_mentioned_or(standardPrefix)(client, message)
+        return commands.when_mentioned_or(defaultPrefix)(client, message)
     
     prefixResponse = await client.db.fetch('SELECT prefix from ferroseed.guilds WHERE guild_id = $1', message.guild.id)
     if len(prefixResponse) == 0:
-        await client.db.execute('INSERT INTO ferroseed.guilds("guild_id", prefix) VALUES ($1, $2)', message.guild.id, standardPrefix)
-        prefix = standardPrefix
+        await client.db.execute('INSERT INTO ferroseed.guilds("guild_id", prefix) VALUES ($1, $2)', message.guild.id, defaultPrefix)
+        prefix = defaultPrefix
     else:
         prefix = prefixResponse[0].get("prefix")
 
