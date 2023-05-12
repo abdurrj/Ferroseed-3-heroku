@@ -96,7 +96,7 @@ class functions(commands.Cog):
                 for reaction in message.reactions:
                     seed = random.randrange(sys.maxsize)
                     random.Random(seed)
-                    user_list = [user async for user in reaction.users()]
+                    user_list = [user async for user in reaction.users() if not ctx.author]
                     print(user_list)
                     await self.selectWinnerAndSendMessageToCommandUser(command_user, reaction, user_list, wnr_amount)
 
