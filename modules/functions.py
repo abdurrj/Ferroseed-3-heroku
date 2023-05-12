@@ -78,7 +78,7 @@ class functions(commands.Cog):
         guild = ctx.message.guild
         raffle_channel = discord.Guild.get_channel(guild, 766277566934810634)
         command_user = ctx.message.author
-        messages = [message async for message in raffle_channel.history()]
+        messages = [message async for message in raffle_channel.history(limit=150)]
         authorMessages = list(filter(lambda m: m.author.id == ctx.author.id and m != ctx.message, messages))
         message = None
         keyword = 'raffle time!'
