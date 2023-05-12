@@ -169,15 +169,14 @@ class RaidFunctions(commands.Cog):
     async def endRaid(self, ctx):
         raid = self.getRaidFromContext(ctx)
 
-        if not raid:
+        if not raid or raid.raidHost != ctx.author:
             return
-        if raid.raidHost == ctx.author:
-            for i in raid.participants:
-                await i.raidChannel.set_permissions(i, send_messages=False)
-            await raid.raidChannel.send("This raid has now ended. Thank you for hosting!")
-            await raid.raidChannel.set_permissions(ctx.author, send_messages=False)
-            await raid.raidJoinMessage.delete()
-            return
+        for i in raid.participants:
+            await i.raidChannel.set_permissions(i, send_messages=False)
+        await raid.raidChannel.send("This raid has now ended. Thank you for hosting!")
+        await raid.raidChannel.set_permissions(ctx.author, send_messages=False)
+        await asyncio.sleep(240) # three min before channel remove?
+        await raid.raidJoinMessage.delete()
 
     @commands.command(aliases=["lock"])
     async def switchRaidLockStatus(self, ctx):
