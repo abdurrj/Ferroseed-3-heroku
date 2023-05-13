@@ -11,7 +11,7 @@ pokeballReaction = '<:xPoke:764576089275891772>'
 class RaidFunctions(commands.Cog):
     def __init__(self, client):
         self.client = client
-        self.ongoingRaids = [] # Is this good enough, or perhaps a more persisted method (json file)
+        self.ongoingRaids = []
 
     @commands.command(aliases=['startraid'])
     async def createRaidStartMessage(self, ctx, *, text:str):
@@ -54,7 +54,7 @@ class RaidFunctions(commands.Cog):
         message = await raidStartChannel.fetch_message(payload.message_id)
 
         if payload.emoji.name not in raidStartReactionNames:
-            message.remove_reaction(payload.emoji, reactor)
+            await message.remove_reaction(payload.emoji, reactor)
 
         if payload.channel_id != raidStartChannel.id:
             return
@@ -97,8 +97,6 @@ class RaidFunctions(commands.Cog):
 
         raid.raidChannel = hostedRaidChannel
         raid.raidJoinMessage = raidJoinMessage
-
-        # await raid.raidStartMessage.delete() # Is this even necessary? Raid should no longer be in self.ongoingRaids -> no 2nd start from same message
 
 
     async def setRaidChannelPermissions(self, guild, hostedRaidChannel, raid):
