@@ -78,7 +78,7 @@ class functions(commands.Cog):
         guild = ctx.message.guild
         raffle_channel = discord.Guild.get_channel(guild, 766277566934810634)
         command_user = ctx.message.author
-        messages = [message async for message in raffle_channel.history(limit=150)]
+        messages = [message async for message in raffle_channel.history()]
         authorMessages = list(filter(lambda m: m.author.id == ctx.author.id and m != ctx.message, messages))
         message = None
         keyword = 'raffle time!'
@@ -96,7 +96,7 @@ class functions(commands.Cog):
                 for reaction in message.reactions:
                     seed = random.randrange(sys.maxsize)
                     random.Random(seed)
-                    user_list = [user async for user in reaction.users() if not ctx.author]
+                    user_list = [user async for user in reaction.users()]
                     print(user_list)
                     await self.selectWinnerAndSendMessageToCommandUser(command_user, reaction, user_list, wnr_amount)
 
@@ -150,7 +150,7 @@ class functions(commands.Cog):
         channel = discord.Guild.get_channel(guild, channel_id)
         print(channel)
         message_id = msg_id
-        message = await  channel.fetch_message(message_id)
+        message = await channel.fetch_message(message_id)
         if wnr_amount.isnumeric():
             if int(wnr_amount) < 1:
                 await ctx.send("why would you do that :(")
@@ -166,6 +166,7 @@ class functions(commands.Cog):
         await message.unpin()
 
     async def selectWinnerAndSendMessageToCommandUser(self, command_user, reaction, user_list, wnr_amount):
+        user_list.remove(command_user)
         participants = int(len(user_list))
         if int(wnr_amount) > int(participants):
             winner = random.sample(user_list, k=int(participants))

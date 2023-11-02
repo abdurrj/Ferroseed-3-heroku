@@ -37,9 +37,9 @@ class BotSettings(commands.Cog):
         if task == 'load':
             try:
                 if module == 'RaidCommands':
-                    self.client.load_extension(module)
+                    await self.client.load_extension(module)
                 else:
-                    self.client.load_extension('modules.'+module)
+                    await self.client.load_extension('modules.'+module)
                 print(f"{module} has been loaded")
                 await ctx.send(f"{module} has been loaded")
             except Exception as error:
@@ -51,9 +51,9 @@ class BotSettings(commands.Cog):
                 return
             try:
                 if module == 'RaidCommands':
-                    self.client.unload_extension(module)
+                    await self.client.unload_extension(module)
                 else:
-                    self.client.unload_extension('modules.'+module)
+                    await self.client.unload_extension('modules.'+module)
                 print(f"{module} has been unloaded")
                 await ctx.send(f"{module} has been unloaded")
             except Exception as error:
@@ -62,9 +62,9 @@ class BotSettings(commands.Cog):
         elif task == "reload":
             try:
                 if module == 'RaidCommands':
-                    self.client.reload_extension(module)
+                    await self.client.reload_extension(module)
                 else:
-                    self.client.reload_extension('modules.'+module)
+                    await self.client.reload_extension('modules.'+module)
                 print(f"Reloaded {module}")
                 await ctx.send(f"Reloaded {module}")
             except Exception as error:
