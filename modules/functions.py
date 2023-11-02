@@ -166,7 +166,9 @@ class functions(commands.Cog):
         await message.unpin()
 
     async def selectWinnerAndSendMessageToCommandUser(self, command_user, reaction, user_list, wnr_amount):
-        user_list.remove(command_user)
+        if command_user in user_list:
+            user_list.remove(command_user)
+
         participants = int(len(user_list))
         if int(wnr_amount) > int(participants):
             winner = random.sample(user_list, k=int(participants))
