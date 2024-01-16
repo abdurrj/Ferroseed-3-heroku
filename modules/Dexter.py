@@ -355,9 +355,6 @@ async def sendSprites(ctx, genderDifference, hasBackSprites, url, urlBack, urlFe
 
 def generatePictureUrl(name:str, shiny, genderDifference, generation):
     db = "home"
-    if "scarlet" in generation.lower():
-        db = "scarlet-violet"
-
     folder = "shiny" if shiny else "normal"
     name = name.lower().replace(" ", "-")
     if name.lower().startswith("nidoran"):
