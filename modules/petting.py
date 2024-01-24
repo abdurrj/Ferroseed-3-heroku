@@ -32,7 +32,7 @@ class petting(commands.Cog):
             "Total hurt":0,
             "Members":{}
         }
-        writePetCountToDb(self.client, guild.id, guild_dict)
+        await writePetCountToDb(self.client, guild.id, guild_dict)
 
     @commands.command()
     @commands.has_permissions(administrator=True)
