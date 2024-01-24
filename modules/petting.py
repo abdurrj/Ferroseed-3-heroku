@@ -129,7 +129,7 @@ class petting(commands.Cog):
         else:
             guild_dict["chance"] = value
             await writePetCountToDb(self.client, ctx.guild.id, guild_dict)
-            await ctx.send(f"Ferroseed has now **{value}%** chance of getting pet")
+            await ctx.send(f"Ferroseed has now **{value*100}%** chance of getting pet")
 
 
     @commands.command()

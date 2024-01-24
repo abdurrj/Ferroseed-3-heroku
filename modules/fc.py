@@ -41,7 +41,7 @@ class fc(commands.Cog):
         response = await self.client.db.fetch('SELECT user_map FROM ferroseed.friendcodes WHERE user_id=$1',usid)
         if len(response) == 0:
             user_dict = {}
-            await self.client.db.execute('INSERT INTO ferroseed.friendcodes(user_id, user_map) VALUES($1, $2)', usid, "")
+            await self.client.db.execute('INSERT INTO ferroseed.friendcodes(user_id, user_map) VALUES($1, $2)', usid, user_dict)
         else:
             user_dict = ast.literal_eval(response[0].get("user_map"))
         
