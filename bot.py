@@ -26,10 +26,10 @@ async def on_ready():
     failedModuleList = []
     print(f"logged in as {client.user.name}\nID: {client.user.id}")
     print("\n--------\nLoading modules")
-    if PROFILE == "prod":
-        modules = await getExternalModules(client)
-    else:
-        modules = ext_modules_open()
+    # if PROFILE == "prod":
+    modules = await getExternalModules(client)
+    # else:
+    # modules = ext_modules_open()
     for i in modules:
         try:
             await client.load_extension('modules.'+i)

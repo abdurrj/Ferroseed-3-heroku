@@ -1,10 +1,10 @@
 from email.policy import default
-import discord, json, random, pytz, asyncio, os, dotenv, ast, asyncpg, re, emoji, sys, requests, time
+import discord, json, random, pytz, asyncio, os, dotenv, ast, asyncpg, re, emoji, sys, requests, time, re
 import numpy as np
 from discord.ext import commands, tasks
 from discord.ext.commands import CommandOnCooldown, BadArgument
 from discord import AllowedMentions
-from datetime import datetime
+from datetime import datetime, date
 from io import BytesIO
 from dotenv import load_dotenv
 
@@ -13,9 +13,11 @@ load_dotenv()
 # Paths
 ballListJson = 'data/ball_list.json'
 
-TOKEN = os.getenv("TOKEN")
-DATABASE_URL = os.getenv("DATABASE_URL")
-PROFILE = os.getenv("profile")
+# TOKEN = os.getenv("TOKEN")
+TOKEN = open("token.txt", "r").readline()
+# DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = open("database_url.txt", "r").readline()
+# PROFILE = os.getenv("profile")  # ?
 
 defaultPrefix = "fb!"
 

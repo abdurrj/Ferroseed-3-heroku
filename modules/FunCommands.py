@@ -1,5 +1,12 @@
 from BotImports import *
 
+async def readAllBirthdaysFromDb(client):
+    dob = await client.db.fetch('SELECT * from ferroseed.birthday')
+    return dob
+
+async def readUserBirthdayFromDb(client, user_id):
+    dob = await client.db.fetch('SELECT date_of_birth from ferroseed.birthday where user_id = $1', user_id)
+
 class FunCommands(commands.Cog):
     def __init__(self, client):
         self.client = client

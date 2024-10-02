@@ -8,3 +8,6 @@ main/data/pet_count.json
 main/data/user_greet.json
 out.pk8
 ignore-me-bot.py
+database_url.txt
+token.txt
+/.idea/
