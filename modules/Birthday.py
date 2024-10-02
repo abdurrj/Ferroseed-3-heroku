@@ -65,7 +65,7 @@ class Birthday(commands.Cog):
 
     @commands.command()
     async def setbday(self, ctx, month:str=None, day:str=None):
-        failure_message = "Please provide date in mm-dd, like 01 31. Year won't be displayed and is not necessary."
+        failure_message = "Please provide date in mm dd, like 01 31. Year won't be displayed and is not necessary."
         datestring = f"2000-{month}-{day}"
         if checkdateInput(month, day) == False:
             await ctx.send(failure_message)
