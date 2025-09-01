@@ -1,0 +1,16 @@
+bot:
+  # option A: literal
+  # token: "paste-your-token-here"
+  # option B: env placeholder (preferred for secrets)
+  token: ${TOKEN}
+  defaultPrefix: fb!
+
+database:
+  # option A: literal
+  # url: "postgresql://user:pass@192.168.1.10:5432/bot_db"
+  # option B: env placeholder
+  url: ${DATABASE_URL}
+
+modules:
+  fc: { enabled: true }
+  raid: { enabled: false }

@@ -1,63 +1,65 @@
-from BotImports import *
+import asyncio
+import discord
+import asyncpg
+from discord.ext import commands
+from core.config import CONFIG
 
-intents = discord.Intents.all()
+async def getPrefix(client, message):
+    if not getattr(message, "guild", None):
+        return commands.when_mentioned_or(CONFIG.default_prefix)(client, message)
 
-client = commands.Bot(
-    command_prefix=(getPrefix),
-    intents = intents
-)
+    row = await client.db.fetchrow(
+        'SELECT prefix FROM ferroseed.guilds WHERE guild_id = $1',
+        message.guild.id
+    )
+    if not row:
+        await client.db.execute(
+            'INSERT INTO ferroseed.guilds(guild_id, prefix) VALUES ($1, $2)',
+            message.guild.id, CONFIG.default_prefix
+        )
+        return CONFIG.default_prefix
+    return row["prefix"]
 
-async def create_db_pool():
-    client.db = await asyncpg.create_pool(dsn=DATABASE_URL)
-    print("connection is successfull")
+async def create_db_pool(bot: commands.Bot):
+    bot.db = await asyncpg.create_pool(dsn=CONFIG.database_url, min_size=1, max_size=5)
+    print("[db] pool ready")
+
+async def load_extensions(bot: commands.Bot):
+    # always-load base cogs first (add your own like cogs.events / cogs.ping when ready)
+    base = []
+    dynamic = [f"modules.{m}" for m in CONFIG.modules]
+    for name in base + dynamic:
+        try:
+            await bot.load_extension(name)
+            print(f"[ext] loaded {name}")
+        except Exception as e:
+            print(f"[ext] failed {name}: {e}")
 
 async def main():
-    await create_db_pool()
-    await client.start(TOKEN)
+    intents = discord.Intents.default()
+    intents.message_content = True
+    intents.guilds = True
+    # flip to True only if you actually need member events
+    intents.members = False
 
-def ext_modules_open():
-    with open('data/ext_modules.json') as f:
-        modules = json.load(f)
-        return modules
+    bot = commands.Bot(command_prefix=getPrefix, intents=intents)
 
-@client.event
-async def on_ready():
-    loadedModuleList = []
-    failedModuleList = []
-    print(f"logged in as {client.user.name}\nID: {client.user.id}")
-    print("\n--------\nLoading modules")
-    # if PROFILE == "prod":
-    modules = await getExternalModules(client)
-    # else:
-    # modules = ext_modules_open()
-    for i in modules:
+    @bot.command()
+    @commands.has_permissions(administrator=True)
+    async def ping(ctx: commands.Context):
+        ms = int(round(bot.latency * 1000))
+        await ctx.reply(f"Command registered, latency: {ms} ms")
+
+    try:
+        await create_db_pool(bot)
+        await load_extensions(bot)
+        await bot.start(CONFIG.token)
+    finally:
         try:
-            await client.load_extension('modules.'+i)
-            loadedModuleList.append(i)
-        except ValueError as error:
-            print(f"Could not load module {i}")
-            print(f"{i}: {error}")
-            failedModuleList.append(i)
-    # client.load_extension('RaidCommands')
-    
-    print("Loaded modules: "+ ', '.join(i for i in loadedModuleList))
-    print("Modules not loaded: "+ ', '.join(i for i in failedModuleList))
+            await bot.db.close()
+        except Exception:
+            pass
+        await bot.close()
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-    else:
-        await client.process_commands(message)
-
-@client.event
-async def on_thread_create(thread):
-    await thread.join()
-    await thread.send("<a:ferropeek:755450581774106706>")
-
-@client.command()
-@commands.has_permissions(administrator=True)
-async def ping(ctx):
-    await ctx.send(f"Command registered, latency: {str(round(client.latency, 4))}")
-
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
