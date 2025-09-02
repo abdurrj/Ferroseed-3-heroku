@@ -3,7 +3,7 @@ from discord.ext import commands
 class Ping(commands.Cog):
     def __init__(self, bot): self.bot = bot
 
-    @commands.hybrid_command()  # works as prefix + slash if you later sync
+    @commands.command()
     @commands.has_permissions(administrator=True)
     async def ping(self, ctx: commands.Context):
         ms = int(round(self.bot.latency * 1000))

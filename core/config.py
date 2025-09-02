@@ -6,7 +6,7 @@ import yaml  # pip install pyyaml
 def _sub_env(val: Any) -> Any:
     if isinstance(val, str) and val.startswith("${") and val.endswith("}"):
         key = val[2:-1]
-        return os.getenv(key, val)  # if missing, keep the placeholder
+        return os.getenv(key, val)  # keep placeholder if missing
     return val
 
 def _apply_env(obj: Any) -> Any:
@@ -35,13 +35,18 @@ class Config:
         return self.data["bot"].get("defaultPrefix", "fb!")
 
     @property
-    def modules(self) -> List[str]:
-        mods: List[str] = []
-        for name, cfg in (self.data.get("modules") or {}).items():
-            if isinstance(cfg, dict) and cfg.get("enabled"):
-                mods.append(name)
-            elif isinstance(cfg, bool) and cfg:
-                mods.append(name)
-        return mods
+    def enabled_cogs(self) -> List[str]:
+        """
+        Reads extensions.cogs and returns only those with enabled: true.
+        Supports both {name: {enabled: true}} and {name: true}.
+        """
+        ext = self.data.get("extensions") or {}
+        mapping = ext.get("cogs") or {}
+        result: List[str] = []
+        if isinstance(mapping, dict):
+            for name, val in mapping.items():
+                if (isinstance(val, dict) and val.get("enabled")) or (isinstance(val, bool) and val):
+                    result.append(str(name))
+        return result
 
 CONFIG = Config()

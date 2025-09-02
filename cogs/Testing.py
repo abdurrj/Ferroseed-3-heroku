@@ -1,4 +1,4 @@
-from modules.PokeApiConsumer import *
+from cogs.PokeApiConsumer import *
 
 ## This file is just for local testing and tweaking. This will not be deployed to the bot
 
