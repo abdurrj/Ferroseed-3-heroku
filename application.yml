@@ -8,6 +8,7 @@ database:
 extensions:
   # everything you load lives under the cogs/ package
   cogs:
+    admin:            { enabled: true }
     BotGuildSettings: { enabled: false }
     BotSettings:      { enabled: false }
     Den:              { enabled: false }
