@@ -5,11 +5,9 @@ asyncpg==0.25.0
 attrs==21.2.0
 boto==2.49.0
 Brotli==1.0.9
-cchardet==2.1.7
 cffi==1.15.0
 chardet==4.0.0
 discord.py==2.2.2
-discord==2.2.2
 emoji==1.6.1
 idna==3.3
 multidict==5.2.0

@@ -7,6 +7,7 @@ calyrexForms = ["ice-rider", "shadow-rider"]
 darmanithanForms = ["standard", "zen"]
 genderForms = ["male", "female", "f", "m"]
 temporaryForms = ["mega", "mega-x", "mega-y", "gigantamax"]
+evolutionForms = ["Two-Segment", "Three-Segment"]
 
 class Dexter(commands.Cog):
     def __init__(self, client):
@@ -425,7 +426,7 @@ async def hasGenderDifference(dexId):
     return False
 
 def checkIfFormRequested(pkmn:str):
-    pokemonForms = regionForms + rotomForms + genderForms + temporaryForms + calyrexForms
+    pokemonForms = regionForms + rotomForms + genderForms + temporaryForms + calyrexForms + evolutionForms
     wordList = pkmn.split(" ")
     for form in pokemonForms:
         for word in wordList:
