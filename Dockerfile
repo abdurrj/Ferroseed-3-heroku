@@ -15,7 +15,8 @@ WORKDIR /app
 
 # Install deps first for better layer caching
 COPY requirements.txt ./
-RUN pip install --upgrade pip && pip install -r requirements.txt
+RUN python -m pip install --no-cache-dir "pip<24" "setuptools<69" "wheel<0.41" && \
+    pip install --no-cache-dir -r requirements.txt
 
 # Then copy your source
 COPY . .
