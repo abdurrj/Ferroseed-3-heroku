@@ -13,11 +13,11 @@ load_dotenv()
 # Paths
 ballListJson = 'data/ball_list.json'
 
-# TOKEN = os.getenv("TOKEN")
-TOKEN = open("token.txt", "r").readline()
-# DATABASE_URL = os.getenv("DATABASE_URL")
-DATABASE_URL = open("database_url.txt", "r").readline()
-# PROFILE = os.getenv("profile")  # ?
+TOKEN = os.getenv("DISCORD_TOKEN")
+# TOKEN = open("token.txt", "r").readline()
+DATABASE_URL = os.getenv("DATABASE_URL")
+# DATABASE_URL = open("database_url.txt", "r").readline()
+PROFILE = os.getenv("profile")  # ?
 
 defaultPrefix = "fb!"
 
